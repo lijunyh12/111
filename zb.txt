@@ -1187,544 +1187,544 @@ CGTN,http://v4.aida123.fun:8088/rtp/235.254.198.127:1784
 重庆红叶,http://v4.aida123.fun:8088/rtp/235.254.196.215:1132
 重庆红岩文化,http://v4.aida123.fun:8088/rtp/235.254.198.182:7980
 2026-11-09 20:11:55,https://taoiptv.com/time.mp4
-CCTV1,http://180.165.3.151:8701/rtp/233.18.204.168:5140
-CCTV1,http://180.165.3.151:8701/rtp/233.18.204.20:5140
-CCTV1,http://180.165.3.151:8701/rtp/233.18.204.52:5140
-CCTV1,http://home.chyyun.com:33988/rtp/233.18.204.168:5140
-CCTV1,http://home.chyyun.com:33988/rtp/233.18.204.20:5140
-CCTV1,http://home.chyyun.com:33988/rtp/233.18.204.52:5140
 CCTV1,http://www.liudu.net:34022/rtp/233.18.204.168:5140
 CCTV1,http://www.liudu.net:34022/rtp/233.18.204.20:5140
 CCTV1,http://www.liudu.net:34022/rtp/233.18.204.52:5140
-CCTV2,http://180.165.3.151:8701/rtp/233.18.204.21:5140
-CCTV2,http://180.165.3.151:8701/rtp/233.18.204.68:5140
-CCTV2,http://home.chyyun.com:33988/rtp/233.18.204.21:5140
-CCTV2,http://home.chyyun.com:33988/rtp/233.18.204.68:5140
+CCTV1,http://www.yanyan.ink:9988/rtp/233.18.204.168:5140
+CCTV1,http://www.yanyan.ink:9988/rtp/233.18.204.20:5140
+CCTV1,http://www.yanyan.ink:9988/rtp/233.18.204.52:5140
+CCTV1,http://yyf1991.top:9999/rtp/233.18.204.168:5140
+CCTV1,http://yyf1991.top:9999/rtp/233.18.204.20:5140
+CCTV1,http://yyf1991.top:9999/rtp/233.18.204.52:5140
 CCTV2,http://www.liudu.net:34022/rtp/233.18.204.21:5140
 CCTV2,http://www.liudu.net:34022/rtp/233.18.204.68:5140
-CCTV3,http://180.165.3.151:8701/rtp/233.18.204.22:5140
-CCTV3,http://180.165.3.151:8701/rtp/233.18.204.69:5140
-CCTV3,http://home.chyyun.com:33988/rtp/233.18.204.22:5140
-CCTV3,http://home.chyyun.com:33988/rtp/233.18.204.69:5140
+CCTV2,http://www.yanyan.ink:9988/rtp/233.18.204.21:5140
+CCTV2,http://www.yanyan.ink:9988/rtp/233.18.204.68:5140
+CCTV2,http://yyf1991.top:9999/rtp/233.18.204.21:5140
+CCTV2,http://yyf1991.top:9999/rtp/233.18.204.68:5140
 CCTV3,http://www.liudu.net:34022/rtp/233.18.204.22:5140
 CCTV3,http://www.liudu.net:34022/rtp/233.18.204.69:5140
-CCTV4,http://180.165.3.151:8701/rtp/233.18.204.23:5140
-CCTV4,http://180.165.3.151:8701/rtp/233.18.204.70:5140
-CCTV4,http://home.chyyun.com:33988/rtp/233.18.204.23:5140
-CCTV4,http://home.chyyun.com:33988/rtp/233.18.204.70:5140
+CCTV3,http://www.yanyan.ink:9988/rtp/233.18.204.22:5140
+CCTV3,http://www.yanyan.ink:9988/rtp/233.18.204.69:5140
+CCTV3,http://yyf1991.top:9999/rtp/233.18.204.22:5140
+CCTV3,http://yyf1991.top:9999/rtp/233.18.204.69:5140
 CCTV4,http://www.liudu.net:34022/rtp/233.18.204.23:5140
 CCTV4,http://www.liudu.net:34022/rtp/233.18.204.70:5140
-CCTV4K,http://180.165.3.151:8701/rtp/233.18.204.188:5140
-CCTV4K,http://180.165.3.151:8701/rtp/233.18.204.204:5140
-CCTV4K,http://home.chyyun.com:33988/rtp/233.18.204.188:5140
-CCTV4K,http://home.chyyun.com:33988/rtp/233.18.204.204:5140
+CCTV4,http://www.yanyan.ink:9988/rtp/233.18.204.23:5140
+CCTV4,http://www.yanyan.ink:9988/rtp/233.18.204.70:5140
+CCTV4,http://yyf1991.top:9999/rtp/233.18.204.23:5140
+CCTV4,http://yyf1991.top:9999/rtp/233.18.204.70:5140
 CCTV4K,http://www.liudu.net:34022/rtp/233.18.204.188:5140
 CCTV4K,http://www.liudu.net:34022/rtp/233.18.204.204:5140
-CCTV5,http://180.165.3.151:8701/rtp/233.18.204.24:5140
-CCTV5,http://180.165.3.151:8701/rtp/233.18.204.71:5140
-CCTV5,http://home.chyyun.com:33988/rtp/233.18.204.24:5140
-CCTV5,http://home.chyyun.com:33988/rtp/233.18.204.71:5140
+CCTV4K,http://www.yanyan.ink:9988/rtp/233.18.204.188:5140
+CCTV4K,http://www.yanyan.ink:9988/rtp/233.18.204.204:5140
+CCTV4K,http://yyf1991.top:9999/rtp/233.18.204.188:5140
+CCTV4K,http://yyf1991.top:9999/rtp/233.18.204.204:5140
 CCTV5,http://www.liudu.net:34022/rtp/233.18.204.24:5140
 CCTV5,http://www.liudu.net:34022/rtp/233.18.204.71:5140
-CCTV5+,http://180.165.3.151:8701/rtp/233.18.204.67:5140
-CCTV5+,http://home.chyyun.com:33988/rtp/233.18.204.67:5140
+CCTV5,http://www.yanyan.ink:9988/rtp/233.18.204.24:5140
+CCTV5,http://www.yanyan.ink:9988/rtp/233.18.204.71:5140
+CCTV5,http://yyf1991.top:9999/rtp/233.18.204.24:5140
+CCTV5,http://yyf1991.top:9999/rtp/233.18.204.71:5140
 CCTV5+,http://www.liudu.net:34022/rtp/233.18.204.67:5140
-CCTV6,http://180.165.3.151:8701/rtp/233.18.204.25:5140
-CCTV6,http://180.165.3.151:8701/rtp/233.18.204.72:5140
-CCTV6,http://home.chyyun.com:33988/rtp/233.18.204.25:5140
-CCTV6,http://home.chyyun.com:33988/rtp/233.18.204.72:5140
+CCTV5+,http://www.yanyan.ink:9988/rtp/233.18.204.67:5140
+CCTV5+,http://yyf1991.top:9999/rtp/233.18.204.67:5140
 CCTV6,http://www.liudu.net:34022/rtp/233.18.204.25:5140
 CCTV6,http://www.liudu.net:34022/rtp/233.18.204.72:5140
-CCTV7,http://180.165.3.151:8701/rtp/233.18.204.26:5140
-CCTV7,http://180.165.3.151:8701/rtp/233.18.204.73:5140
-CCTV7,http://home.chyyun.com:33988/rtp/233.18.204.26:5140
-CCTV7,http://home.chyyun.com:33988/rtp/233.18.204.73:5140
+CCTV6,http://www.yanyan.ink:9988/rtp/233.18.204.25:5140
+CCTV6,http://www.yanyan.ink:9988/rtp/233.18.204.72:5140
+CCTV6,http://yyf1991.top:9999/rtp/233.18.204.25:5140
+CCTV6,http://yyf1991.top:9999/rtp/233.18.204.72:5140
 CCTV7,http://www.liudu.net:34022/rtp/233.18.204.26:5140
 CCTV7,http://www.liudu.net:34022/rtp/233.18.204.73:5140
-CCTV8,http://180.165.3.151:8701/rtp/233.18.204.27:5140
-CCTV8,http://180.165.3.151:8701/rtp/233.18.204.74:5140
-CCTV8,http://home.chyyun.com:33988/rtp/233.18.204.27:5140
-CCTV8,http://home.chyyun.com:33988/rtp/233.18.204.74:5140
+CCTV7,http://www.yanyan.ink:9988/rtp/233.18.204.26:5140
+CCTV7,http://www.yanyan.ink:9988/rtp/233.18.204.73:5140
+CCTV7,http://yyf1991.top:9999/rtp/233.18.204.26:5140
+CCTV7,http://yyf1991.top:9999/rtp/233.18.204.73:5140
 CCTV8,http://www.liudu.net:34022/rtp/233.18.204.27:5140
 CCTV8,http://www.liudu.net:34022/rtp/233.18.204.74:5140
-CCTV9,http://180.165.3.151:8701/rtp/233.18.204.40:5140
-CCTV9,http://180.165.3.151:8701/rtp/233.18.204.75:5140
-CCTV9,http://home.chyyun.com:33988/rtp/233.18.204.40:5140
-CCTV9,http://home.chyyun.com:33988/rtp/233.18.204.75:5140
+CCTV8,http://www.yanyan.ink:9988/rtp/233.18.204.27:5140
+CCTV8,http://www.yanyan.ink:9988/rtp/233.18.204.74:5140
+CCTV8,http://yyf1991.top:9999/rtp/233.18.204.27:5140
+CCTV8,http://yyf1991.top:9999/rtp/233.18.204.74:5140
 CCTV9,http://www.liudu.net:34022/rtp/233.18.204.40:5140
 CCTV9,http://www.liudu.net:34022/rtp/233.18.204.75:5140
-CCTV10,http://180.165.3.151:8701/rtp/233.18.204.29:5140
-CCTV10,http://180.165.3.151:8701/rtp/233.18.204.76:5140
-CCTV10,http://home.chyyun.com:33988/rtp/233.18.204.29:5140
-CCTV10,http://home.chyyun.com:33988/rtp/233.18.204.76:5140
+CCTV9,http://www.yanyan.ink:9988/rtp/233.18.204.40:5140
+CCTV9,http://www.yanyan.ink:9988/rtp/233.18.204.75:5140
+CCTV9,http://yyf1991.top:9999/rtp/233.18.204.40:5140
+CCTV9,http://yyf1991.top:9999/rtp/233.18.204.75:5140
 CCTV10,http://www.liudu.net:34022/rtp/233.18.204.29:5140
 CCTV10,http://www.liudu.net:34022/rtp/233.18.204.76:5140
-CCTV11,http://180.165.3.151:8701/rtp/233.18.204.30:5140
-CCTV11,http://180.165.3.151:8701/rtp/233.18.204.77:5140
-CCTV11,http://home.chyyun.com:33988/rtp/233.18.204.30:5140
-CCTV11,http://home.chyyun.com:33988/rtp/233.18.204.77:5140
+CCTV10,http://www.yanyan.ink:9988/rtp/233.18.204.29:5140
+CCTV10,http://www.yanyan.ink:9988/rtp/233.18.204.76:5140
+CCTV10,http://yyf1991.top:9999/rtp/233.18.204.29:5140
+CCTV10,http://yyf1991.top:9999/rtp/233.18.204.76:5140
 CCTV11,http://www.liudu.net:34022/rtp/233.18.204.30:5140
 CCTV11,http://www.liudu.net:34022/rtp/233.18.204.77:5140
-CCTV12,http://180.165.3.151:8701/rtp/233.18.204.31:5140
-CCTV12,http://180.165.3.151:8701/rtp/233.18.204.78:5140
-CCTV12,http://home.chyyun.com:33988/rtp/233.18.204.31:5140
-CCTV12,http://home.chyyun.com:33988/rtp/233.18.204.78:5140
+CCTV11,http://www.yanyan.ink:9988/rtp/233.18.204.30:5140
+CCTV11,http://www.yanyan.ink:9988/rtp/233.18.204.77:5140
+CCTV11,http://yyf1991.top:9999/rtp/233.18.204.30:5140
+CCTV11,http://yyf1991.top:9999/rtp/233.18.204.77:5140
 CCTV12,http://www.liudu.net:34022/rtp/233.18.204.31:5140
 CCTV12,http://www.liudu.net:34022/rtp/233.18.204.78:5140
-CCTV13,http://180.165.3.151:8701/rtp/233.18.204.32:5140
-CCTV13,http://180.165.3.151:8701/rtp/233.18.204.79:5140
-CCTV13,http://home.chyyun.com:33988/rtp/233.18.204.32:5140
-CCTV13,http://home.chyyun.com:33988/rtp/233.18.204.79:5140
+CCTV12,http://www.yanyan.ink:9988/rtp/233.18.204.31:5140
+CCTV12,http://www.yanyan.ink:9988/rtp/233.18.204.78:5140
+CCTV12,http://yyf1991.top:9999/rtp/233.18.204.31:5140
+CCTV12,http://yyf1991.top:9999/rtp/233.18.204.78:5140
 CCTV13,http://www.liudu.net:34022/rtp/233.18.204.32:5140
 CCTV13,http://www.liudu.net:34022/rtp/233.18.204.79:5140
-CCTV14,http://180.165.3.151:8701/rtp/233.18.204.33:5140
-CCTV14,http://180.165.3.151:8701/rtp/233.18.204.80:5140
-CCTV14,http://home.chyyun.com:33988/rtp/233.18.204.33:5140
-CCTV14,http://home.chyyun.com:33988/rtp/233.18.204.80:5140
+CCTV13,http://www.yanyan.ink:9988/rtp/233.18.204.32:5140
+CCTV13,http://www.yanyan.ink:9988/rtp/233.18.204.79:5140
+CCTV13,http://yyf1991.top:9999/rtp/233.18.204.32:5140
+CCTV13,http://yyf1991.top:9999/rtp/233.18.204.79:5140
 CCTV14,http://www.liudu.net:34022/rtp/233.18.204.33:5140
 CCTV14,http://www.liudu.net:34022/rtp/233.18.204.80:5140
-CCTV15,http://180.165.3.151:8701/rtp/233.18.204.34:5140
-CCTV15,http://180.165.3.151:8701/rtp/233.18.204.81:5140
-CCTV15,http://home.chyyun.com:33988/rtp/233.18.204.34:5140
-CCTV15,http://home.chyyun.com:33988/rtp/233.18.204.81:5140
+CCTV14,http://www.yanyan.ink:9988/rtp/233.18.204.33:5140
+CCTV14,http://www.yanyan.ink:9988/rtp/233.18.204.80:5140
+CCTV14,http://yyf1991.top:9999/rtp/233.18.204.33:5140
+CCTV14,http://yyf1991.top:9999/rtp/233.18.204.80:5140
 CCTV15,http://www.liudu.net:34022/rtp/233.18.204.34:5140
 CCTV15,http://www.liudu.net:34022/rtp/233.18.204.81:5140
-CCTV16,http://180.165.3.151:8701/rtp/233.18.204.114:5140
-CCTV16,http://180.165.3.151:8701/rtp/233.18.204.215:5140
-CCTV16,http://180.165.3.151:8701/rtp/233.18.204.82:5140
-CCTV16,http://home.chyyun.com:33988/rtp/233.18.204.114:5140
-CCTV16,http://home.chyyun.com:33988/rtp/233.18.204.215:5140
-CCTV16,http://home.chyyun.com:33988/rtp/233.18.204.82:5140
+CCTV15,http://www.yanyan.ink:9988/rtp/233.18.204.34:5140
+CCTV15,http://www.yanyan.ink:9988/rtp/233.18.204.81:5140
+CCTV15,http://yyf1991.top:9999/rtp/233.18.204.34:5140
+CCTV15,http://yyf1991.top:9999/rtp/233.18.204.81:5140
 CCTV16,http://www.liudu.net:34022/rtp/233.18.204.114:5140
 CCTV16,http://www.liudu.net:34022/rtp/233.18.204.215:5140
 CCTV16,http://www.liudu.net:34022/rtp/233.18.204.82:5140
-CCTV17,http://180.165.3.151:8701/rtp/233.18.204.35:5140
-CCTV17,http://180.165.3.151:8701/rtp/233.18.204.83:5140
-CCTV17,http://home.chyyun.com:33988/rtp/233.18.204.35:5140
-CCTV17,http://home.chyyun.com:33988/rtp/233.18.204.83:5140
+CCTV16,http://www.yanyan.ink:9988/rtp/233.18.204.114:5140
+CCTV16,http://www.yanyan.ink:9988/rtp/233.18.204.215:5140
+CCTV16,http://www.yanyan.ink:9988/rtp/233.18.204.82:5140
+CCTV16,http://yyf1991.top:9999/rtp/233.18.204.114:5140
+CCTV16,http://yyf1991.top:9999/rtp/233.18.204.215:5140
+CCTV16,http://yyf1991.top:9999/rtp/233.18.204.82:5140
 CCTV17,http://www.liudu.net:34022/rtp/233.18.204.35:5140
 CCTV17,http://www.liudu.net:34022/rtp/233.18.204.83:5140
-CCTV风云音乐,http://180.165.3.151:8701/rtp/233.18.204.185:5140
-CCTV风云音乐,http://home.chyyun.com:33988/rtp/233.18.204.185:5140
+CCTV17,http://www.yanyan.ink:9988/rtp/233.18.204.35:5140
+CCTV17,http://www.yanyan.ink:9988/rtp/233.18.204.83:5140
+CCTV17,http://yyf1991.top:9999/rtp/233.18.204.35:5140
+CCTV17,http://yyf1991.top:9999/rtp/233.18.204.83:5140
 CCTV风云音乐,http://www.liudu.net:34022/rtp/233.18.204.185:5140
-CCTV世界地理,http://180.165.3.151:8701/rtp/233.18.204.179:5140
-CCTV世界地理,http://home.chyyun.com:33988/rtp/233.18.204.179:5140
+CCTV风云音乐,http://www.yanyan.ink:9988/rtp/233.18.204.185:5140
+CCTV风云音乐,http://yyf1991.top:9999/rtp/233.18.204.185:5140
 CCTV世界地理,http://www.liudu.net:34022/rtp/233.18.204.179:5140
-CCTV第一剧场,http://180.165.3.151:8701/rtp/233.18.204.184:5140
-CCTV第一剧场,http://home.chyyun.com:33988/rtp/233.18.204.184:5140
+CCTV世界地理,http://www.yanyan.ink:9988/rtp/233.18.204.179:5140
+CCTV世界地理,http://yyf1991.top:9999/rtp/233.18.204.179:5140
 CCTV第一剧场,http://www.liudu.net:34022/rtp/233.18.204.184:5140
-CCTV风云剧场,http://180.165.3.151:8701/rtp/233.18.204.183:5140
-CCTV风云剧场,http://home.chyyun.com:33988/rtp/233.18.204.183:5140
+CCTV第一剧场,http://www.yanyan.ink:9988/rtp/233.18.204.184:5140
+CCTV第一剧场,http://yyf1991.top:9999/rtp/233.18.204.184:5140
 CCTV风云剧场,http://www.liudu.net:34022/rtp/233.18.204.183:5140
-CCTV央视精品,http://180.165.3.151:8701/rtp/233.18.204.186:5140
-CCTV央视精品,http://home.chyyun.com:33988/rtp/233.18.204.186:5140
+CCTV风云剧场,http://www.yanyan.ink:9988/rtp/233.18.204.183:5140
+CCTV风云剧场,http://yyf1991.top:9999/rtp/233.18.204.183:5140
 CCTV央视精品,http://www.liudu.net:34022/rtp/233.18.204.186:5140
-CCTV兵器科技,http://180.165.3.151:8701/rtp/233.18.204.178:5140
-CCTV兵器科技,http://home.chyyun.com:33988/rtp/233.18.204.178:5140
+CCTV央视精品,http://www.yanyan.ink:9988/rtp/233.18.204.186:5140
+CCTV央视精品,http://yyf1991.top:9999/rtp/233.18.204.186:5140
 CCTV兵器科技,http://www.liudu.net:34022/rtp/233.18.204.178:5140
-CCTV风云足球,http://180.165.3.151:8701/rtp/233.18.204.176:5140
-CCTV风云足球,http://home.chyyun.com:33988/rtp/233.18.204.176:5140
+CCTV兵器科技,http://www.yanyan.ink:9988/rtp/233.18.204.178:5140
+CCTV兵器科技,http://yyf1991.top:9999/rtp/233.18.204.178:5140
 CCTV风云足球,http://www.liudu.net:34022/rtp/233.18.204.176:5140
-CCTV高网频道,http://180.165.3.151:8701/rtp/233.18.204.181:5140
-CCTV高网频道,http://home.chyyun.com:33988/rtp/233.18.204.181:5140
+CCTV风云足球,http://www.yanyan.ink:9988/rtp/233.18.204.176:5140
+CCTV风云足球,http://yyf1991.top:9999/rtp/233.18.204.176:5140
 CCTV高网频道,http://www.liudu.net:34022/rtp/233.18.204.181:5140
-CCTV怀旧剧场,http://180.165.3.151:8701/rtp/233.18.204.182:5140
-CCTV怀旧剧场,http://home.chyyun.com:33988/rtp/233.18.204.182:5140
+CCTV高网频道,http://www.yanyan.ink:9988/rtp/233.18.204.181:5140
+CCTV高网频道,http://yyf1991.top:9999/rtp/233.18.204.181:5140
 CCTV怀旧剧场,http://www.liudu.net:34022/rtp/233.18.204.182:5140
-CCTV女性时尚,http://180.165.3.151:8701/rtp/233.18.204.180:5140
-CCTV女性时尚,http://home.chyyun.com:33988/rtp/233.18.204.180:5140
+CCTV怀旧剧场,http://www.yanyan.ink:9988/rtp/233.18.204.182:5140
+CCTV怀旧剧场,http://yyf1991.top:9999/rtp/233.18.204.182:5140
 CCTV女性时尚,http://www.liudu.net:34022/rtp/233.18.204.180:5140
-CCTV央视台球,http://180.165.3.151:8701/rtp/233.18.204.177:5140
-CCTV央视台球,http://home.chyyun.com:33988/rtp/233.18.204.177:5140
+CCTV女性时尚,http://www.yanyan.ink:9988/rtp/233.18.204.180:5140
+CCTV女性时尚,http://yyf1991.top:9999/rtp/233.18.204.180:5140
 CCTV央视台球,http://www.liudu.net:34022/rtp/233.18.204.177:5140
-湖南卫视,http://180.165.3.151:8701/rtp/233.18.204.119:5140
-湖南卫视,http://180.165.3.151:8701/rtp/233.18.204.227:5140
-湖南卫视,http://180.165.3.151:8701/rtp/233.18.204.86:5140
-湖南卫视,http://home.chyyun.com:33988/rtp/233.18.204.119:5140
-湖南卫视,http://home.chyyun.com:33988/rtp/233.18.204.227:5140
-湖南卫视,http://home.chyyun.com:33988/rtp/233.18.204.86:5140
+CCTV央视台球,http://www.yanyan.ink:9988/rtp/233.18.204.177:5140
+CCTV央视台球,http://yyf1991.top:9999/rtp/233.18.204.177:5140
 湖南卫视,http://www.liudu.net:34022/rtp/233.18.204.119:5140
 湖南卫视,http://www.liudu.net:34022/rtp/233.18.204.227:5140
 湖南卫视,http://www.liudu.net:34022/rtp/233.18.204.86:5140
-浙江卫视,http://180.165.3.151:8701/rtp/233.18.204.121:5140
-浙江卫视,http://180.165.3.151:8701/rtp/233.18.204.229:5140
-浙江卫视,http://180.165.3.151:8701/rtp/233.18.204.84:5140
-浙江卫视,http://home.chyyun.com:33988/rtp/233.18.204.121:5140
-浙江卫视,http://home.chyyun.com:33988/rtp/233.18.204.229:5140
-浙江卫视,http://home.chyyun.com:33988/rtp/233.18.204.84:5140
+湖南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.119:5140
+湖南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.227:5140
+湖南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.86:5140
+湖南卫视,http://yyf1991.top:9999/rtp/233.18.204.119:5140
+湖南卫视,http://yyf1991.top:9999/rtp/233.18.204.227:5140
+湖南卫视,http://yyf1991.top:9999/rtp/233.18.204.86:5140
 浙江卫视,http://www.liudu.net:34022/rtp/233.18.204.121:5140
 浙江卫视,http://www.liudu.net:34022/rtp/233.18.204.229:5140
 浙江卫视,http://www.liudu.net:34022/rtp/233.18.204.84:5140
-江苏卫视,http://180.165.3.151:8701/rtp/233.18.204.120:5140
-江苏卫视,http://180.165.3.151:8701/rtp/233.18.204.226:5140
-江苏卫视,http://180.165.3.151:8701/rtp/233.18.204.85:5140
-江苏卫视,http://home.chyyun.com:33988/rtp/233.18.204.120:5140
-江苏卫视,http://home.chyyun.com:33988/rtp/233.18.204.226:5140
-江苏卫视,http://home.chyyun.com:33988/rtp/233.18.204.85:5140
+浙江卫视,http://www.yanyan.ink:9988/rtp/233.18.204.121:5140
+浙江卫视,http://www.yanyan.ink:9988/rtp/233.18.204.229:5140
+浙江卫视,http://www.yanyan.ink:9988/rtp/233.18.204.84:5140
+浙江卫视,http://yyf1991.top:9999/rtp/233.18.204.121:5140
+浙江卫视,http://yyf1991.top:9999/rtp/233.18.204.229:5140
+浙江卫视,http://yyf1991.top:9999/rtp/233.18.204.84:5140
 江苏卫视,http://www.liudu.net:34022/rtp/233.18.204.120:5140
 江苏卫视,http://www.liudu.net:34022/rtp/233.18.204.226:5140
 江苏卫视,http://www.liudu.net:34022/rtp/233.18.204.85:5140
-北京卫视,http://180.165.3.151:8701/rtp/233.18.204.118:5140
-北京卫视,http://180.165.3.151:8701/rtp/233.18.204.209:5140
-北京卫视,http://180.165.3.151:8701/rtp/233.18.204.210:5140
-北京卫视,http://180.165.3.151:8701/rtp/233.18.204.87:5140
-北京卫视,http://home.chyyun.com:33988/rtp/233.18.204.118:5140
-北京卫视,http://home.chyyun.com:33988/rtp/233.18.204.209:5140
-北京卫视,http://home.chyyun.com:33988/rtp/233.18.204.210:5140
-北京卫视,http://home.chyyun.com:33988/rtp/233.18.204.87:5140
+江苏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.120:5140
+江苏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.226:5140
+江苏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.85:5140
+江苏卫视,http://yyf1991.top:9999/rtp/233.18.204.120:5140
+江苏卫视,http://yyf1991.top:9999/rtp/233.18.204.226:5140
+江苏卫视,http://yyf1991.top:9999/rtp/233.18.204.85:5140
 北京卫视,http://www.liudu.net:34022/rtp/233.18.204.118:5140
 北京卫视,http://www.liudu.net:34022/rtp/233.18.204.209:5140
 北京卫视,http://www.liudu.net:34022/rtp/233.18.204.210:5140
 北京卫视,http://www.liudu.net:34022/rtp/233.18.204.87:5140
-东方卫视,http://180.165.3.151:8701/rtp/233.18.204.1:5140
-东方卫视,http://180.165.3.151:8701/rtp/233.18.204.224:5140
-东方卫视,http://180.165.3.151:8701/rtp/233.18.204.51:5140
-东方卫视,http://home.chyyun.com:33988/rtp/233.18.204.1:5140
-东方卫视,http://home.chyyun.com:33988/rtp/233.18.204.224:5140
-东方卫视,http://home.chyyun.com:33988/rtp/233.18.204.51:5140
+北京卫视,http://www.yanyan.ink:9988/rtp/233.18.204.118:5140
+北京卫视,http://www.yanyan.ink:9988/rtp/233.18.204.209:5140
+北京卫视,http://www.yanyan.ink:9988/rtp/233.18.204.210:5140
+北京卫视,http://www.yanyan.ink:9988/rtp/233.18.204.87:5140
+北京卫视,http://yyf1991.top:9999/rtp/233.18.204.118:5140
+北京卫视,http://yyf1991.top:9999/rtp/233.18.204.209:5140
+北京卫视,http://yyf1991.top:9999/rtp/233.18.204.210:5140
+北京卫视,http://yyf1991.top:9999/rtp/233.18.204.87:5140
 东方卫视,http://www.liudu.net:34022/rtp/233.18.204.1:5140
 东方卫视,http://www.liudu.net:34022/rtp/233.18.204.224:5140
 东方卫视,http://www.liudu.net:34022/rtp/233.18.204.51:5140
-安徽卫视,http://180.165.3.151:8701/rtp/233.18.204.127:5140
-安徽卫视,http://180.165.3.151:8701/rtp/233.18.204.93:5140
-安徽卫视,http://home.chyyun.com:33988/rtp/233.18.204.127:5140
-安徽卫视,http://home.chyyun.com:33988/rtp/233.18.204.93:5140
+东方卫视,http://www.yanyan.ink:9988/rtp/233.18.204.1:5140
+东方卫视,http://www.yanyan.ink:9988/rtp/233.18.204.224:5140
+东方卫视,http://www.yanyan.ink:9988/rtp/233.18.204.51:5140
+东方卫视,http://yyf1991.top:9999/rtp/233.18.204.1:5140
+东方卫视,http://yyf1991.top:9999/rtp/233.18.204.224:5140
+东方卫视,http://yyf1991.top:9999/rtp/233.18.204.51:5140
 安徽卫视,http://www.liudu.net:34022/rtp/233.18.204.127:5140
 安徽卫视,http://www.liudu.net:34022/rtp/233.18.204.93:5140
-广东卫视,http://180.165.3.151:8701/rtp/233.18.204.138:5140
-广东卫视,http://180.165.3.151:8701/rtp/233.18.204.218:5140
-广东卫视,http://180.165.3.151:8701/rtp/233.18.204.88:5140
-广东卫视,http://home.chyyun.com:33988/rtp/233.18.204.138:5140
-广东卫视,http://home.chyyun.com:33988/rtp/233.18.204.218:5140
-广东卫视,http://home.chyyun.com:33988/rtp/233.18.204.88:5140
+安徽卫视,http://www.yanyan.ink:9988/rtp/233.18.204.127:5140
+安徽卫视,http://www.yanyan.ink:9988/rtp/233.18.204.93:5140
+安徽卫视,http://yyf1991.top:9999/rtp/233.18.204.127:5140
+安徽卫视,http://yyf1991.top:9999/rtp/233.18.204.93:5140
 广东卫视,http://www.liudu.net:34022/rtp/233.18.204.138:5140
 广东卫视,http://www.liudu.net:34022/rtp/233.18.204.218:5140
 广东卫视,http://www.liudu.net:34022/rtp/233.18.204.88:5140
-深圳卫视,http://180.165.3.151:8701/rtp/233.18.204.146:5140
-深圳卫视,http://180.165.3.151:8701/rtp/233.18.204.219:5140
-深圳卫视,http://180.165.3.151:8701/rtp/233.18.204.89:5140
-深圳卫视,http://home.chyyun.com:33988/rtp/233.18.204.146:5140
-深圳卫视,http://home.chyyun.com:33988/rtp/233.18.204.219:5140
-深圳卫视,http://home.chyyun.com:33988/rtp/233.18.204.89:5140
+广东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.138:5140
+广东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.218:5140
+广东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.88:5140
+广东卫视,http://yyf1991.top:9999/rtp/233.18.204.138:5140
+广东卫视,http://yyf1991.top:9999/rtp/233.18.204.218:5140
+广东卫视,http://yyf1991.top:9999/rtp/233.18.204.88:5140
 深圳卫视,http://www.liudu.net:34022/rtp/233.18.204.146:5140
 深圳卫视,http://www.liudu.net:34022/rtp/233.18.204.219:5140
 深圳卫视,http://www.liudu.net:34022/rtp/233.18.204.89:5140
-辽宁卫视,http://180.165.3.151:8701/rtp/233.18.204.126:5140
-辽宁卫视,http://180.165.3.151:8701/rtp/233.18.204.96:5140
-辽宁卫视,http://home.chyyun.com:33988/rtp/233.18.204.126:5140
-辽宁卫视,http://home.chyyun.com:33988/rtp/233.18.204.96:5140
+深圳卫视,http://www.yanyan.ink:9988/rtp/233.18.204.146:5140
+深圳卫视,http://www.yanyan.ink:9988/rtp/233.18.204.219:5140
+深圳卫视,http://www.yanyan.ink:9988/rtp/233.18.204.89:5140
+深圳卫视,http://yyf1991.top:9999/rtp/233.18.204.146:5140
+深圳卫视,http://yyf1991.top:9999/rtp/233.18.204.219:5140
+深圳卫视,http://yyf1991.top:9999/rtp/233.18.204.89:5140
 辽宁卫视,http://www.liudu.net:34022/rtp/233.18.204.126:5140
 辽宁卫视,http://www.liudu.net:34022/rtp/233.18.204.96:5140
-海南卫视,http://180.165.3.151:8701/rtp/233.18.204.102:5140
-海南卫视,http://180.165.3.151:8701/rtp/233.18.204.122:5140
-海南卫视,http://home.chyyun.com:33988/rtp/233.18.204.102:5140
-海南卫视,http://home.chyyun.com:33988/rtp/233.18.204.122:5140
+辽宁卫视,http://www.yanyan.ink:9988/rtp/233.18.204.126:5140
+辽宁卫视,http://www.yanyan.ink:9988/rtp/233.18.204.96:5140
+辽宁卫视,http://yyf1991.top:9999/rtp/233.18.204.126:5140
+辽宁卫视,http://yyf1991.top:9999/rtp/233.18.204.96:5140
 海南卫视,http://www.liudu.net:34022/rtp/233.18.204.102:5140
 海南卫视,http://www.liudu.net:34022/rtp/233.18.204.122:5140
-山东卫视,http://180.165.3.151:8701/rtp/233.18.204.125:5140
-山东卫视,http://180.165.3.151:8701/rtp/233.18.204.228:5140
-山东卫视,http://180.165.3.151:8701/rtp/233.18.204.91:5140
-山东卫视,http://home.chyyun.com:33988/rtp/233.18.204.125:5140
-山东卫视,http://home.chyyun.com:33988/rtp/233.18.204.228:5140
-山东卫视,http://home.chyyun.com:33988/rtp/233.18.204.91:5140
+海南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.102:5140
+海南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.122:5140
+海南卫视,http://yyf1991.top:9999/rtp/233.18.204.102:5140
+海南卫视,http://yyf1991.top:9999/rtp/233.18.204.122:5140
 山东卫视,http://www.liudu.net:34022/rtp/233.18.204.125:5140
 山东卫视,http://www.liudu.net:34022/rtp/233.18.204.228:5140
 山东卫视,http://www.liudu.net:34022/rtp/233.18.204.91:5140
-天津卫视,http://180.165.3.151:8701/rtp/233.18.204.129:5140
-天津卫视,http://180.165.3.151:8701/rtp/233.18.204.97:5140
-天津卫视,http://home.chyyun.com:33988/rtp/233.18.204.129:5140
-天津卫视,http://home.chyyun.com:33988/rtp/233.18.204.97:5140
+山东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.125:5140
+山东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.228:5140
+山东卫视,http://www.yanyan.ink:9988/rtp/233.18.204.91:5140
+山东卫视,http://yyf1991.top:9999/rtp/233.18.204.125:5140
+山东卫视,http://yyf1991.top:9999/rtp/233.18.204.228:5140
+山东卫视,http://yyf1991.top:9999/rtp/233.18.204.91:5140
 天津卫视,http://www.liudu.net:34022/rtp/233.18.204.129:5140
 天津卫视,http://www.liudu.net:34022/rtp/233.18.204.97:5140
-重庆卫视,http://180.165.3.151:8701/rtp/233.18.204.100:5140
-重庆卫视,http://180.165.3.151:8701/rtp/233.18.204.143:5140
-重庆卫视,http://home.chyyun.com:33988/rtp/233.18.204.100:5140
-重庆卫视,http://home.chyyun.com:33988/rtp/233.18.204.143:5140
+天津卫视,http://www.yanyan.ink:9988/rtp/233.18.204.129:5140
+天津卫视,http://www.yanyan.ink:9988/rtp/233.18.204.97:5140
+天津卫视,http://yyf1991.top:9999/rtp/233.18.204.129:5140
+天津卫视,http://yyf1991.top:9999/rtp/233.18.204.97:5140
 重庆卫视,http://www.liudu.net:34022/rtp/233.18.204.100:5140
 重庆卫视,http://www.liudu.net:34022/rtp/233.18.204.143:5140
-东南卫视,http://180.165.3.151:8701/rtp/233.18.204.94:5140
-东南卫视,http://home.chyyun.com:33988/rtp/233.18.204.94:5140
+重庆卫视,http://www.yanyan.ink:9988/rtp/233.18.204.100:5140
+重庆卫视,http://www.yanyan.ink:9988/rtp/233.18.204.143:5140
+重庆卫视,http://yyf1991.top:9999/rtp/233.18.204.100:5140
+重庆卫视,http://yyf1991.top:9999/rtp/233.18.204.143:5140
 东南卫视,http://www.liudu.net:34022/rtp/233.18.204.94:5140
-甘肃卫视,http://180.165.3.151:8701/rtp/233.18.204.110:5140
-甘肃卫视,http://180.165.3.151:8701/rtp/233.18.204.137:5140
-甘肃卫视,http://home.chyyun.com:33988/rtp/233.18.204.110:5140
-甘肃卫视,http://home.chyyun.com:33988/rtp/233.18.204.137:5140
+东南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.94:5140
+东南卫视,http://yyf1991.top:9999/rtp/233.18.204.94:5140
 甘肃卫视,http://www.liudu.net:34022/rtp/233.18.204.110:5140
 甘肃卫视,http://www.liudu.net:34022/rtp/233.18.204.137:5140
-广西卫视,http://180.165.3.151:8701/rtp/233.18.204.107:5140
-广西卫视,http://180.165.3.151:8701/rtp/233.18.204.123:5140
-广西卫视,http://home.chyyun.com:33988/rtp/233.18.204.107:5140
-广西卫视,http://home.chyyun.com:33988/rtp/233.18.204.123:5140
+甘肃卫视,http://www.yanyan.ink:9988/rtp/233.18.204.110:5140
+甘肃卫视,http://www.yanyan.ink:9988/rtp/233.18.204.137:5140
+甘肃卫视,http://yyf1991.top:9999/rtp/233.18.204.110:5140
+甘肃卫视,http://yyf1991.top:9999/rtp/233.18.204.137:5140
 广西卫视,http://www.liudu.net:34022/rtp/233.18.204.107:5140
 广西卫视,http://www.liudu.net:34022/rtp/233.18.204.123:5140
-贵州卫视,http://180.165.3.151:8701/rtp/233.18.204.101:5140
-贵州卫视,http://180.165.3.151:8701/rtp/233.18.204.144:5140
-贵州卫视,http://home.chyyun.com:33988/rtp/233.18.204.101:5140
-贵州卫视,http://home.chyyun.com:33988/rtp/233.18.204.144:5140
+广西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.107:5140
+广西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.123:5140
+广西卫视,http://yyf1991.top:9999/rtp/233.18.204.107:5140
+广西卫视,http://yyf1991.top:9999/rtp/233.18.204.123:5140
 贵州卫视,http://www.liudu.net:34022/rtp/233.18.204.101:5140
 贵州卫视,http://www.liudu.net:34022/rtp/233.18.204.144:5140
-河北卫视,http://180.165.3.151:8701/rtp/233.18.204.103:5140
-河北卫视,http://180.165.3.151:8701/rtp/233.18.204.140:5140
-河北卫视,http://home.chyyun.com:33988/rtp/233.18.204.103:5140
-河北卫视,http://home.chyyun.com:33988/rtp/233.18.204.140:5140
+贵州卫视,http://www.yanyan.ink:9988/rtp/233.18.204.101:5140
+贵州卫视,http://www.yanyan.ink:9988/rtp/233.18.204.144:5140
+贵州卫视,http://yyf1991.top:9999/rtp/233.18.204.101:5140
+贵州卫视,http://yyf1991.top:9999/rtp/233.18.204.144:5140
 河北卫视,http://www.liudu.net:34022/rtp/233.18.204.103:5140
 河北卫视,http://www.liudu.net:34022/rtp/233.18.204.140:5140
-黑龙江卫视,http://180.165.3.151:8701/rtp/233.18.204.139:5140
-黑龙江卫视,http://180.165.3.151:8701/rtp/233.18.204.90:5140
-黑龙江卫视,http://home.chyyun.com:33988/rtp/233.18.204.139:5140
-黑龙江卫视,http://home.chyyun.com:33988/rtp/233.18.204.90:5140
+河北卫视,http://www.yanyan.ink:9988/rtp/233.18.204.103:5140
+河北卫视,http://www.yanyan.ink:9988/rtp/233.18.204.140:5140
+河北卫视,http://yyf1991.top:9999/rtp/233.18.204.103:5140
+河北卫视,http://yyf1991.top:9999/rtp/233.18.204.140:5140
 黑龙江卫视,http://www.liudu.net:34022/rtp/233.18.204.139:5140
 黑龙江卫视,http://www.liudu.net:34022/rtp/233.18.204.90:5140
-河南卫视,http://180.165.3.151:8701/rtp/233.18.204.105:5140
-河南卫视,http://180.165.3.151:8701/rtp/233.18.204.145:5140
-河南卫视,http://home.chyyun.com:33988/rtp/233.18.204.105:5140
-河南卫视,http://home.chyyun.com:33988/rtp/233.18.204.145:5140
+黑龙江卫视,http://www.yanyan.ink:9988/rtp/233.18.204.139:5140
+黑龙江卫视,http://www.yanyan.ink:9988/rtp/233.18.204.90:5140
+黑龙江卫视,http://yyf1991.top:9999/rtp/233.18.204.139:5140
+黑龙江卫视,http://yyf1991.top:9999/rtp/233.18.204.90:5140
 河南卫视,http://www.liudu.net:34022/rtp/233.18.204.105:5140
 河南卫视,http://www.liudu.net:34022/rtp/233.18.204.145:5140
-湖北卫视,http://180.165.3.151:8701/rtp/233.18.204.142:5140
-湖北卫视,http://180.165.3.151:8701/rtp/233.18.204.92:5140
-湖北卫视,http://home.chyyun.com:33988/rtp/233.18.204.142:5140
-湖北卫视,http://home.chyyun.com:33988/rtp/233.18.204.92:5140
+河南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.105:5140
+河南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.145:5140
+河南卫视,http://yyf1991.top:9999/rtp/233.18.204.105:5140
+河南卫视,http://yyf1991.top:9999/rtp/233.18.204.145:5140
 湖北卫视,http://www.liudu.net:34022/rtp/233.18.204.142:5140
 湖北卫视,http://www.liudu.net:34022/rtp/233.18.204.92:5140
-江西卫视,http://180.165.3.151:8701/rtp/233.18.204.130:5140
-江西卫视,http://180.165.3.151:8701/rtp/233.18.204.95:5140
-江西卫视,http://home.chyyun.com:33988/rtp/233.18.204.130:5140
-江西卫视,http://home.chyyun.com:33988/rtp/233.18.204.95:5140
+湖北卫视,http://www.yanyan.ink:9988/rtp/233.18.204.142:5140
+湖北卫视,http://www.yanyan.ink:9988/rtp/233.18.204.92:5140
+湖北卫视,http://yyf1991.top:9999/rtp/233.18.204.142:5140
+湖北卫视,http://yyf1991.top:9999/rtp/233.18.204.92:5140
 江西卫视,http://www.liudu.net:34022/rtp/233.18.204.130:5140
 江西卫视,http://www.liudu.net:34022/rtp/233.18.204.95:5140
-吉林卫视,http://180.165.3.151:8701/rtp/233.18.204.108:5140
-吉林卫视,http://180.165.3.151:8701/rtp/233.18.204.131:5140
-吉林卫视,http://home.chyyun.com:33988/rtp/233.18.204.108:5140
-吉林卫视,http://home.chyyun.com:33988/rtp/233.18.204.131:5140
+江西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.130:5140
+江西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.95:5140
+江西卫视,http://yyf1991.top:9999/rtp/233.18.204.130:5140
+江西卫视,http://yyf1991.top:9999/rtp/233.18.204.95:5140
 吉林卫视,http://www.liudu.net:34022/rtp/233.18.204.108:5140
 吉林卫视,http://www.liudu.net:34022/rtp/233.18.204.131:5140
-内蒙古卫视,http://180.165.3.151:8701/rtp/233.18.204.141:5140
-内蒙古卫视,http://180.165.3.151:8701/rtp/233.18.204.217:5140
-内蒙古卫视,http://home.chyyun.com:33988/rtp/233.18.204.141:5140
-内蒙古卫视,http://home.chyyun.com:33988/rtp/233.18.204.217:5140
+吉林卫视,http://www.yanyan.ink:9988/rtp/233.18.204.108:5140
+吉林卫视,http://www.yanyan.ink:9988/rtp/233.18.204.131:5140
+吉林卫视,http://yyf1991.top:9999/rtp/233.18.204.108:5140
+吉林卫视,http://yyf1991.top:9999/rtp/233.18.204.131:5140
 内蒙古卫视,http://www.liudu.net:34022/rtp/233.18.204.141:5140
 内蒙古卫视,http://www.liudu.net:34022/rtp/233.18.204.217:5140
-宁夏卫视,http://180.165.3.151:8701/rtp/233.18.204.117:5140
-宁夏卫视,http://180.165.3.151:8701/rtp/233.18.204.230:5140
-宁夏卫视,http://home.chyyun.com:33988/rtp/233.18.204.117:5140
-宁夏卫视,http://home.chyyun.com:33988/rtp/233.18.204.230:5140
+内蒙古卫视,http://www.yanyan.ink:9988/rtp/233.18.204.141:5140
+内蒙古卫视,http://www.yanyan.ink:9988/rtp/233.18.204.217:5140
+内蒙古卫视,http://yyf1991.top:9999/rtp/233.18.204.141:5140
+内蒙古卫视,http://yyf1991.top:9999/rtp/233.18.204.217:5140
 宁夏卫视,http://www.liudu.net:34022/rtp/233.18.204.117:5140
 宁夏卫视,http://www.liudu.net:34022/rtp/233.18.204.230:5140
-山西卫视,http://180.165.3.151:8701/rtp/233.18.204.132:5140
-山西卫视,http://180.165.3.151:8701/rtp/233.18.204.211:5140
-山西卫视,http://home.chyyun.com:33988/rtp/233.18.204.132:5140
-山西卫视,http://home.chyyun.com:33988/rtp/233.18.204.211:5140
+宁夏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.117:5140
+宁夏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.230:5140
+宁夏卫视,http://yyf1991.top:9999/rtp/233.18.204.117:5140
+宁夏卫视,http://yyf1991.top:9999/rtp/233.18.204.230:5140
 山西卫视,http://www.liudu.net:34022/rtp/233.18.204.132:5140
 山西卫视,http://www.liudu.net:34022/rtp/233.18.204.211:5140
-陕西卫视,http://180.165.3.151:8701/rtp/233.18.204.135:5140
-陕西卫视,http://180.165.3.151:8701/rtp/233.18.204.223:5140
-陕西卫视,http://home.chyyun.com:33988/rtp/233.18.204.135:5140
-陕西卫视,http://home.chyyun.com:33988/rtp/233.18.204.223:5140
+山西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.132:5140
+山西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.211:5140
+山西卫视,http://yyf1991.top:9999/rtp/233.18.204.132:5140
+山西卫视,http://yyf1991.top:9999/rtp/233.18.204.211:5140
 陕西卫视,http://www.liudu.net:34022/rtp/233.18.204.135:5140
 陕西卫视,http://www.liudu.net:34022/rtp/233.18.204.223:5140
-四川卫视,http://180.165.3.151:8701/rtp/233.18.204.124:5140
-四川卫视,http://180.165.3.151:8701/rtp/233.18.204.225:5140
-四川卫视,http://180.165.3.151:8701/rtp/233.18.204.99:5140
-四川卫视,http://home.chyyun.com:33988/rtp/233.18.204.124:5140
-四川卫视,http://home.chyyun.com:33988/rtp/233.18.204.225:5140
-四川卫视,http://home.chyyun.com:33988/rtp/233.18.204.99:5140
+陕西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.135:5140
+陕西卫视,http://www.yanyan.ink:9988/rtp/233.18.204.223:5140
+陕西卫视,http://yyf1991.top:9999/rtp/233.18.204.135:5140
+陕西卫视,http://yyf1991.top:9999/rtp/233.18.204.223:5140
 四川卫视,http://www.liudu.net:34022/rtp/233.18.204.124:5140
 四川卫视,http://www.liudu.net:34022/rtp/233.18.204.225:5140
 四川卫视,http://www.liudu.net:34022/rtp/233.18.204.99:5140
-新疆卫视,http://180.165.3.151:8701/rtp/233.18.204.147:5140
-新疆卫视,http://180.165.3.151:8701/rtp/233.18.204.220:5140
-新疆卫视,http://home.chyyun.com:33988/rtp/233.18.204.147:5140
-新疆卫视,http://home.chyyun.com:33988/rtp/233.18.204.220:5140
+四川卫视,http://www.yanyan.ink:9988/rtp/233.18.204.124:5140
+四川卫视,http://www.yanyan.ink:9988/rtp/233.18.204.225:5140
+四川卫视,http://www.yanyan.ink:9988/rtp/233.18.204.99:5140
+四川卫视,http://yyf1991.top:9999/rtp/233.18.204.124:5140
+四川卫视,http://yyf1991.top:9999/rtp/233.18.204.225:5140
+四川卫视,http://yyf1991.top:9999/rtp/233.18.204.99:5140
 新疆卫视,http://www.liudu.net:34022/rtp/233.18.204.147:5140
 新疆卫视,http://www.liudu.net:34022/rtp/233.18.204.220:5140
-云南卫视,http://180.165.3.151:8701/rtp/233.18.204.106:5140
-云南卫视,http://180.165.3.151:8701/rtp/233.18.204.128:5140
-云南卫视,http://180.165.3.151:8701/rtp/233.18.204.136:5140
-云南卫视,http://home.chyyun.com:33988/rtp/233.18.204.106:5140
-云南卫视,http://home.chyyun.com:33988/rtp/233.18.204.128:5140
-云南卫视,http://home.chyyun.com:33988/rtp/233.18.204.136:5140
+新疆卫视,http://www.yanyan.ink:9988/rtp/233.18.204.147:5140
+新疆卫视,http://www.yanyan.ink:9988/rtp/233.18.204.220:5140
+新疆卫视,http://yyf1991.top:9999/rtp/233.18.204.147:5140
+新疆卫视,http://yyf1991.top:9999/rtp/233.18.204.220:5140
 云南卫视,http://www.liudu.net:34022/rtp/233.18.204.106:5140
 云南卫视,http://www.liudu.net:34022/rtp/233.18.204.128:5140
 云南卫视,http://www.liudu.net:34022/rtp/233.18.204.136:5140
-青海卫视,http://180.165.3.151:8701/rtp/233.18.204.112:5140
-青海卫视,http://180.165.3.151:8701/rtp/233.18.204.133:5140
-青海卫视,http://home.chyyun.com:33988/rtp/233.18.204.112:5140
-青海卫视,http://home.chyyun.com:33988/rtp/233.18.204.133:5140
+云南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.106:5140
+云南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.128:5140
+云南卫视,http://www.yanyan.ink:9988/rtp/233.18.204.136:5140
+云南卫视,http://yyf1991.top:9999/rtp/233.18.204.106:5140
+云南卫视,http://yyf1991.top:9999/rtp/233.18.204.128:5140
+云南卫视,http://yyf1991.top:9999/rtp/233.18.204.136:5140
 青海卫视,http://www.liudu.net:34022/rtp/233.18.204.112:5140
 青海卫视,http://www.liudu.net:34022/rtp/233.18.204.133:5140
-西藏卫视,http://180.165.3.151:8701/rtp/233.18.204.134:5140
-西藏卫视,http://180.165.3.151:8701/rtp/233.18.204.222:5140
-西藏卫视,http://home.chyyun.com:33988/rtp/233.18.204.134:5140
-西藏卫视,http://home.chyyun.com:33988/rtp/233.18.204.222:5140
+青海卫视,http://www.yanyan.ink:9988/rtp/233.18.204.112:5140
+青海卫视,http://www.yanyan.ink:9988/rtp/233.18.204.133:5140
+青海卫视,http://yyf1991.top:9999/rtp/233.18.204.112:5140
+青海卫视,http://yyf1991.top:9999/rtp/233.18.204.133:5140
 西藏卫视,http://www.liudu.net:34022/rtp/233.18.204.134:5140
 西藏卫视,http://www.liudu.net:34022/rtp/233.18.204.222:5140
-兵团卫视,http://180.165.3.151:8701/rtp/233.18.204.148:5140
-兵团卫视,http://180.165.3.151:8701/rtp/233.18.204.221:5140
-兵团卫视,http://home.chyyun.com:33988/rtp/233.18.204.148:5140
-兵团卫视,http://home.chyyun.com:33988/rtp/233.18.204.221:5140
+西藏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.134:5140
+西藏卫视,http://www.yanyan.ink:9988/rtp/233.18.204.222:5140
+西藏卫视,http://yyf1991.top:9999/rtp/233.18.204.134:5140
+西藏卫视,http://yyf1991.top:9999/rtp/233.18.204.222:5140
 兵团卫视,http://www.liudu.net:34022/rtp/233.18.204.148:5140
 兵团卫视,http://www.liudu.net:34022/rtp/233.18.204.221:5140
-延边卫视,http://180.165.3.151:8701/rtp/233.18.204.155:5140
-延边卫视,http://home.chyyun.com:33988/rtp/233.18.204.155:5140
+兵团卫视,http://www.yanyan.ink:9988/rtp/233.18.204.148:5140
+兵团卫视,http://www.yanyan.ink:9988/rtp/233.18.204.221:5140
+兵团卫视,http://yyf1991.top:9999/rtp/233.18.204.148:5140
+兵团卫视,http://yyf1991.top:9999/rtp/233.18.204.221:5140
 延边卫视,http://www.liudu.net:34022/rtp/233.18.204.155:5140
-三沙卫视,http://180.165.3.151:8701/rtp/233.18.204.149:5140
-三沙卫视,http://180.165.3.151:8701/rtp/233.18.204.172:5140
-三沙卫视,http://home.chyyun.com:33988/rtp/233.18.204.149:5140
-三沙卫视,http://home.chyyun.com:33988/rtp/233.18.204.172:5140
+延边卫视,http://www.yanyan.ink:9988/rtp/233.18.204.155:5140
+延边卫视,http://yyf1991.top:9999/rtp/233.18.204.155:5140
 三沙卫视,http://www.liudu.net:34022/rtp/233.18.204.149:5140
 三沙卫视,http://www.liudu.net:34022/rtp/233.18.204.172:5140
-哈哈炫动,http://180.165.3.151:8701/rtp/233.18.204.54:5140
-哈哈炫动,http://180.165.3.151:8701/rtp/233.18.204.7:5140
-哈哈炫动,http://home.chyyun.com:33988/rtp/233.18.204.54:5140
-哈哈炫动,http://home.chyyun.com:33988/rtp/233.18.204.7:5140
+三沙卫视,http://www.yanyan.ink:9988/rtp/233.18.204.149:5140
+三沙卫视,http://www.yanyan.ink:9988/rtp/233.18.204.172:5140
+三沙卫视,http://yyf1991.top:9999/rtp/233.18.204.149:5140
+三沙卫视,http://yyf1991.top:9999/rtp/233.18.204.172:5140
 哈哈炫动,http://www.liudu.net:34022/rtp/233.18.204.54:5140
 哈哈炫动,http://www.liudu.net:34022/rtp/233.18.204.7:5140
-动漫秀场,http://180.165.3.151:8701/rtp/233.18.204.46:5140
-动漫秀场,http://home.chyyun.com:33988/rtp/233.18.204.46:5140
+哈哈炫动,http://www.yanyan.ink:9988/rtp/233.18.204.54:5140
+哈哈炫动,http://www.yanyan.ink:9988/rtp/233.18.204.7:5140
+哈哈炫动,http://yyf1991.top:9999/rtp/233.18.204.54:5140
+哈哈炫动,http://yyf1991.top:9999/rtp/233.18.204.7:5140
 动漫秀场,http://www.liudu.net:34022/rtp/233.18.204.46:5140
-金鹰卡通,http://180.165.3.151:8701/rtp/233.18.204.113:5140
-金鹰卡通,http://180.165.3.151:8701/rtp/233.18.204.150:5140
-金鹰卡通,http://home.chyyun.com:33988/rtp/233.18.204.113:5140
-金鹰卡通,http://home.chyyun.com:33988/rtp/233.18.204.150:5140
+动漫秀场,http://www.yanyan.ink:9988/rtp/233.18.204.46:5140
+动漫秀场,http://yyf1991.top:9999/rtp/233.18.204.46:5140
 金鹰卡通,http://www.liudu.net:34022/rtp/233.18.204.113:5140
 金鹰卡通,http://www.liudu.net:34022/rtp/233.18.204.150:5140
-嘉佳卡通,http://180.165.3.151:8701/rtp/233.18.204.151:5140
-嘉佳卡通,http://home.chyyun.com:33988/rtp/233.18.204.151:5140
+金鹰卡通,http://www.yanyan.ink:9988/rtp/233.18.204.113:5140
+金鹰卡通,http://www.yanyan.ink:9988/rtp/233.18.204.150:5140
+金鹰卡通,http://yyf1991.top:9999/rtp/233.18.204.113:5140
+金鹰卡通,http://yyf1991.top:9999/rtp/233.18.204.150:5140
 嘉佳卡通,http://www.liudu.net:34022/rtp/233.18.204.151:5140
-生活时尚,http://180.165.3.151:8701/rtp/233.18.204.45:5140
-生活时尚,http://home.chyyun.com:33988/rtp/233.18.204.45:5140
+嘉佳卡通,http://www.yanyan.ink:9988/rtp/233.18.204.151:5140
+嘉佳卡通,http://yyf1991.top:9999/rtp/233.18.204.151:5140
 生活时尚,http://www.liudu.net:34022/rtp/233.18.204.45:5140
-欢笑剧场,http://180.165.3.151:8701/rtp/233.18.204.115:5140
-欢笑剧场,http://180.165.3.151:8701/rtp/233.18.204.205:5140
-欢笑剧场,http://180.165.3.151:8701/rtp/233.18.204.50:5140
-欢笑剧场,http://home.chyyun.com:33988/rtp/233.18.204.115:5140
-欢笑剧场,http://home.chyyun.com:33988/rtp/233.18.204.205:5140
-欢笑剧场,http://home.chyyun.com:33988/rtp/233.18.204.50:5140
+生活时尚,http://www.yanyan.ink:9988/rtp/233.18.204.45:5140
+生活时尚,http://yyf1991.top:9999/rtp/233.18.204.45:5140
 欢笑剧场,http://www.liudu.net:34022/rtp/233.18.204.115:5140
 欢笑剧场,http://www.liudu.net:34022/rtp/233.18.204.205:5140
 欢笑剧场,http://www.liudu.net:34022/rtp/233.18.204.50:5140
-都市剧场,http://180.165.3.151:8701/rtp/233.18.204.48:5140
-都市剧场,http://home.chyyun.com:33988/rtp/233.18.204.48:5140
+欢笑剧场,http://www.yanyan.ink:9988/rtp/233.18.204.115:5140
+欢笑剧场,http://www.yanyan.ink:9988/rtp/233.18.204.205:5140
+欢笑剧场,http://www.yanyan.ink:9988/rtp/233.18.204.50:5140
+欢笑剧场,http://yyf1991.top:9999/rtp/233.18.204.115:5140
+欢笑剧场,http://yyf1991.top:9999/rtp/233.18.204.205:5140
+欢笑剧场,http://yyf1991.top:9999/rtp/233.18.204.50:5140
 都市剧场,http://www.liudu.net:34022/rtp/233.18.204.48:5140
-快乐垂钓,http://180.165.3.151:8701/rtp/233.18.204.42:5140
-快乐垂钓,http://home.chyyun.com:33988/rtp/233.18.204.42:5140
+都市剧场,http://www.yanyan.ink:9988/rtp/233.18.204.48:5140
+都市剧场,http://yyf1991.top:9999/rtp/233.18.204.48:5140
 快乐垂钓,http://www.liudu.net:34022/rtp/233.18.204.42:5140
-财富天下,http://180.165.3.151:8701/rtp/233.18.204.157:5140
-财富天下,http://180.165.3.151:8701/rtp/233.18.204.231:5140
-财富天下,http://180.165.3.151:8701/rtp/233.18.204.41:5140
-财富天下,http://home.chyyun.com:33988/rtp/233.18.204.157:5140
-财富天下,http://home.chyyun.com:33988/rtp/233.18.204.231:5140
-财富天下,http://home.chyyun.com:33988/rtp/233.18.204.41:5140
+快乐垂钓,http://www.yanyan.ink:9988/rtp/233.18.204.42:5140
+快乐垂钓,http://yyf1991.top:9999/rtp/233.18.204.42:5140
 财富天下,http://www.liudu.net:34022/rtp/233.18.204.157:5140
 财富天下,http://www.liudu.net:34022/rtp/233.18.204.231:5140
 财富天下,http://www.liudu.net:34022/rtp/233.18.204.41:5140
-游戏风云,http://180.165.3.151:8701/rtp/233.18.204.13:5140
-游戏风云,http://180.165.3.151:8701/rtp/233.18.204.44:5140
-游戏风云,http://home.chyyun.com:33988/rtp/233.18.204.13:5140
-游戏风云,http://home.chyyun.com:33988/rtp/233.18.204.44:5140
+财富天下,http://www.yanyan.ink:9988/rtp/233.18.204.157:5140
+财富天下,http://www.yanyan.ink:9988/rtp/233.18.204.231:5140
+财富天下,http://www.yanyan.ink:9988/rtp/233.18.204.41:5140
+财富天下,http://yyf1991.top:9999/rtp/233.18.204.157:5140
+财富天下,http://yyf1991.top:9999/rtp/233.18.204.231:5140
+财富天下,http://yyf1991.top:9999/rtp/233.18.204.41:5140
 游戏风云,http://www.liudu.net:34022/rtp/233.18.204.13:5140
 游戏风云,http://www.liudu.net:34022/rtp/233.18.204.44:5140
-金色学堂,http://180.165.3.151:8701/rtp/233.18.204.14:5140
-金色学堂,http://180.165.3.151:8701/rtp/233.18.204.66:5140
-金色学堂,http://home.chyyun.com:33988/rtp/233.18.204.14:5140
-金色学堂,http://home.chyyun.com:33988/rtp/233.18.204.66:5140
+游戏风云,http://www.yanyan.ink:9988/rtp/233.18.204.13:5140
+游戏风云,http://www.yanyan.ink:9988/rtp/233.18.204.44:5140
+游戏风云,http://yyf1991.top:9999/rtp/233.18.204.13:5140
+游戏风云,http://yyf1991.top:9999/rtp/233.18.204.44:5140
 金色学堂,http://www.liudu.net:34022/rtp/233.18.204.14:5140
 金色学堂,http://www.liudu.net:34022/rtp/233.18.204.66:5140
-家庭影院,http://180.165.3.151:8701/rtp/233.18.204.173:5140
-家庭影院,http://home.chyyun.com:33988/rtp/233.18.204.173:5140
+金色学堂,http://www.yanyan.ink:9988/rtp/233.18.204.14:5140
+金色学堂,http://www.yanyan.ink:9988/rtp/233.18.204.66:5140
+金色学堂,http://yyf1991.top:9999/rtp/233.18.204.14:5140
+金色学堂,http://yyf1991.top:9999/rtp/233.18.204.66:5140
 家庭影院,http://www.liudu.net:34022/rtp/233.18.204.173:5140
-动作电影,http://180.165.3.151:8701/rtp/233.18.204.174:5140
-动作电影,http://home.chyyun.com:33988/rtp/233.18.204.174:5140
+家庭影院,http://www.yanyan.ink:9988/rtp/233.18.204.173:5140
+家庭影院,http://yyf1991.top:9999/rtp/233.18.204.173:5140
 动作电影,http://www.liudu.net:34022/rtp/233.18.204.174:5140
-影迷电影,http://180.165.3.151:8701/rtp/233.18.204.175:5140
-影迷电影,http://home.chyyun.com:33988/rtp/233.18.204.175:5140
+动作电影,http://www.yanyan.ink:9988/rtp/233.18.204.174:5140
+动作电影,http://yyf1991.top:9999/rtp/233.18.204.174:5140
 影迷电影,http://www.liudu.net:34022/rtp/233.18.204.175:5140
-中国教育1,http://180.165.3.151:8701/rtp/233.18.204.153:5140
-中国教育1,http://180.165.3.151:8701/rtp/233.18.204.98:5140
-中国教育1,http://home.chyyun.com:33988/rtp/233.18.204.153:5140
-中国教育1,http://home.chyyun.com:33988/rtp/233.18.204.98:5140
+影迷电影,http://www.yanyan.ink:9988/rtp/233.18.204.175:5140
+影迷电影,http://yyf1991.top:9999/rtp/233.18.204.175:5140
 中国教育1,http://www.liudu.net:34022/rtp/233.18.204.153:5140
 中国教育1,http://www.liudu.net:34022/rtp/233.18.204.98:5140
-中国教育2,http://180.165.3.151:8701/rtp/233.18.204.154:5140
-中国教育2,http://home.chyyun.com:33988/rtp/233.18.204.154:5140
+中国教育1,http://www.yanyan.ink:9988/rtp/233.18.204.153:5140
+中国教育1,http://www.yanyan.ink:9988/rtp/233.18.204.98:5140
+中国教育1,http://yyf1991.top:9999/rtp/233.18.204.153:5140
+中国教育1,http://yyf1991.top:9999/rtp/233.18.204.98:5140
 中国教育2,http://www.liudu.net:34022/rtp/233.18.204.154:5140
-中国教育4,http://180.165.3.151:8701/rtp/233.18.204.111:5140
-中国教育4,http://home.chyyun.com:33988/rtp/233.18.204.111:5140
+中国教育2,http://www.yanyan.ink:9988/rtp/233.18.204.154:5140
+中国教育2,http://yyf1991.top:9999/rtp/233.18.204.154:5140
 中国教育4,http://www.liudu.net:34022/rtp/233.18.204.111:5140
-CGTN,http://180.165.3.151:8701/rtp/233.18.204.28:5140
-CGTN,http://home.chyyun.com:33988/rtp/233.18.204.28:5140
+中国教育4,http://www.yanyan.ink:9988/rtp/233.18.204.111:5140
+中国教育4,http://yyf1991.top:9999/rtp/233.18.204.111:5140
 CGTN,http://www.liudu.net:34022/rtp/233.18.204.28:5140
-上海新闻,http://180.165.3.151:8701/rtp/233.18.204.189:5140
-上海新闻,http://180.165.3.151:8701/rtp/233.18.204.57:5140
-上海新闻,http://home.chyyun.com:33988/rtp/233.18.204.189:5140
-上海新闻,http://home.chyyun.com:33988/rtp/233.18.204.57:5140
+CGTN,http://www.yanyan.ink:9988/rtp/233.18.204.28:5140
+CGTN,http://yyf1991.top:9999/rtp/233.18.204.28:5140
 上海新闻,http://www.liudu.net:34022/rtp/233.18.204.189:5140
 上海新闻,http://www.liudu.net:34022/rtp/233.18.204.57:5140
-东方影视,http://180.165.3.151:8701/rtp/233.18.204.4:5140
-东方影视,http://180.165.3.151:8701/rtp/233.18.204.55:5140
-东方影视,http://home.chyyun.com:33988/rtp/233.18.204.4:5140
-东方影视,http://home.chyyun.com:33988/rtp/233.18.204.55:5140
+上海新闻,http://www.yanyan.ink:9988/rtp/233.18.204.189:5140
+上海新闻,http://www.yanyan.ink:9988/rtp/233.18.204.57:5140
+上海新闻,http://yyf1991.top:9999/rtp/233.18.204.189:5140
+上海新闻,http://yyf1991.top:9999/rtp/233.18.204.57:5140
 东方影视,http://www.liudu.net:34022/rtp/233.18.204.4:5140
 东方影视,http://www.liudu.net:34022/rtp/233.18.204.55:5140
-东方财经,http://180.165.3.151:8701/rtp/233.18.204.65:5140
-东方财经,http://home.chyyun.com:33988/rtp/233.18.204.65:5140
+东方影视,http://www.yanyan.ink:9988/rtp/233.18.204.4:5140
+东方影视,http://www.yanyan.ink:9988/rtp/233.18.204.55:5140
+东方影视,http://yyf1991.top:9999/rtp/233.18.204.4:5140
+东方影视,http://yyf1991.top:9999/rtp/233.18.204.55:5140
 东方财经,http://www.liudu.net:34022/rtp/233.18.204.65:5140
-第一财经,http://180.165.3.151:8701/rtp/233.18.204.59:5140
-第一财经,http://180.165.3.151:8701/rtp/233.18.204.5:5140
-第一财经,http://home.chyyun.com:33988/rtp/233.18.204.59:5140
-第一财经,http://home.chyyun.com:33988/rtp/233.18.204.5:5140
+东方财经,http://www.yanyan.ink:9988/rtp/233.18.204.65:5140
+东方财经,http://yyf1991.top:9999/rtp/233.18.204.65:5140
 第一财经,http://www.liudu.net:34022/rtp/233.18.204.59:5140
 第一财经,http://www.liudu.net:34022/rtp/233.18.204.5:5140
-五星体育,http://180.165.3.151:8701/rtp/233.18.204.58:5140
-五星体育,http://180.165.3.151:8701/rtp/233.18.204.6:5140
-五星体育,http://home.chyyun.com:33988/rtp/233.18.204.58:5140
-五星体育,http://home.chyyun.com:33988/rtp/233.18.204.6:5140
+第一财经,http://www.yanyan.ink:9988/rtp/233.18.204.59:5140
+第一财经,http://www.yanyan.ink:9988/rtp/233.18.204.5:5140
+第一财经,http://yyf1991.top:9999/rtp/233.18.204.59:5140
+第一财经,http://yyf1991.top:9999/rtp/233.18.204.5:5140
 五星体育,http://www.liudu.net:34022/rtp/233.18.204.58:5140
 五星体育,http://www.liudu.net:34022/rtp/233.18.204.6:5140
-法治天地,http://180.165.3.151:8701/rtp/233.18.204.12:5140
-法治天地,http://180.165.3.151:8701/rtp/233.18.204.49:5140
-法治天地,http://home.chyyun.com:33988/rtp/233.18.204.12:5140
-法治天地,http://home.chyyun.com:33988/rtp/233.18.204.49:5140
+五星体育,http://www.yanyan.ink:9988/rtp/233.18.204.58:5140
+五星体育,http://www.yanyan.ink:9988/rtp/233.18.204.6:5140
+五星体育,http://yyf1991.top:9999/rtp/233.18.204.58:5140
+五星体育,http://yyf1991.top:9999/rtp/233.18.204.6:5140
 法治天地,http://www.liudu.net:34022/rtp/233.18.204.12:5140
 法治天地,http://www.liudu.net:34022/rtp/233.18.204.49:5140
-金鹰纪实,http://180.165.3.151:8701/rtp/233.18.204.104:5140
-金鹰纪实,http://home.chyyun.com:33988/rtp/233.18.204.104:5140
+法治天地,http://www.yanyan.ink:9988/rtp/233.18.204.12:5140
+法治天地,http://www.yanyan.ink:9988/rtp/233.18.204.49:5140
+法治天地,http://yyf1991.top:9999/rtp/233.18.204.12:5140
+法治天地,http://yyf1991.top:9999/rtp/233.18.204.49:5140
 金鹰纪实,http://www.liudu.net:34022/rtp/233.18.204.104:5140
-BESTV4K动画,http://180.165.3.151:8701/rtp/233.18.204.171:5140
-BESTV4K动画,http://home.chyyun.com:33988/rtp/233.18.204.171:5140
+金鹰纪实,http://www.yanyan.ink:9988/rtp/233.18.204.104:5140
+金鹰纪实,http://yyf1991.top:9999/rtp/233.18.204.104:5140
 BESTV4K动画,http://www.liudu.net:34022/rtp/233.18.204.171:5140
-BESTV4K电影,http://180.165.3.151:8701/rtp/233.18.204.169:5140
-BESTV4K电影,http://home.chyyun.com:33988/rtp/233.18.204.169:5140
+BESTV4K动画,http://www.yanyan.ink:9988/rtp/233.18.204.171:5140
+BESTV4K动画,http://yyf1991.top:9999/rtp/233.18.204.171:5140
 BESTV4K电影,http://www.liudu.net:34022/rtp/233.18.204.169:5140
-BESTV4K记录,http://180.165.3.151:8701/rtp/233.18.204.170:5140
-BESTV4K记录,http://home.chyyun.com:33988/rtp/233.18.204.170:5140
+BESTV4K电影,http://www.yanyan.ink:9988/rtp/233.18.204.169:5140
+BESTV4K电影,http://yyf1991.top:9999/rtp/233.18.204.169:5140
 BESTV4K记录,http://www.liudu.net:34022/rtp/233.18.204.170:5140
-CETV,http://180.165.3.151:8701/rtp/233.18.204.187:5140
-CETV,http://home.chyyun.com:33988/rtp/233.18.204.187:5140
+BESTV4K记录,http://www.yanyan.ink:9988/rtp/233.18.204.170:5140
+BESTV4K记录,http://yyf1991.top:9999/rtp/233.18.204.170:5140
 CETV,http://www.liudu.net:34022/rtp/233.18.204.187:5140
-上海教育,http://180.165.3.151:8701/rtp/233.18.204.11:5140
-上海教育,http://180.165.3.151:8701/rtp/233.18.204.63:5140
-上海教育,http://home.chyyun.com:33988/rtp/233.18.204.11:5140
-上海教育,http://home.chyyun.com:33988/rtp/233.18.204.63:5140
+CETV,http://www.yanyan.ink:9988/rtp/233.18.204.187:5140
+CETV,http://yyf1991.top:9999/rtp/233.18.204.187:5140
 上海教育,http://www.liudu.net:34022/rtp/233.18.204.11:5140
 上海教育,http://www.liudu.net:34022/rtp/233.18.204.63:5140
-乐游,http://180.165.3.151:8701/rtp/233.18.204.47:5140
-乐游,http://home.chyyun.com:33988/rtp/233.18.204.47:5140
+上海教育,http://www.yanyan.ink:9988/rtp/233.18.204.11:5140
+上海教育,http://www.yanyan.ink:9988/rtp/233.18.204.63:5140
+上海教育,http://yyf1991.top:9999/rtp/233.18.204.11:5140
+上海教育,http://yyf1991.top:9999/rtp/233.18.204.63:5140
 乐游,http://www.liudu.net:34022/rtp/233.18.204.47:5140
-北京KAKU少儿,http://180.165.3.151:8701/rtp/233.18.204.109:5140
-北京KAKU少儿,http://180.165.3.151:8701/rtp/233.18.204.152:5140
-北京KAKU少儿,http://home.chyyun.com:33988/rtp/233.18.204.109:5140
-北京KAKU少儿,http://home.chyyun.com:33988/rtp/233.18.204.152:5140
+乐游,http://www.yanyan.ink:9988/rtp/233.18.204.47:5140
+乐游,http://yyf1991.top:9999/rtp/233.18.204.47:5140
 北京KAKU少儿,http://www.liudu.net:34022/rtp/233.18.204.109:5140
 北京KAKU少儿,http://www.liudu.net:34022/rtp/233.18.204.152:5140
-都市,http://180.165.3.151:8701/rtp/233.18.204.2:5140
-都市,http://180.165.3.151:8701/rtp/233.18.204.53:5140
-都市,http://home.chyyun.com:33988/rtp/233.18.204.2:5140
-都市,http://home.chyyun.com:33988/rtp/233.18.204.53:5140
+北京KAKU少儿,http://www.yanyan.ink:9988/rtp/233.18.204.109:5140
+北京KAKU少儿,http://www.yanyan.ink:9988/rtp/233.18.204.152:5140
+北京KAKU少儿,http://yyf1991.top:9999/rtp/233.18.204.109:5140
+北京KAKU少儿,http://yyf1991.top:9999/rtp/233.18.204.152:5140
 都市,http://www.liudu.net:34022/rtp/233.18.204.2:5140
 都市,http://www.liudu.net:34022/rtp/233.18.204.53:5140
-2026-11-10 18:56:54,https://taoiptv.com/time.mp4
+都市,http://www.yanyan.ink:9988/rtp/233.18.204.2:5140
+都市,http://www.yanyan.ink:9988/rtp/233.18.204.53:5140
+都市,http://yyf1991.top:9999/rtp/233.18.204.2:5140
+都市,http://yyf1991.top:9999/rtp/233.18.204.53:5140
+2026-11-11 00:52:27,https://taoiptv.com/time.mp4
 CCTV1,http://123.245.16.178:8181/rtp/239.33.5.2:22580
 CCTV2,http://123.245.16.178:8181/rtp/239.33.5.3:22590
 CCTV3,http://123.245.16.178:8181/rtp/239.33.5.4:22600
@@ -4671,448 +4671,485 @@ KNEWS24,http://520yy.icu:9999/rtp/239.121.4.134:8786
 魅力音乐,http://520yy.icu:9999/rtp/239.121.4.72:8406
 2026-11-10 21:47:28,https://taoiptv.com/time.mp4
 ☁️官网地址jsnzkpg.com,https://txmov2.a.kwimgs.com/upic/2026/10/14/14/BMjAyNjEwMTQxNDQzMTZfNDI0MDI5NTBfMjEyMTU4NDQ3NDA2XzFfMw==_b_Bb05c2aefdd05533532a50f686c56208c.mp4
-新一弟弟 - 晋级赛落地贴脸满编队！带你体验不一样的钢枪打法~,http://pull-hls-f26.douyinliving.com/thirdgame/stream-120414240418300737_hiquhd5.m3u8?expire=6afc8443&sign=b893256c56d2778515abac33b707c095&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-02A8JD
-何秋亊 - 欢迎回家,http://pull-hls-q26.douyincdn.com/stage/stream-408644858667336508.m3u8?expire=6afc8443&sign=db4c271b268ec20b6e23ba4e90c33dab&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-HcyTHw
-乱斗摆渡人-青珂 - 海斗把把爽局！！超爽超解压！！,http://pull-hls-f26.douyinliving.com/thirdgame/stream-120414551167206209_hiquhd5.m3u8?expire=6afc8443&sign=2753d066b32cce3177bc229e2e36e1b6&arch_hrchy=s2&exp_hrchy=s1&s_anchor=1&major_anchor_level=vip&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-51kJao
-怀欺（黑卤蛋）（自豪电竞） - 老黑单三思路博弈教学/老黑观赏性,http://pull-hls-f26.douyinliving.com/thirdgame/stream-408645335543186241_hiquhd5.m3u8?expire=6afc8443&sign=105db273169cd95eaae6c76800501fc6&exp_hrchy=s1&s_anchor=1&arch_hrchy=s2&major_anchor_level=vip&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-b9RktD
-JJ崔某人 - JJ崔某人,http://pull-hls-f1.douyincdn.com/thirdgame/stream-408644639501320970/playlist.m3u8?keeptime=00093a80&wsSecret=3684987cf5d4fa4f1949a54b128767c0&wsTime=6af349c3&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-WsKPIA
-智勋勋勋勋（晚上9点半开播） - 接单！,http://pull-hls-q26.douyincdn.com/thirdgame/stream-408644975983067966_hiquhd5.m3u8?expire=6afc8443&sign=14b351260fa20beb5533668e4123854b&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-nWJeqc
-清宵半永恩 - 全网最丝滑最具观赏性进攻性教学永恩,http://pull-hls-t11.douyincdn.com/thirdgame/stream-696875849600729915_hiquhd5.m3u8?expire=1794933827&sign=e4af1e76a2721d18d82771e67dbd601e&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-XyGf6Y
-小澈（地铁逃生） - 小姐，少爷又跑去地皮捡垃圾了!!!,http://pull-hls-l11.douyincdn.com/thirdgame/stream-696875476747289420_hiquhd5.m3u8?expire=1794933827&sign=136022e8196eebcd6189399da63ee67e&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-zBWKUz
-四川分祖 - 四川分祖正在直播,http://pull-hls-l26.douyincdn.com/stage/stream-696875652436459659.m3u8?expire=6afc8443&sign=2ca4d71b4079fb11b90c4f04ec422ccc&arch_hrchy=w1&major_anchor_level=common&exp_hrchy=w1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-7PY9bm
-长风（河洛 999） - 十分钟学会无线复活花木兰，把把达到999,http://pull-hls-q1.douyincdn.com/thirdgame/stream-120414723445359422_uiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=0203541ec76983b10a8316cd27e7b7f5&wsTime=6af349c3&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-bqnCoz
-九霄神雷 - 九霄观天下,http://pull-hls-l11.douyincdn.com/thirdgame/stream-120414059932156748.m3u8?expire=1794933827&sign=52383bb659659589fe96083baa967333&major_anchor_level=common&arch_hrchy=w1&exp_hrchy=w1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-29ZsSF
-林夜 - 用妲己把把金牌顶级，开心的同时学会思路,http://pull-hls-q26.douyincdn.com/thirdgame/stream-696875717205164862_hiquhd5.m3u8?expire=6afc8443&sign=fe04bf6b909a1a4d2d2f92bdf7e5c542&exp_hrchy=h2&major_anchor_level=common&arch_hrchy=h1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-hE6ggs
-好腻（三角洲行动） - 绝航单三跑刀教学最细之人！,http://pull-hls-q6.douyincdn.com/thirdgame/stream-408645340451832638_hiquhd5/index.m3u8?k=b982898f61e62ab6&t=1794933827&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-NDZp6a
-小洲 - 抖音颜值冠军,http://pull-hls-q26.douyincdn.com/third/stream-696875237367612221_uhd5.m3u8?expire=6afc8443&sign=515610c74901cc6ebbfffa84d3d70d68&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&s_anchor=1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-OTsG1r
-王者荣耀韩小七 - 2w分国一韩信，顶级节奏运营,http://pull-hls-q26.douyincdn.com/thirdgame/stream-408645629412639550_hiquhd5.m3u8?expire=6afc8443&sign=dd0d7c48cc2aca9a960ab88e95fc2843&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-i2t5Rk
-有闲.（王者万象棋） - 白歌三分倒转999韩信,http://pull-hls-q26.douyincdn.com/thirdgame/stream-120414723452437310.m3u8?expire=6afc8443&sign=9994b55791b54d5cb6643bf0a7e3908a&major_anchor_level=common&exp_hrchy=h1&arch_hrchy=h1&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-5VbvZQ
-软蛋蛋 - 极品母鸡音喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵,http://pull-hls-l11.douyincdn.com/thirdgame/stream-120414753037747020_hiquhd5.m3u8?expire=1794933827&sign=dd127df0d4361356983eb00c3ef724ac&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-jIz8ih
-兔子牙 - 内向害羞小女孩勇闯互联网,http://pull-hls-q26.douyincdn.com/gamereplay/stream-120414724440982349_uhd5.m3u8?expire=6afc8443&sign=17513234fe26cfb76b9e8dba4c3a112c&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-jBR7Uf
-小呆龙ovo（国一妲己） - 国服第一妲己/凌晨档最有意识手法的教学/场均击杀15+,http://pull-hls-t1.douyincdn.com/thirdgame/stream-120415210518348603_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=150a0004cbdfbfd9f3cf1de8313b7aed&wsTime=6af349c3&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-SFBhL2
-小宴baby（国一安琪拉） - 国1妲己安琪拉开心和快乐并存/最温柔青受把把金牌顶级教学,http://pull-hls-q13.douyincdn.com/thirdgame/stream-120415029994193726_hiquhd5.m3u8?expire=1794933827&sign=2963b5a3a3385abcfa03ebbdc739157e&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-2026111100434645ADD1EF7EA6638CC2E1-Ugw70e
-心脏给你掐 - 脾气好但是没有耐心！玩模仿者！,http://pull-hls-t11.douyincdn.com/thirdgame/stream-408645121802765115.m3u8?expire=1794933829&sign=48b785933309ba23921a4643ae6bd039&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-xN8G9c
-盼之游戏福礼官-老陈（和平精英） - 圆梦送手册！上车8淘汰吃鸡即可！,http://pull-hls-t11.douyincdn.com/thirdgame/stream-120414506219733819.m3u8?expire=1794933829&sign=ed5759c314d0ccc57ea1aba8e256597c&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-h2oqXN
-猪大腿c（播腕豪的主播！） - 抖音第一腕豪深夜唯一腕豪,http://pull-hls-l11.douyincdn.com/thirdgame/stream-408645673433432908_hiquhd5.m3u8?expire=1794933829&sign=168ebc04c493c4f2a1de57ce3af16135&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-0zSQaK
-真嗣(三角洲行动) - 鬼弓：后半夜,http://pull-hls-q11.douyincdn.com/thirdgame/stream-408645595924792126_hiquhd5.m3u8?expire=1794933829&sign=ca4b0cad6d2e7201e7e309bc0cd6a6e0&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-20261111004348B66D41DB77AE4A91031F-b9dgWU
-天眷（世1镜） - 天灵灵，地灵灵，今天来牌行不行？,http://pull-hls-f1.douyincdn.com/thirdgame/stream-408645358362821386/playlist.m3u8?keeptime=00093a80&wsSecret=e881076cc7a652667c9964fa69197803&wsTime=6af349c5&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-77iKsP
-小予神（舟姨的好大儿） - 大厅五排把把顶级,http://pull-hls-q13.douyincdn.com/thirdgame/stream-408645637936251710_hiquhd5.m3u8?expire=1794933829&sign=a7ba2bc0e5339739ebf6293b1824e243&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-20261111004348B66D41DB77AE4A91031F-zF9cAq
-蓝莓小刘（王者万象棋） - 百胜生死局！姜导阵容上分如喝水,http://pull-hls-f1.douyincdn.com/thirdgame/stream-120414719815189258_uiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=19ddbcd6bb66dcd43436f60953fe9233&wsTime=6af349c5&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-a6IARL
-小奇(地铁逃生) - 细节教学1v4/苏尔南1v20/地铁逃生天花板,http://pull-hls-t11.douyincdn.com/thirdgame/stream-408645581969294139_hiquhd5.m3u8?expire=1794933829&sign=c0720631de312a8ae3acb0a48c50ffe1&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-20261111004348B66D41DB77AE4A91031F-h4VKFi
-㳀夏幽兰💋 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/erS9idyF-iM_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=61d8e67e4c88a54bc0799afcbaba3e00&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-娜💋真温柔 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/vqqJZ8OnD8k_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=0e4100a4442b1c5e3b3a0199053e40fc&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-霜降（主动私信你都是骗子 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Qp60gEyi9-U_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=5a93520b030775750705a66c056bb0fd&tsc=origin&oidc=watchmen&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
-大桃子、、 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/FsJJgZlgmuk_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=53e3b094ddb31fe4375ea0202367485b&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
-執槿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/8hPuLGsixfA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=0708162e17bcfadeff94cdb660971354&tsc=origin&oidc=watchmen&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-湘妹唐唐💦 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Jv90LzlH-GQ_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=1678645287c76e04b0cfa9ccdae70f7e&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-单身溪宝🍑 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/jBpkYm3U_gI_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=fdd8a2bcb7b7f4ccec57e9902cc90f70&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-麦•兜 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/xeTL8LrzyLo_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=c197c095b0028d6b8d72ce49b6a0601c&tsc=origin&oidc=watchmen&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
-ঞᩚ•雅蓝🦋 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Kso8nzkVeQA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=0c2f3cd4b91ebe90748e1b73bd88de90&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-蓉蓉三妹唱情歌 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/_ltyppvRWBY_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=f5acd2ddd64bb2c4fe6b795b72ff53b9&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
-TH2🍋 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/fqEin5gBugs_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=8cc54cac4cf41c47514fa7c2ffbde924&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-四郎让登妹妹 （卓呷吉） - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/LElAtdcQkWc_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=8f7d0562ecc185d4152f7e7c5a5d7c1b&tsc=origin&oidc=watchmen&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-夏了个啵呐. - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/EQsw46Zp228_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=b783771341c241552a25621dce7473d9&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-燕宝吖 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/W53RrET_wYs_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=71b890f4c51f8967ba0e74d9e57d961a&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-o泥 酱 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/K7Ji6A-m7HY_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=1c7f2017bd5141da7a45e525be77cef1&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-你的小姨🐟 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/eJE8LvRLVjE_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=3897c02009de4c3817c030400669b46c&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-小孟老师 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Ww-IfCwUrMA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=76f934cd6bd9a0f83649647632437771&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-锤锤 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/uzaeFrzQOmw_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=d0b3ae97325eb8a28e56c31476a5a8f4&tsc=origin&oidc=edgeWm&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
-石头最帅啦·博雅g🧸 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/_jPMBcyDdDs_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=717d6d2116ab66d8a97e60accd823412&tsc=origin&oidc=watchmen&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
-王兮3 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/ZW0ZryoTRzU_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=ba14a9cb3c0caf83be8df031ef317edb&tsc=origin&oidc=edgeWm&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
-欣儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/s-G2_bXyK8Q_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=da28f56b6fb73de023e2cf80d25c28e4&tsc=origin&oidc=watchmen&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
-月亮🌙 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/pzLRwpqaqH4_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=40a92bc61cc4050c6620c7334bf3be79&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-大一⭕ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/bF22bHD1kaQ_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=b935ec587fbce19ddb4f68a36be06ab3&tsc=origin&oidc=watchmen&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-快手用户1786604206674 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/eCSgFZIMD2s_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=49d4ac0441212a193680b73654c2f4fe&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-yan - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/PEa2NL9Z2x4_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=86ca32fd6a70711375919136520c73fa&tsc=origin&oidc=edgeWm&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
-玖儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/UKzpvDrzvQ8_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=aa0732ce8be2aaa9951cf820e19042aa&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-YG-一椰暴富富富富富富 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/O9WKUOGTKY4_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=3413adc4e97c7ba8ed1dbebbcc17b95d&tsc=origin&oidc=edgeWm&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
-可可. - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/StGqf7qLteA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=cad747c8d95271eb076409c5ae434b58&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
-婉宝儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/yCKJAZTPr7A_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=829ba72e2f1c9b8d1b5f4e8995f2713e&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-婷婷❤️承蒙厚爱 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/180kGm8gb9k_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=b2307c52a1796da574df2d602f1e31cb&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
-梦菲儿，888 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/pQ4LvkdM6Tg_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=4106f63326ca31aef8da5e5dc52f3022&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-与梦 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/du9PcvLKFFA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=1d50a211ad7f02d94c1dbd9984f8b382&tsc=origin&oidc=edgeWm&sidc=205816&no_script=1&ss=s23&tfc_buyer=0
-诗诗·志虎 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/vRbBBtTXNgk_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=945f104cf6798ff44c1bfe8029acaa4b&tsc=origin&oidc=watchmen&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-超级玛丽🥰 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/lFVrQ4JWvbI_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=946555d41480e16c6d5ac384b168757c&tsc=origin&oidc=watchmen&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
-小新 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/GJU4BDpViGg_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=fccf9a032342a640da662451c77c63c2&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-77逃跑计划💃🏻 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/7HXATxkwbmw_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=314a31d32df0658f0dfa80f0a73a791c&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-白玫瑰🥀 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/21Xxj36qROc_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=10b185cec8a71237d1b16ea33fccd155&tsc=origin&oidc=edgeWm&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
-羊羊羊🐑 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/59t6doIeARw_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=7607246f2445eed582d8166ec4062bb5&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-小年糕 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/7xky1x7CqPg_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=310e1282e86b77c39be040a0d5196a01&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-风☆筝（不PK） - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/3y8pPZx2Sd8_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=4440f112e3fb107873701faa953a17f9&tsc=origin&oidc=edgeWm&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
-肥猫儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/iFXOeW3KDzA_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=47de0ff9329a1b416abd8f469232f403&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
-一只小乔💭 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/i_q3PLnKkLM_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=926a237b917dfdcf03cd3305ced43b8d&tsc=origin&oidc=watchmen&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
-爱💕如💕潮💕水💦 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/WtRxzNhw7-c_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=c1d39151b714f3c6c1bdd6e7fd01eb13&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-八宝粥 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/FabhcOUd0fs_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=b2fb3904f9c521263967e6622095a79f&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-无敌爽 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/QrFEWQDTvcM_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=8fde2fba746e04eae8c3cf573565708f&tsc=origin&oidc=edgeWm&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
-羊羊小姨 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/6Zie-EAUhXQ_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=70114353e88994be084b9dcaaf5fd13b&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
-小阿亭~ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/dcnjosrrxFU_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=ca700fd4941f550e1acca1f3a9ee1f0f&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
-🎐𓈒柒柒呀∗˚ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/qfD1SL_yIXs_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=d3f127f568190487505391a0be026e3a&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
-O纯o纯 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/JFCABucR-dc_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=0512931818856eb7ca1e2bb0df22be69&tsc=origin&oidc=watchmen&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
-葡萄 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/MvvvSbRVBfc_ShowAvcHdL0.flv?hwTime=6af49b43&hwSecret=3fda54ff7e12748d0f0ca1025668ca4b&tsc=origin&oidc=watchmen&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
+QT新一【万象棋国一庄小鱼】 - 世一庄小鱼。最强武凤。制裁乔汐之人 王牌13冠,http://pull-hls-q11.douyincdn.com/thirdgame/stream-696881013903065918_uiquhd5.m3u8?expire=1795020606&sign=78b32bca1eaccfd1bf91c4366f826b06&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-20261112005005E29AD5DEE53F98ECC801-eFXNAp
+皮皮皮皮朱 - 皮皮皮皮朱正在直播,http://pull-hls-f11.douyinliving.com/thirdgame/stream-408650672584000321_uiquhd5.m3u8?expire=1795020606&sign=a4924e35ade8b6d88ec8668e9cd38584&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&major_anchor_level=vip&t_id=037-20261112005005E29AD5DEE53F98ECC801-JSKnSF
+小北的小鸟（南北组合） - 全网最丝滑配合，满血直接秒！,http://pull-hls-e26.douyincdn.com/thirdgame/stream-696881757536650112_hiquhd5.m3u8?expire=6afdd73e&sign=7c6d7e7bb39f50c50a236c7da3d7d254&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-uSXjrX
+梦幻西游手游电池🔋 - 9星10星地煞启动！,http://pull-hls-q11.douyincdn.com/thirdgame/stream-120420644522820414.m3u8?expire=1795020606&sign=1b3ec59d2bc2c72f4faa70a20fd3f8ec&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-20261112005005E29AD5DEE53F98ECC801-StMl3I
+岁岁 - 《三国杀》手杀移动版,http://pull-hls-l11.douyincdn.com/thirdgame/stream-408651023094383436.m3u8?expire=1795020606&sign=1c305f52a7c93f9fca90c15490d0d9f4&major_anchor_level=common&exp_hrchy=w1&arch_hrchy=w1&t_id=037-20261112005005E29AD5DEE53F98ECC801-sdg3Kh
+CF张涛529（每晚22点30） - 带粉挑战五连胜,http://pull-hls-q13.douyincdn.com/thirdgame/stream-120420733706044222.m3u8?expire=1795020606&sign=1c1a59a0f987c40d0c4d1cfd5bac7d01&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-20261112005005E29AD5DEE53F98ECC801-AHX4fw
+阿月PUBG - PUBG最强一狙一喷进来看两分钟不行直接滑走！！,http://pull-t3.douyincdn.com/thirdgame/stream-120421144949687099_hiquhd5.m3u8?auth_key=1795018806-0-0-a327a3f9bed18415a200fcdc98d11d48&exp_hrchy=w1&arch_hrchy=w1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-Db06N0
+佳航-王者荣耀 - 用安琪拉把把MVP的男人，愿我能给你带来欢笑,http://pull-hls-q26.douyincdn.com/thirdgame/stream-120419779160572734_hiquhd5.m3u8?expire=6afdd73e&sign=3be454a3f572f2ce6e89e7dd893e0ee8&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-9BdmW2
+好腻（三角洲行动） - 绝航单三跑刀教学最细之人！,http://pull-q5.douyincdn.com/thirdgame/stream-408651138712208190_hiquhd5/index.m3u8?expire=1795020606&sign=0228e263ec5db01301f1e7e8d76ab669&volcSecret=0228e263ec5db01301f1e7e8d76ab669&volcTime=1795020606&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-CZZTKF
+00· - ber这居然是个技术主播,http://pull-hls-q6.douyincdn.com/thirdgame/stream-696881544663401278_hiquhd5/index.m3u8?k=17a5e0d533f8f8e2&t=1795020606&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-iAiya2
+轻梧飞扬 - 日常任务,http://pull-hls-q26.douyincdn.com/thirdgame/stream-120420764064416574.m3u8?expire=6afdd73e&sign=e5af3b591985ab550c0c5349c8f41848&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-OioFlv
+WEI（乱斗阿伟） - 新主播开播第一天,http://pull-hls-e26.douyincdn.com/thirdgame/stream-408650854374310784_hiquhd5.m3u8?expire=6afdd73e&sign=5c3a813e3d00bd75be8fa861e2bd3abc&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-Tk1edr
+东北大鸿鹄 - 吃得在橱窗里面！！,http://pull-hls-q26.douyincdn.com/thirdgame/stream-696881600964854590_hiquhd5.m3u8?expire=6afdd73e&sign=8bc249e3c07427cff76c317d9431b5b9&exp_hrchy=h1&major_anchor_level=common&arch_hrchy=h1&t_id=037-20261112005005E29AD5DEE53F98ECC801-tXdJED
+青年钟意（核电站站长） - 超临界AZ3详细讲解！！站长亲授猛攻/跑刀干货！！！,http://pull-hls-q11.douyincdn.com/thirdgame/stream-408650898410308414_hiquhd5.m3u8?expire=1795020606&sign=3be0b4f1bddba98466c4045f9a269973&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-eY3pf9
+企鹅（无畏契约欧美解说） - 美服赋能之夜,http://pull-hls-l11.douyincdn.com/thirdgame/stream-696881902284178252_hiquhd5.m3u8?expire=1795020606&sign=9d8e426004d8cbca75debd0fb75155d6&exp_hrchy=h1&arch_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-g1BTUF
+清宵半永恩 - 全网最丝滑最具观赏性进攻性教学永恩,http://pull-hls-q11.douyincdn.com/thirdgame/stream-696881636669915966_hiquhd5.m3u8?expire=1795020606&sign=52cd44fa25d80b7bd48a241bcabaf6cf&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-3osiiY
+大猫（海斗版） - 战！海克斯大乱斗,http://pull-hls-l11.douyincdn.com/thirdgame/stream-696881595398226764.m3u8?expire=1795020606&sign=c336e662e7beb3aa4a94918d3aae36f4&arch_hrchy=w1&exp_hrchy=w1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-KLzhr5
+小凯pubg - 六年排名第一，全程钢枪追空头，场均25KD,http://pull-hls-q26.douyincdn.com/thirdgame/stream-408650955177067326_hiquhd5.m3u8?expire=6afdd73e&sign=8074fbdd91a69731ea90a71c7a7b15df&arch_hrchy=h1&exp_hrchy=h2&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-vqwSro
+小小老板（小板板电竞CEO） - 质检小板板电竞！,http://pull-hls-q11.douyincdn.com/thirdgame/stream-120421033618178878_hiquhd5.m3u8?expire=1795020606&sign=adec8cbdab452b30f4a78215aef1efab&exp_hrchy=h2&arch_hrchy=h1&major_anchor_level=common&t_id=037-20261112005005E29AD5DEE53F98ECC801-EXS1Gx
+乱斗篮子（大乱斗陀螺王） - 海克斯乱斗娱乐性拉满，精通赢了没爽，爽了没赢,http://pull-hls-e1.douyincdn.com/thirdgame/stream-408651416479466368_hiquhd5/playlist.m3u8?keeptime=00093a80&wsSecret=39bddac0c3c0a4fdbc19eef14242a41e&wsTime=6af49cbe&major_anchor_level=common&arch_hrchy=h1&exp_hrchy=h1&t_id=037-20261112005005E29AD5DEE53F98ECC801-lD498N
+HangHang - 国服支配者,http://pull-hls-q11.douyincdn.com/thirdgame/stream-696881271064232766_hiquhd5.m3u8?expire=1795020608&sign=b0163ba87bbc27a71f52192d463e012e&major_anchor_level=vip&s_anchor=1&arch_hrchy=s2&exp_hrchy=s1&t_id=037-202611120050071A3EEA5D0629E62C0BB9-kuM5m9
+林夜 - 用妲己把把金牌顶级，开心的同时学会思路,http://pull-hls-q11.douyincdn.com/thirdgame/stream-696881517893518142_hiquhd5.m3u8?expire=1795020608&sign=1a398bb50391e8246dbb8e2dffd6db2d&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202611120050071A3EEA5D0629E62C0BB9-V1Z17P
+千夜-王者万象棋 - 在榜13900国服阿离带你5000分乱杀 全能英雄伞遗志、伞炸弹猫、,http://pull-hls-f1.douyincdn.com/thirdgame/stream-696881265221042954/playlist.m3u8?keeptime=00093a80&wsSecret=71fb58853731520ee57b5ba02878dc3b&wsTime=6af49cc0&major_anchor_level=common&arch_hrchy=w1&exp_hrchy=w1&t_id=037-202611120050071A3EEA5D0629E62C0BB9-bPTPyD
+电竞讲师胖森（东东电竞） - 非著名相声表演艺术家，电竞不老松，赛季KD20！,http://pull-hls-q11.douyincdn.com/thirdgame/stream-696881569089454910_hiquhd5.m3u8?expire=1795020608&sign=3e7d68f2a25612c4bff153f5e9daca10&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202611120050071A3EEA5D0629E62C0BB9-30n0pW
+QQ飞车博尔特-老街集市 - QQ飞车谁是车王S22官方比赛，全网最中立的直播间，激情解说,http://pull-hls-t26.douyincdn.com/thirdgame/stream-408651032076747579_uiquhd5.m3u8?expire=6afdd740&sign=2539a8b778afaa1d24ae271993882844&arch_hrchy=h1&exp_hrchy=h1&major_anchor_level=common&t_id=037-202611120050071A3EEA5D0629E62C0BB9-2PWoei
+法神大头丶阿行 - 踏上成神之路！,http://pull-q5.douyincdn.com/thirdgame/stream-696881890879603518/index.m3u8?expire=1795020608&sign=d3ed326b8a8e4bf3c6ea3b5007002632&volcSecret=d3ed326b8a8e4bf3c6ea3b5007002632&volcTime=1795020608&exp_hrchy=h2&major_anchor_level=common&arch_hrchy=h1&t_id=037-202611120050071A3EEA5D0629E62C0BB9-Lkdgek
+狼人杀男医 - 按照大自然的规律你该遇见我了,http://pull-hls-t13.douyincdn.com/thirdgame/stream-696881759074124603.m3u8?expire=1795020608&sign=bde5fa591c3acbdf9bd4061b1e7dd678&exp_hrchy=w1&major_anchor_level=common&arch_hrchy=w1&t_id=037-202611120050071A3EEA5D0629E62C0BB9-yt6mkA
+小炸串儿 🍢 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/D8WYFDdxW3g_ShowAvcHdL0-AuditAvcOriginL3.flv?hwTime=6af5ee3e&hwSecret=198b1e6b48b16322a1af8f8843a4a8af&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&srcStrm=D8WYFDdxW3g&ss=s23&tfc_buyer=0
+執槿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/qtDheVOrRUM_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=481b1239f2dcba4003202eef2a2617c5&tsc=origin&oidc=watchmen&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
+迪丽不乖 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/KuyKMjQuNkw_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=50098be752d5d5308e852ebfa0de01b2&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+蓉蓉三妹唱情歌 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Z-gIdzbMmOo_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=64d9ea507dbd91b4b55649309e02aec1&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+友谊村的故事 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/56fIGTF36zo_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=cc5da47325023a1b60b063ce871b5df6&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+张爽爽 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/6yI6fEzShno_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=273035278193eedbcc3fed3024d329d7&tsc=origin&oidc=edgeWm&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
+石头最帅啦·博雅g🧸 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/sXzDVGaX9m0_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=b216559c2f56da4bf08a3c54e1e86bdb&tsc=origin&oidc=watchmen&sidc=2959&no_script=1&ss=s23&tfc_buyer=0
+葡萄 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/87_eLJ_CJPQ_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=1f9bc75e87255738f611f245b0520710&tsc=origin&oidc=watchmen&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
+吸吸冻（317电竞） - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/aAbMGoXrmoY_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=95adf62fb61f159f6c8972ebd1adc8d5&tsc=origin&oidc=edgeWm&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+西北凤-玉兰 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Cn6hm1eTXjc_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=89e073418a19cbb9272860d5ea079d38&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+霜降（主动私信你都是骗子 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/24kqNmZdnLs_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=57fe09fe91286919be82481e6d57b0fe&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+夏啵.🌸 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/bK6Gqwjg_-k_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=7b3c9097b1c6474c45bb13543e74af62&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+小丹丹🧊11月12日生日🎂 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/0g4nTK_WPFU_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=86500d72b3433eccc8eec6513a7868bf&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
+🐈小馋猫呀 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/iNk0nxSfDQw_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=5af1ae01d0eb486a70f4c7292bdc27cb&tsc=origin&oidc=watchmen&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
+楠楠想吃糖 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/3Pd-P72ZK28_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=b1d4533bc21a9dacb8c8395b3caea856&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+77逃跑计划💃🏻 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/wN7L4ItkXyA_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=912623498167981386931bcb1a2f6e5c&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+大桃子、、 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/7cRYFaAEBOc_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=0834ad0de1d7de5bb89cbcb481311090&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+懂你 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/emeATuZEZRM_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=29db4b423741e7797ebd5b5fa6d19f77&tsc=origin&oidc=edgeWm&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+土豆🥔 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/hF_vx9ToxGg_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=0c365e9db7b6affd2f6db843a80ca2e5&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+你的小姨🐟 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/dql7ncocASI_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=1b9cbb754926ac572594534fa87c4aef&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+圆又圆 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/cS-KcU3JH6s_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=2d324312d8268214947280afe51e9c6c&tsc=origin&oidc=watchmen&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+33呀～ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Er2olUbtbGo_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=8a70fcdc78c1584e43ecc7f7b532d1a0&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+咪咪 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/eDHSgyf5I6Q_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=f069cced7804da0d8a510a5c96ce7bfb&tsc=origin&oidc=watchmen&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
+幺幺不讲理～～ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Z-fv60Wx8gE_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=6bcd6c48c0565f15d0d9283004d7a300&tsc=origin&oidc=edgeWm&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
+李 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/nT_qpgyXvYo_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=bf453ba7120ebcf25823b245ce98c7c8&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+呦呦 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/HNlaB0Q0rqs_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=b2dfbed48fe8d7b5908adae4b48adbf8&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+柒柒超猛的❣️ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/XJuucKbo0mo_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=3a8b920fb3a1c473acb90ab2a1deeb42&tsc=origin&oidc=watchmen&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+徐副官！ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/HB9y4HAURpw_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=904a3fe38a90daf2fd9d322ef79140be&tsc=origin&oidc=watchmen&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+未命名 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/Z76vpc2_e74_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=517ef88960a80322039a93306b7b2d4e&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+暖暖 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/BcKSxYwJsFk_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=c3bf7fb17b7833de84f1b4a1ad0946fa&tsc=origin&oidc=edgeWm&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
+大叔兰百万🦋！！ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/zrGbwI8UnP4_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=f8230c982c87c17cca19e272bc94030b&tsc=origin&oidc=edgeWm&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
+洋洋 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/5ktCOMt91Uk_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=e4f74e40a1133c45796848eb829b17b8&tsc=origin&oidc=watchmen&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+好运 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/ehfY7Sp4IMs_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=ce64a12689818f017ef069fe571dd474&tsc=origin&oidc=edgeWm&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
+旁观者. - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/o8cX0139VzA_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=d4242256436a6f0123e376ef65e4415b&tsc=origin&oidc=edgeWm&sidc=207211&no_script=1&ss=s23&tfc_buyer=0
+陈思瑶11.9.🎂 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/75hX6mpLK44_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=1602d2bab8c87a85788d021d4cce9e9c&tsc=origin&oidc=watchmen&sidc=205599&no_script=1&ss=s23&tfc_buyer=0
+忆梦 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/A_Y23J8xCtU_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=eacaefb4a71b88977e5392d3b3917763&tsc=origin&oidc=watchmen&sidc=205251&no_script=1&ss=s23&tfc_buyer=0
+＠如一 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/KDzonUkADSk_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=db695c7c0950a230e70b2ea3b878e8d4&tsc=origin&oidc=watchmen&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+Y 姐 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/kaHlkVefNNc_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=8cfebf4635d1fb6c35626b7d80b50122&tsc=origin&oidc=watchmen&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
+小萍在这👀 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/5byQyVhBdfI_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=e4bbe5169231e3a9a8e409924eb333af&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
+男王🫧 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/njoC_r21vgM_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=c05550de409d06598c5c164a3b72000e&tsc=origin&oidc=watchmen&sidc=201165&no_script=1&ss=s23&tfc_buyer=0
+小尤 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/mzJkVL814K8_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=6f86906842428a56bc6d4b995938a999&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+玖儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/nDa-1Wutup0_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=5fe623a3a6a71e543fc22db83f4f950f&tsc=origin&oidc=watchmen&sidc=206077&no_script=1&ss=s23&tfc_buyer=0
+白珊珊❤️模特秀 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/eXfID3OV8k4_GameAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=8d6eabe055526a31081fc9298eaee2fb&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+肥猫儿 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/iFXOeW3KDzA_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=ca4bc84ff137f7e29bb3d866fecc77aa&tsc=origin&oidc=edgeWm&sidc=2527&no_script=1&ss=s23&tfc_buyer=0
+云初🌱 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/7vZRKO4u3JM_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=50b44356c55620dcd9cb3c045bb92480&tsc=origin&oidc=edgeWm&sidc=203562&no_script=1&ss=s23&tfc_buyer=0
+查苏娜❄️（半蒙半汉） - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/184kY_lfVnk_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=6b22d154f0e081ffdeedffde96359542&tsc=origin&oidc=edgeWm&sidc=2012&no_script=1&ss=s23&tfc_buyer=0
+是南南 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/xYS4DHf3xm4_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=5db951a8e4609b04320ab79229aa3443&tsc=origin&oidc=edgeWm&sidc=204180&no_script=1&ss=s23&tfc_buyer=0
+李百万 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/IR41YktwwEk_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=0788bec7ba1eae41133ce76f050f8844&tsc=origin&oidc=watchmen&sidc=205730&no_script=1&ss=s23&tfc_buyer=0
+一字马🤣风车车629 - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/ec2O0uNtx5g_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=a40f08b15eb0268e6188abfaf9d7269d&tsc=origin&oidc=edgeWm&sidc=207615&no_script=1&ss=s23&tfc_buyer=0
+佳慧✨ - 快手直播,https://hw-origin.pull.yximgs.com/gifshow/aekTkIshxCw_ShowAvcHdL0.flv?hwTime=6af5ee3e&hwSecret=746333071c75f92d2a4122d164788b07&tsc=origin&oidc=edgeWm&sidc=201230&no_script=1&ss=s23&tfc_buyer=0
 狂鸟丶楚河-90327 - 虎牙直播,https://baheyi.pages.dev/huya/998
 杨齐家丶 - 虎牙直播,https://baheyi.pages.dev/huya/60066
 小小小酷哥-组织 - 虎牙直播,https://baheyi.pages.dev/huya/1995
-DANK1NG - 虎牙直播,https://baheyi.pages.dev/huya/10188
+Karsamzing苏弟 - 虎牙直播,https://baheyi.pages.dev/huya/116864
 小酒窝翁馨 - 虎牙直播,https://baheyi.pages.dev/huya/156843
-Cute-头号可爱 - 虎牙直播,https://baheyi.pages.dev/huya/24275469
+Dae-感觉至上 - 虎牙直播,https://baheyi.pages.dev/huya/52647
 彡彡九户外 - 虎牙直播,https://baheyi.pages.dev/huya/485503
 Zz1tai姿态 - 虎牙直播,https://baheyi.pages.dev/huya/333003
-cxy0714 - 虎牙直播,https://baheyi.pages.dev/huya/770714
-RASH悲喜 - 虎牙直播,https://baheyi.pages.dev/huya/988
-HR-爱吃薯片的温念 - 虎牙直播,https://baheyi.pages.dev/huya/158238
-Dae-感觉至上 - 虎牙直播,https://baheyi.pages.dev/huya/52647
-AmazingJ - 虎牙直播,https://baheyi.pages.dev/huya/707
-壮壮-798 - 虎牙直播,https://baheyi.pages.dev/huya/66798
 陈子豪 - 虎牙直播,https://baheyi.pages.dev/huya/199300
-广州TTG鹤辞 - 虎牙直播,https://baheyi.pages.dev/huya/152753
-蕊蕊有点懵 - 虎牙直播,https://baheyi.pages.dev/huya/124168
-星晴-全是美女 - 虎牙直播,https://baheyi.pages.dev/huya/168212
-微竞-芜湖神【0172】 - 虎牙直播,https://baheyi.pages.dev/huya/353322
+RASH悲喜 - 虎牙直播,https://baheyi.pages.dev/huya/988
+cc、小葡萄 - 虎牙直播,https://baheyi.pages.dev/huya/52008
+Cute-头号可爱 - 虎牙直播,https://baheyi.pages.dev/huya/24275469
+小飒电竞丶董小飒 - 虎牙直播,https://baheyi.pages.dev/huya/13579
+cxy0714 - 虎牙直播,https://baheyi.pages.dev/huya/770714
+壮壮-798 - 虎牙直播,https://baheyi.pages.dev/huya/66798
+Letme严君泽 - 虎牙直播,https://baheyi.pages.dev/huya/518518
+林一宁、【努力鸭】 - 虎牙直播,https://baheyi.pages.dev/huya/597350
+盛世-仙女湖 - 虎牙直播,https://baheyi.pages.dev/huya/6952
+狂鸟丶单身狗-90327 - 虎牙直播,https://baheyi.pages.dev/huya/482
+kRYST4L - 虎牙直播,https://baheyi.pages.dev/huya/222523
 大锤酱798 - 虎牙直播,https://baheyi.pages.dev/huya/57798
 4AM小海xx - 虎牙直播,https://baheyi.pages.dev/huya/791185
-拾光、是点妹 - 虎牙直播,https://baheyi.pages.dev/huya/152746
-盛世-仙女湖 - 虎牙直播,https://baheyi.pages.dev/huya/6952
-薯片脆UwU【AJ】 - 虎牙直播,https://baheyi.pages.dev/huya/158243
-Letme严君泽 - 虎牙直播,https://baheyi.pages.dev/huya/518518
-集梦会长【-超跑116-】 - 虎牙直播,https://baheyi.pages.dev/huya/116
-狂鸟丶单身狗-90327 - 虎牙直播,https://baheyi.pages.dev/huya/482
-云翔丶一曲【蓝莓帅】 - 虎牙直播,https://baheyi.pages.dev/huya/127489
-虎牙斯诺克 - 范争一VS瓦菲 丁俊晖4-6惜败囧哥  2026斯诺克国际锦标赛,https://baheyi.pages.dev/huya/880214
-陈懒懒哎 - 虎牙直播,https://baheyi.pages.dev/huya/23547080
-子圣-798 - 虎牙直播,https://baheyi.pages.dev/huya/528040
-虎牙英雄联盟赛事 - 【预告】29日4点 S16瑞士轮第五日,https://baheyi.pages.dev/huya/660000
-华创-达文西 - 虎牙直播,https://baheyi.pages.dev/huya/584260
-瓦莉拉 - 虎牙直播,https://baheyi.pages.dev/huya/100270
-书香、小柠吖【亚妹】 - 虎牙直播,https://baheyi.pages.dev/huya/152843
-划线王-马惠明斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/153793
-朝朝-798 - 虎牙直播,https://baheyi.pages.dev/huya/55798
-高能-宠粉狂魔教练 - 虎牙直播,https://baheyi.pages.dev/huya/746154
-广州TTG涵 - 虎牙直播,https://baheyi.pages.dev/huya/157421
-AG绝迹 - 虎牙直播,https://baheyi.pages.dev/huya/115959
-cc、一只小羊呀 - 虎牙直播,https://baheyi.pages.dev/huya/146349
-虎牙斯诺克副舞台 - 吴宜泽vs马奎尔 2026斯诺克国际锦标赛,https://baheyi.pages.dev/huya/880625
-集梦张开朗【233】 - 虎牙直播,https://baheyi.pages.dev/huya/233
-李阿特7 - 虎牙直播,https://baheyi.pages.dev/huya/215609
-狂鸟丶小宇热游-90098 - 虎牙直播,https://baheyi.pages.dev/huya/10098
-Ak李知恩-国一老虎 - 虎牙直播,https://baheyi.pages.dev/huya/31413120
-百川-伊琳 - 虎牙直播,https://baheyi.pages.dev/huya/59210
-光头阿强球理解说 - 虎牙直播,https://baheyi.pages.dev/huya/28962587
-OerOer - 虎牙直播,https://baheyi.pages.dev/huya/589600
-憨憨是只猫呢 - 虎牙直播,https://baheyi.pages.dev/huya/159327
-小正【国1赵云】 - 虎牙直播,https://baheyi.pages.dev/huya/31355586
-信仰攻略组 - 虎牙直播,https://baheyi.pages.dev/huya/847329
-cc、小葡萄 - 虎牙直播,https://baheyi.pages.dev/huya/52008
-老王说台球147 - 虎牙直播,https://baheyi.pages.dev/huya/30950161
-集梦罗玉姬子【1995】 - 虎牙直播,https://baheyi.pages.dev/huya/919
-北枫CC - 虎牙直播,https://baheyi.pages.dev/huya/572329
-Ak可杰-国一老虎 - 虎牙直播,https://baheyi.pages.dev/huya/31413740
-【节奏】 - 虎牙直播,https://baheyi.pages.dev/huya/476644
-乐佰、小白 - 虎牙直播,https://baheyi.pages.dev/huya/520258
-郭燃台球 - 虎牙直播,https://baheyi.pages.dev/huya/31107095
-老实人sask - 虎牙直播,https://baheyi.pages.dev/huya/579236
-林佳茵【1995】 - 虎牙直播,https://baheyi.pages.dev/huya/138978
-云翔-果冻 - 虎牙直播,https://baheyi.pages.dev/huya/24447007
-AG美黎 - 虎牙直播,https://baheyi.pages.dev/huya/10076
-九九酱zZ - 虎牙直播,https://baheyi.pages.dev/huya/10199
-波哥【斯诺克解说】 - 虎牙直播,https://baheyi.pages.dev/huya/31189591
-张嘉文 - 虎牙直播,https://baheyi.pages.dev/huya/181469
-十一【AJ】【518】 - 虎牙直播,https://baheyi.pages.dev/huya/99101
-梦境-清苏 - 虎牙直播,https://baheyi.pages.dev/huya/159126
-狂鸟丶比巴卜 - 虎牙直播,https://baheyi.pages.dev/huya/30475701
-250琪宝-【轩徒】 - 虎牙直播,https://baheyi.pages.dev/huya/653240
-樱樱斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/12379121
-微竞-浪D - 虎牙直播,https://baheyi.pages.dev/huya/196645
-集美小怡【ZKL】 - 虎牙直播,https://baheyi.pages.dev/huya/52233
-Up-甜柠【元气满满】 - 虎牙直播,https://baheyi.pages.dev/huya/158374
-冰雹ice - 虎牙直播,https://baheyi.pages.dev/huya/598527
-灵光小鱼【锦鲤上岸】 - 虎牙直播,https://baheyi.pages.dev/huya/138573
-梦马台球 - 虎牙直播,https://baheyi.pages.dev/huya/30823837
-阿驴ob - 虎牙直播,https://baheyi.pages.dev/huya/713643
-Ak-故辞【百段法王】 - 虎牙直播,https://baheyi.pages.dev/huya/31377193
-集梦璐璐【18】 - 虎牙直播,https://baheyi.pages.dev/huya/154192
-魅力第二-少年哥 - 虎牙直播,https://baheyi.pages.dev/huya/274131
-猫小猫【新人板】 - 虎牙直播,https://baheyi.pages.dev/huya/159365
-甜心台球 - 虎牙直播,https://baheyi.pages.dev/huya/709147
-烟雨、李多多sweetie - 虎牙直播,https://baheyi.pages.dev/huya/125764
-北笙 - 虎牙直播,https://baheyi.pages.dev/huya/940107
-樱子Eiko【AJ】【518】 - 虎牙直播,https://baheyi.pages.dev/huya/158325
-炉石春哥 - 虎牙直播,https://baheyi.pages.dev/huya/312410
-悦尚-糖糖 - 虎牙直播,https://baheyi.pages.dev/huya/30073296
-猫儿2斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/148658
-玖笙-三千666 - 虎牙直播,https://baheyi.pages.dev/huya/31393668
-小豪死歌 - 虎牙直播,https://baheyi.pages.dev/huya/124952
-4AMCRAZY112代 - 虎牙直播,https://baheyi.pages.dev/huya/7911112
-若晞-798 - 虎牙直播,https://baheyi.pages.dev/huya/26774019
--胡椒- - 虎牙直播,https://baheyi.pages.dev/huya/157395
-李忠【斯诺克解说】 - 虎牙直播,https://baheyi.pages.dev/huya/31088698
-梦境-西元koi - 虎牙直播,https://baheyi.pages.dev/huya/31391296
-虎视-小小羊学妹 - 虎牙直播,https://baheyi.pages.dev/huya/157196
-小青团-【AJ】 - 虎牙直播,https://baheyi.pages.dev/huya/158956
-TG-跑跑【幸运版】 - 虎牙直播,https://baheyi.pages.dev/huya/145297
-Ck-晚心 - 虎牙直播,https://baheyi.pages.dev/huya/145362
-围球夜话 - 虎牙直播,https://baheyi.pages.dev/huya/30608702
-寂然--巅峰第一 - 虎牙直播,https://baheyi.pages.dev/huya/31361882
-小小医仙【AJ】【518】 - 虎牙直播,https://baheyi.pages.dev/huya/157859
-正恒-幸运苏苏 - 虎牙直播,https://baheyi.pages.dev/huya/405274
-郭枫荷 - 虎牙直播,https://baheyi.pages.dev/huya/139473
-铭创-若雪ins - 虎牙直播,https://baheyi.pages.dev/huya/146271
-女子世界冠军石春侠 - 虎牙直播,https://baheyi.pages.dev/huya/564185
-苏苏【幸运星】 - 虎牙直播,https://baheyi.pages.dev/huya/31375154
-集梦小易【-116-】 - 虎牙直播,https://baheyi.pages.dev/huya/717394
-菊花ADC - 虎牙直播,https://baheyi.pages.dev/huya/886673
-狂鸟丶天天-90327 - 虎牙直播,https://baheyi.pages.dev/huya/924593
 HR-芡糕糕 - 虎牙直播,https://baheyi.pages.dev/huya/31389125
-乐一解说 - 虎牙直播,https://baheyi.pages.dev/huya/29385237
-Ak-骚白【国一影】 - 虎牙直播,https://baheyi.pages.dev/huya/31388918
-961丶芝士【狗狗】 - 虎牙直播,https://baheyi.pages.dev/huya/158475
-软耳小兔酱 - 虎牙直播,https://baheyi.pages.dev/huya/157487
-群星-小鱼 - 虎牙直播,https://baheyi.pages.dev/huya/408713
-AH丶兰笙笙 - 虎牙直播,https://baheyi.pages.dev/huya/712629
+星晴-全是美女 - 虎牙直播,https://baheyi.pages.dev/huya/168212
+森森酱-798 - 虎牙直播,https://baheyi.pages.dev/huya/31313657
+北枫CC - 虎牙直播,https://baheyi.pages.dev/huya/572329
+狂魔哥解说 - 虎牙直播,https://baheyi.pages.dev/huya/919191
 划线百嘉 - 虎牙直播,https://baheyi.pages.dev/huya/32588
+慎独 - 虎牙直播,https://baheyi.pages.dev/huya/31421
+cc、一只小羊呀 - 虎牙直播,https://baheyi.pages.dev/huya/146349
+集梦张开朗【233】 - 虎牙直播,https://baheyi.pages.dev/huya/233
+虎牙英雄联盟赛事 - 【预告】29日4点 S16瑞士轮第五日,https://baheyi.pages.dev/huya/660000
+拾光、是点妹 - 虎牙直播,https://baheyi.pages.dev/huya/152746
+MT丶季多鱼 - 虎牙直播,https://baheyi.pages.dev/huya/531309
+虎牙斯诺克 - 范争一VS瓦菲 丁俊晖4-6惜败囧哥  2026斯诺克国际锦标赛,https://baheyi.pages.dev/huya/880214
+QY-懒懒大王【聋瞎】 - 虎牙直播,https://baheyi.pages.dev/huya/52192
+OerOer - 虎牙直播,https://baheyi.pages.dev/huya/589600
+微竞-芜湖神【0172】 - 虎牙直播,https://baheyi.pages.dev/huya/353322
+故氏【国1公孙离-】 - 虎牙直播,https://baheyi.pages.dev/huya/158927
+保镖-大镖客DBKiLL - 虎牙直播,https://baheyi.pages.dev/huya/816515
+一诺台球解说 - 虎牙直播,https://baheyi.pages.dev/huya/10147
+Js-念可 - 虎牙直播,https://baheyi.pages.dev/huya/157641
+朝朝-798 - 虎牙直播,https://baheyi.pages.dev/huya/55798
+李阿特7 - 虎牙直播,https://baheyi.pages.dev/huya/215609
+华创-达文西 - 虎牙直播,https://baheyi.pages.dev/huya/584260
+AG绝迹 - 虎牙直播,https://baheyi.pages.dev/huya/115959
+源水-吃饱饱【胖丫】 - 虎牙直播,https://baheyi.pages.dev/huya/157145
+职业球员肖国栋 - 虎牙直播,https://baheyi.pages.dev/huya/210147
+TG-简乐【好歪哟】 - 虎牙直播,https://baheyi.pages.dev/huya/317846
+王木木啊【1995】 - 虎牙直播,https://baheyi.pages.dev/huya/80088
+Ak新之助【国一守约】 - 虎牙直播,https://baheyi.pages.dev/huya/31380914
+瓦莉拉 - 虎牙直播,https://baheyi.pages.dev/huya/100270
+阳宝宝、 - 虎牙直播,https://baheyi.pages.dev/huya/16188
+女子世界冠军石春侠 - 虎牙直播,https://baheyi.pages.dev/huya/564185
+小豪死歌 - 虎牙直播,https://baheyi.pages.dev/huya/124952
+瑞秋儿【能心】恩师毛毛 - 虎牙直播,https://baheyi.pages.dev/huya/33001
+云翔丶一曲【蓝莓帅】 - 虎牙直播,https://baheyi.pages.dev/huya/127489
+久帝-告白 - 虎牙直播,https://baheyi.pages.dev/huya/88617
+肥肥陈不肥 - 虎牙直播,https://baheyi.pages.dev/huya/713259
+甜心台球 - 虎牙直播,https://baheyi.pages.dev/huya/709147
+解说元宝  - 虎牙直播,https://baheyi.pages.dev/huya/138297
+天九-798 - 虎牙直播,https://baheyi.pages.dev/huya/27708672
+云翔-菜菜【白菜】 - 虎牙直播,https://baheyi.pages.dev/huya/31201674
+狂鸟丶小宇热游-90098 - 虎牙直播,https://baheyi.pages.dev/huya/10098
+QY-苏浅浅 - 虎牙直播,https://baheyi.pages.dev/huya/158423
+艾菲-joan - 虎牙直播,https://baheyi.pages.dev/huya/961226
+软耳小兔酱 - 虎牙直播,https://baheyi.pages.dev/huya/157487
+高能-宠粉狂魔教练 - 虎牙直播,https://baheyi.pages.dev/huya/746154
+苏苏【幸运星】 - 虎牙直播,https://baheyi.pages.dev/huya/31375154
+【节奏】 - 虎牙直播,https://baheyi.pages.dev/huya/476644
+锦松-百小生 - 虎牙直播,https://baheyi.pages.dev/huya/146376
+划线王-马惠明斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/153793
+烟雨、李多多sweetie - 虎牙直播,https://baheyi.pages.dev/huya/125764
+十一【AJ】【518】 - 虎牙直播,https://baheyi.pages.dev/huya/99101
+玖笙-三千666 - 虎牙直播,https://baheyi.pages.dev/huya/31393668
+元气少女周白白 - 虎牙直播,https://baheyi.pages.dev/huya/51089
+QY-小源源【耳机】 - 虎牙直播,https://baheyi.pages.dev/huya/31348884
+乐一解说 - 虎牙直播,https://baheyi.pages.dev/huya/29385237
+wink【518】【能心】【AJ】 - 虎牙直播,https://baheyi.pages.dev/huya/157618
+灵灵【16028】 - 虎牙直播,https://baheyi.pages.dev/huya/158413
+Ak-宗师【国1镜】 - 虎牙直播,https://baheyi.pages.dev/huya/31383751
+信仰攻略组 - 虎牙直播,https://baheyi.pages.dev/huya/847329
+梓铭【故事会】 - 虎牙直播,https://baheyi.pages.dev/huya/46131
+虎牙斯诺克副舞台 - 吴宜泽vs马奎尔 2026斯诺克国际锦标赛,https://baheyi.pages.dev/huya/880625
+小鱼儿-798 - 虎牙直播,https://baheyi.pages.dev/huya/31310428
+Ak可杰-国一老虎 - 虎牙直播,https://baheyi.pages.dev/huya/31413740
+虎视-小小羊学妹 - 虎牙直播,https://baheyi.pages.dev/huya/157196
+AG美黎 - 虎牙直播,https://baheyi.pages.dev/huya/10076
+萌佳Miss - 虎牙直播,https://baheyi.pages.dev/huya/157418
+波哥【斯诺克解说】 - 虎牙直播,https://baheyi.pages.dev/huya/31189591
+超越妹妹-798 - 虎牙直播,https://baheyi.pages.dev/huya/31327653
+北笙 - 虎牙直播,https://baheyi.pages.dev/huya/940107
+RDZ-Jiale嘉乐 - 虎牙直播,https://baheyi.pages.dev/huya/459804
+菊花ADC - 虎牙直播,https://baheyi.pages.dev/huya/886673
+AH丶辛蒂cc - 虎牙直播,https://baheyi.pages.dev/huya/920518
+老范说台球-斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/154825
+鳗鱼-798 - 虎牙直播,https://baheyi.pages.dev/huya/31429786
+梦境-阿遇【国一玄策】 - 虎牙直播,https://baheyi.pages.dev/huya/31361662
+三桂园区-浅浅 - 虎牙直播,https://baheyi.pages.dev/huya/709107
+盛世-狂浪 - 虎牙直播,https://baheyi.pages.dev/huya/423876
+蕊蕊有点懵 - 虎牙直播,https://baheyi.pages.dev/huya/124168
+郭燃台球 - 虎牙直播,https://baheyi.pages.dev/huya/31107095
+Ak-故辞【百段法王】 - 虎牙直播,https://baheyi.pages.dev/huya/31377193
+一只羊【AJ】白 - 虎牙直播,https://baheyi.pages.dev/huya/158968
+赵定定 - 虎牙直播,https://baheyi.pages.dev/huya/125462
+允夏要吃饱饱吖、 - 虎牙直播,https://baheyi.pages.dev/huya/159185
+夜刀神ovo - 虎牙直播,https://baheyi.pages.dev/huya/573149
+老王说台球147 - 虎牙直播,https://baheyi.pages.dev/huya/30950161
+Ak-骚白【国一影】 - 虎牙直播,https://baheyi.pages.dev/huya/31388918
+小媛-798 - 虎牙直播,https://baheyi.pages.dev/huya/158974
+AH丶朴允星baby - 虎牙直播,https://baheyi.pages.dev/huya/58016
+虎视锅巴粥游戏9 - 虎牙直播,https://baheyi.pages.dev/huya/30596253
+虎视爱神 - 幸运萌趣趣/赤蝎＆寒蝎热卖中～,https://baheyi.pages.dev/huya/30987979
+猫儿2斯诺克 - 虎牙直播,https://baheyi.pages.dev/huya/148658
+DT丶小故【国1元射】 - 虎牙直播,https://baheyi.pages.dev/huya/31400738
+大大大王【1995】 - 虎牙直播,https://baheyi.pages.dev/huya/521995
+满创-宝宝 - 虎牙直播,https://baheyi.pages.dev/huya/148574
+微竞-我是桶子哥 - 虎牙直播,https://baheyi.pages.dev/huya/122294
+老鬼-MG - 虎牙直播,https://baheyi.pages.dev/huya/705112
+阿狸台球 - 虎牙直播,https://baheyi.pages.dev/huya/153792
 MrGemini - Gemini：陪伴型主播,https://baheyi.pages.dev/douyu/36252
-寅子 - 20点前来直播。。。,https://baheyi.pages.dev/douyu/71415
-金咕咕金咕咕doinb - 快乐直播 !!!!!!!!!!!!!!!,https://baheyi.pages.dev/douyu/252140
-叶子户外 - 12580团播s5.2day4,https://baheyi.pages.dev/douyu/244548
-我叫鬼鬼呀 - 山林从不向四季起誓&nbsp;枯荣随缘,https://baheyi.pages.dev/douyu/6496945
+寅子 - 还没到家&nbsp;晚点直播。。。,https://baheyi.pages.dev/douyu/71415
 椰汁糕冬瓜强 - 双倍亲密度双倍亲密度,https://baheyi.pages.dev/douyu/63136
+我叫鬼鬼呀 - 山林从不向四季起誓&nbsp;枯荣随缘,https://baheyi.pages.dev/douyu/6496945
+Minana呀 - 宝宝 晚上好呀~~,https://baheyi.pages.dev/douyu/5551871
+金咕咕金咕咕doinb - 快乐直播 !!!!!!!!!!!!!!!,https://baheyi.pages.dev/douyu/252140
 雨神丶 - 玩传奇就看6512！！,https://baheyi.pages.dev/douyu/6512
-20岁天才歌手Running - Running IVE联名已登录PUBG,https://baheyi.pages.dev/douyu/2448877
-迟晚舟 - 我要在你腿上写个惨字,https://baheyi.pages.dev/douyu/8886635
-易惜文O - 小事化面包 大事化蛋糕,https://baheyi.pages.dev/douyu/11518380
-pigff - pigff IVE联名已登录PUBG,https://baheyi.pages.dev/douyu/24422
-QuQu非常规大师 - 玩到2点睡，明早十点blast,https://baheyi.pages.dev/douyu/178432
-艾米呀ii - 我不一样！,https://baheyi.pages.dev/douyu/12836439
-电动2只errr - 想你了想你了,https://baheyi.pages.dev/douyu/4448140
-名流兄弟【南波家族】 - 【王者局】云顶临时工！day3！,https://baheyi.pages.dev/douyu/98697
-主播阿飞 - 阿飞)化学之王,https://baheyi.pages.dev/douyu/84452
-邦Sa - 大师局硬核指挥！专业团队冲分教学！,https://baheyi.pages.dev/douyu/5720533
-尤优Baby - 哎呀 哥哥我要晕倒了~,https://baheyi.pages.dev/douyu/1769784
-卡司一星梦阁1 - 愿好运如春风常驻，轻抚岁月，温柔你每段路,https://baheyi.pages.dev/douyu/10799022
-若若跑的贼快 - 和平集市即将上新！,https://baheyi.pages.dev/douyu/9263298
-驴酱的冯雨大王 - 冯雨：你相信有lol天才吗？,https://baheyi.pages.dev/douyu/317422
-鹿小鸣l - 随便玩玩  冲第一！ 10040721,https://baheyi.pages.dev/douyu/10040721
-成都55张 - 恭喜师傅王者至尊,https://baheyi.pages.dev/douyu/4386404
+DL丶拖米 - 天才苞小米！~~,https://baheyi.pages.dev/douyu/793400
 艺瑟妃 - 艺秘书请别这样！！！,https://baheyi.pages.dev/douyu/6999879
-潇潇【南波家族】 - 《潇潇客栈》王者篇,https://baheyi.pages.dev/douyu/9495657
-刘嘉俊Sylar1 - Ai的王回来了！,https://baheyi.pages.dev/douyu/762484
+成都55张 - 恭喜师傅王者至尊,https://baheyi.pages.dev/douyu/4386404
+pigff - pigff IVE联名已登录PUBG,https://baheyi.pages.dev/douyu/24422
+若若跑的贼快 - 和平集市即将上新！,https://baheyi.pages.dev/douyu/9263298
+尤优Baby - 哎呀 哥哥我要晕倒了~,https://baheyi.pages.dev/douyu/1769784
+艾米呀ii - 我不一样！,https://baheyi.pages.dev/douyu/12836439
+邦Sa - 挑战吃10鸡！鸡王之王就是我！,https://baheyi.pages.dev/douyu/5720533
 洞主丨歌神洞庭湖 - 欢乐时光已经开始了！,https://baheyi.pages.dev/douyu/138243
-澄子三百斤 - 澄子酱酱在线撒娇~,https://baheyi.pages.dev/douyu/12838463
-悦mmm - 祝我好运发财❤~,https://baheyi.pages.dev/douyu/6464361
-孙悟空丨兰林汉 - 兰林汉：酸角粥！！！,https://baheyi.pages.dev/douyu/475252
-白鲨AyoM - 积分赛大乱斗~,https://baheyi.pages.dev/douyu/12821
-王者荣耀官方赛事 - 预告|14日17点JDG vs WB,https://baheyi.pages.dev/douyu/1863767
-蔓越莓很甜i - 今天也想见到你 11778421,https://baheyi.pages.dev/douyu/11778421
-二呆啾 - 温柔大姐姐,https://baheyi.pages.dev/douyu/5092355
-阿涛皎月Carry - 韩服王者陪练 备战驴酱杯 一区王者局！,https://baheyi.pages.dev/douyu/6560603
-山东棋王弈哥 - 开始嗨皮！！！,https://baheyi.pages.dev/douyu/844947
-梨落秋溪 - 快乐游戏，只玩帅的！,https://baheyi.pages.dev/douyu/594019
-奇点一可口可乐 - 斗鱼大事件！,https://baheyi.pages.dev/douyu/8799916
+鹿小鸣l - 随便玩玩  冲第一！ 10040721,https://baheyi.pages.dev/douyu/10040721
 小阿青Angel - 河南唱歌 正在演唱中。。。。。,https://baheyi.pages.dev/douyu/9693493
-diyy刘頔 - 斗鱼第一薄切!,https://baheyi.pages.dev/douyu/231059
-轰轰仔 - 轰轰：休息，下午凯凯代播,https://baheyi.pages.dev/douyu/6925114
-墨衣moyi - 修锣模式已启动！,https://baheyi.pages.dev/douyu/8834570
-小美佳呀 - 大王你今天想我了吗,https://baheyi.pages.dev/douyu/10106809
-豌豆仙仙儿 - 看的开心就好了,https://baheyi.pages.dev/douyu/12282113
-冷少icon - 7天不下播挑战,https://baheyi.pages.dev/douyu/8682569
-QKA付志海 - ☑️☑️☑️红色魔鬼☑️☑️☑️,https://baheyi.pages.dev/douyu/5544313
-靓旭 - 又是一个大黑号！！！,https://baheyi.pages.dev/douyu/1165924
-Q覃小七 - 新疆唱歌小姐姐 77177,https://baheyi.pages.dev/douyu/5964044
-甄知棒 - 不赢发宵夜，挑战冷门英雄核心吃鸡,https://baheyi.pages.dev/douyu/3014399
-XROCK年鹏Enpi - 几天不见，甚是想念 327,https://baheyi.pages.dev/douyu/5389181
-美伢Mya - 你怎么知道77111出了第一个黑牌！耶！,https://baheyi.pages.dev/douyu/12870978
+潇潇【南波家族】 - 《潇潇客栈》自由日,https://baheyi.pages.dev/douyu/9495657
+20岁天才歌手Running - Running IVE联名已登录PUBG,https://baheyi.pages.dev/douyu/2448877
+驴酱的冯雨大王 - 冯雨：你相信有lol天才吗？,https://baheyi.pages.dev/douyu/317422
+小圆在线 - 加油&nbsp;我们是最棒的！,https://baheyi.pages.dev/douyu/9637923
+电动2只errr - 想你了想你了,https://baheyi.pages.dev/douyu/4448140
+阿涛皎月Carry - 小柒：快乐游戏！！！,https://baheyi.pages.dev/douyu/6560603
+孙悟空丨兰林汉 - 兰林汉：酸角粥！！！,https://baheyi.pages.dev/douyu/475252
+王者荣耀官方赛事 - 预告|14日17点JDG vs WB,https://baheyi.pages.dev/douyu/1863767
+蒙宝M - 念念不忘必有回响~~,https://baheyi.pages.dev/douyu/6629668
+悦mmm - 祝我好运发财❤~,https://baheyi.pages.dev/douyu/6464361
+啦啦啦不是狗狗狗 - 啦啦啦：先上7000，再冲8000！,https://baheyi.pages.dev/douyu/633019
+白鲨AyoM - CFS白鲨加油~！,https://baheyi.pages.dev/douyu/12821
+疯奶丶大硕 - 先修仙 2点看金摇杆看影之刃角逐,https://baheyi.pages.dev/douyu/5324055
+蔓越莓很甜i - 今天也想见到你 11778421,https://baheyi.pages.dev/douyu/11778421
 朴雨彬 - 听见日子翻页的声音,https://baheyi.pages.dev/douyu/7930707
-Present欣 - 你好  可以陪陪我吗,https://baheyi.pages.dev/douyu/6524108
-陈浩南丶ABS - 传奇威龙王！,https://baheyi.pages.dev/douyu/9122413
+山东棋王弈哥 - 10比21亿黑血塔姆就为！！,https://baheyi.pages.dev/douyu/844947
+轰轰仔 - 轰轰：神来了！,https://baheyi.pages.dev/douyu/6925114
+梨落秋溪 - 今晚有事情，请假一天哈~,https://baheyi.pages.dev/douyu/594019
+二呆啾 - 温柔大姐姐,https://baheyi.pages.dev/douyu/5092355
+卡司一星梦阁1 - 愿好运如春风常驻，轻抚岁月，温柔你每段路,https://baheyi.pages.dev/douyu/10799022
+神棍老师麦迪文 - 神棍老师：偶尔迟到的直播间,https://baheyi.pages.dev/douyu/4767111
+石页的第一根矛s - 石页:海克斯大乱斗，精彩的博弈！,https://baheyi.pages.dev/douyu/593392
+墨衣moyi - 请问这是炉石区最有边界感的直播间吗,https://baheyi.pages.dev/douyu/8834570
+小梨梨Lily - 不要慌，不要慌，太阳下山有月光。,https://baheyi.pages.dev/douyu/9742633
+奇点一可口可乐 - 斗鱼大事件！,https://baheyi.pages.dev/douyu/8799916
+阿福Afuuu - 双倍-山外山天外天，若有缘终再见,https://baheyi.pages.dev/douyu/1967734
+lqscrisp - 1分钟受益匪浅,https://baheyi.pages.dev/douyu/2739447
+冷少icon - 7天不下播挑战,https://baheyi.pages.dev/douyu/8682569
+王羽杉abc - 对不良诱惑说不够 黄金双倍卡,https://baheyi.pages.dev/douyu/1010383
+叶子户外 - 12580团播s5.2day5,https://baheyi.pages.dev/douyu/244548
+叫我老陈就好了 - 来这里开心就好！ 74960,https://baheyi.pages.dev/douyu/74960
+甄知棒 - 最耐心教学，阵容万花筒,https://baheyi.pages.dev/douyu/3014399
+三酒OuO - 风吹哪页读哪页。,https://baheyi.pages.dev/douyu/2421040
+小美佳呀 - 大王你今天想我了吗,https://baheyi.pages.dev/douyu/10106809
+JT丶浩克大魔王 - 今天在小院98568,https://baheyi.pages.dev/douyu/4489985
+靓旭 - 又是一个大黑号！！！,https://baheyi.pages.dev/douyu/1165924
+李李超欧 - 想见你的每一天,https://baheyi.pages.dev/douyu/12485490
 北港ovo - 晚上好！！！ 10267847,https://baheyi.pages.dev/douyu/10267847
-南枫阿i - 来这里起飞就好了,https://baheyi.pages.dev/douyu/3436094
+易惜文O - 小事化面包 大事化蛋糕,https://baheyi.pages.dev/douyu/11518380
+小白OvO【南波家族】 - 12-15号每晚7点开始狼人杀,https://baheyi.pages.dev/douyu/11273251
+XROCK年鹏Enpi - 手游季后赛，XROCK加油！,https://baheyi.pages.dev/douyu/5389181
+异灵术老师 - 异灵术：二台露娜拉,https://baheyi.pages.dev/douyu/93589
+陈浩南丶ABS - 传奇威龙王！,https://baheyi.pages.dev/douyu/9122413
+养了猪 - 猪猪爱财 取之取之,https://baheyi.pages.dev/douyu/6597029
+橘猫酱R - 有没有心软的神宠我！,https://baheyi.pages.dev/douyu/5516960
+名流兄弟【南波家族】 - 【王者局】云顶临时工！day4！,https://baheyi.pages.dev/douyu/98697
+南波儿大魔王丶 - 登顶下班挑战！！！,https://baheyi.pages.dev/douyu/5526219
+美伢Mya - 你怎么知道77111出了第一个黑牌！耶！,https://baheyi.pages.dev/douyu/12870978
+Present欣 - 想赚点房租电费,https://baheyi.pages.dev/douyu/6524108
+曾梓灵02 - 湖南唱歌主播~听歌聊天室,https://baheyi.pages.dev/douyu/941266
+A妹A妹 - 新人主播 10011,https://baheyi.pages.dev/douyu/4520630
+Nostalie - NO:今日能飞,https://baheyi.pages.dev/douyu/142488
+小白鸽WhiteDove - 【双倍】苏醒！崔崔来啦！,https://baheyi.pages.dev/douyu/228989
+i悠丶 - 上班了 23888,https://baheyi.pages.dev/douyu/10739363
+清清睡不醒呀2 - 40岁离异带俩娃还坚持直播。。。,https://baheyi.pages.dev/douyu/11254927
+Zhou陈尧 - 88660~,https://baheyi.pages.dev/douyu/88660
+特特zzz - 软辅巅峰赛 8813116,https://baheyi.pages.dev/douyu/8813116
+幼崽Sama【南波家族】 - 嘿嘿 无畏契约我在赢,https://baheyi.pages.dev/douyu/12863136
+涵钰、 - 娶川渝婆娘 享幸福人生,https://baheyi.pages.dev/douyu/9111098
+崽崽zaizaiya - 等一个你~8821062,https://baheyi.pages.dev/douyu/8821062
+恰饭丶DZZ - 版本答案来啦 7779,https://baheyi.pages.dev/douyu/309763
+wtybill - 美服地下竞技场,https://baheyi.pages.dev/douyu/57321
+bulaQoQ - 你的糕手bulaQoQ,https://baheyi.pages.dev/douyu/10674166
 贝拉小姐姐 - 希望你能有好睡眠～,https://baheyi.pages.dev/douyu/3276456
 ANJONI小玖 - 晚上9点见呀 90999,https://baheyi.pages.dev/douyu/6266000
-果小果是个弟弟 - 果小果：健康姐上线,https://baheyi.pages.dev/douyu/6558897
-李李超欧 - 想见你的每一天,https://baheyi.pages.dev/douyu/12485490
-王拉奇 - 【小奶团】4点开完会再来!!!,https://baheyi.pages.dev/douyu/11144156
-林芊又 - 天冷加依❤,https://baheyi.pages.dev/douyu/5012670
-蒙宝M - 念念不忘必有回响~~,https://baheyi.pages.dev/douyu/6629668
-Nostalie - NO:边缘小镇的那点生活,https://baheyi.pages.dev/douyu/142488
-A妹A妹 - 新人主播 10011,https://baheyi.pages.dev/douyu/4520630
-小白鸽WhiteDove - 【双倍】苏醒！崔崔来啦！,https://baheyi.pages.dev/douyu/228989
-小白OvO【南波家族】 - 12-15号每晚7点开始狼人杀,https://baheyi.pages.dev/douyu/11273251
-迈克、阿水 - 正式开营第六天,https://baheyi.pages.dev/douyu/12873719
-wtybill - 美服地下竞技场,https://baheyi.pages.dev/douyu/57321
-南波儿大魔王丶 - 不允许掉分节目！,https://baheyi.pages.dev/douyu/5526219
-Tyloo骄阳 - 骄阳 IVE联名已登录PUBG,https://baheyi.pages.dev/douyu/6049122
-i妍霏 - 啦啦啦啦啦啦啦 9119044,https://baheyi.pages.dev/douyu/9119044
-洛妍Alano - 愚公 我的靠山怎么不见啦,https://baheyi.pages.dev/douyu/12858508
-CSGO馒头 - 聊聊天打打游戏 6959154,https://baheyi.pages.dev/douyu/6959154
 萌主吖l - 你会不会突然的出现吖,https://baheyi.pages.dev/douyu/8775667
-奶盖Effy - 紫色诱惑烈焰淬火盖装车！牛逼！,https://baheyi.pages.dev/douyu/11136575
-主播大飞纪实 - 斯里兰卡远方的家,https://baheyi.pages.dev/douyu/11799200
-小野马MaMa - 小野马野不野,https://baheyi.pages.dev/douyu/3144461
-兔子璐璐 - 麻辣辣辣辣 7571257,https://baheyi.pages.dev/douyu/7571257
-恰饭丶DZZ - 版本答案来啦 7779,https://baheyi.pages.dev/douyu/309763
-scboy - 今晚必须打爆马化腾,https://baheyi.pages.dev/douyu/3484
-小哈尼yo - 谢谢你们来！ 22499 22499,https://baheyi.pages.dev/douyu/11328146
-崽崽zaizaiya - 等一个你~8821062,https://baheyi.pages.dev/douyu/8821062
-佛山DRG梦岚 - 这直播不烧心,https://baheyi.pages.dev/douyu/11739476
-虔诚LL - 哇咔咔哇咔咔~,https://baheyi.pages.dev/douyu/3666
-迷人的大魔猪 - 感谢阿玛给我靓号 祝阿玛睡个好觉,https://baheyi.pages.dev/douyu/4365727
-清清睡不醒呀2 - 40岁离异带俩娃还坚持直播。。。,https://baheyi.pages.dev/douyu/11254927
-念儿o - 不要往下翻了 就我吧 12346,https://baheyi.pages.dev/douyu/6681257
-清清清清倾 - 5黑98胜率的直播间~,https://baheyi.pages.dev/douyu/3830391
-黑欢喜 - 维护环境比啥都重要【4倍亲密】,https://baheyi.pages.dev/douyu/2456621
-DMC葡萄鹏 - 无限PVP 部落Mars 睡醒开干,https://baheyi.pages.dev/douyu/80887
-莉雅好酷呀 - 胆小鬼吵一半就跑~,https://baheyi.pages.dev/douyu/6006319
-天才七七i - 心愿会实现吗会吗会吗,https://baheyi.pages.dev/douyu/9119329
-眠眠羊xy - 【CSTG】小羊出击！！！,https://baheyi.pages.dev/douyu/12651462
-阿乐fps - 握不住的沙！,https://baheyi.pages.dev/douyu/7459835
-Zhou陈尧 - 88660~,https://baheyi.pages.dev/douyu/88660
-林烟effy - 木又寸小束负言兑言舌,https://baheyi.pages.dev/douyu/7576329
-考拉-24K音乐盒子 - 【极品点唱】第一首免费！,https://baheyi.pages.dev/douyu/10952867
-莽哆 - 无限LM集合啦~,https://baheyi.pages.dev/douyu/9347693
-仙凡哥哥丶 - 今天必须猛~速来~~直播中,https://baheyi.pages.dev/douyu/787579
-冲酱ccc - 好运番倍，柿柿顺意！,https://baheyi.pages.dev/douyu/2561523
+scboy - 过三关！！！！！,https://baheyi.pages.dev/douyu/3484
+丨ABang阿帮丨 - 无限PVP服冲级！DLSS5拉满开整,https://baheyi.pages.dev/douyu/11437
+迈克、阿水 - 正式开营第六天,https://baheyi.pages.dev/douyu/12873719
+Q覃小七 - 新疆唱歌小姐姐 77177,https://baheyi.pages.dev/douyu/5964044
+是希文吖丶 - 祝你今日愉快！,https://baheyi.pages.dev/douyu/1334765
+Weirdo桃花岛主 - 边打边教，晚上解说杯训练赛,https://baheyi.pages.dev/douyu/11637620
+罩流痞 - 【萌面小侠】购买入口,https://baheyi.pages.dev/douyu/7920402
 桃桃酱Cathy - 让你着迷的永远都只是感觉,https://baheyi.pages.dev/douyu/10543844
-小橙子、 - 欢迎总裁回家 6699267,https://baheyi.pages.dev/douyu/6699267
-午夜抹抹茶 - 魔兽无限-联盟PVP-CSTG,https://baheyi.pages.dev/douyu/80432
+宁波小骚骚0oO - 最近家里有点窒息，不想影响大家，11播,https://baheyi.pages.dev/douyu/796449
+DMC葡萄鹏 - 无限PVP部落 Mars 睡醒了开干,https://baheyi.pages.dev/douyu/80887
+黑欢喜 - 请禁止金团和RMT【4倍亲密】,https://baheyi.pages.dev/douyu/2456621
 MQ丶蜘蛛馍 - 蜘蛛馍：野区三分钟一血版本上分黑科技,https://baheyi.pages.dev/douyu/226037
-小乐碎片 - 钻石双倍嘻嘻哈哈,https://baheyi.pages.dev/douyu/9680646
-周笙zs - 辰辰芊是我最好的朋友,https://baheyi.pages.dev/douyu/771592
+依然乖乖 - 最讨厌听等,https://baheyi.pages.dev/douyu/12234384
+莉雅好酷呀 - 胆小鬼吵一半就跑~,https://baheyi.pages.dev/douyu/6006319
+仙凡哥哥丶 - 今天必须猛~速来~~直播中！,https://baheyi.pages.dev/douyu/787579
+一萌imu - 蒙面小侠  入口,https://baheyi.pages.dev/douyu/6503272
+冲酱ccc - 好运番倍，柿柿顺意！,https://baheyi.pages.dev/douyu/2561523
 苏晚星ion - 水团逃离帐篷计划,https://baheyi.pages.dev/douyu/12808349
-三酒OuO - 风吹哪页读哪页。,https://baheyi.pages.dev/douyu/2421040
+周笙zs - 哥哥可以刷点嘛，小钱办大事,https://baheyi.pages.dev/douyu/771592
+小乐碎片 - 钻石双倍嘻嘻哈哈,https://baheyi.pages.dev/douyu/9680646
+于子怡yoyo - 【yzy】sova人柱力,https://baheyi.pages.dev/douyu/8448756
+妃妃FFEI - 今天2.5倍亲密度~,https://baheyi.pages.dev/douyu/1326976
+唱歌的玩玩子 - 我回来啦 是本人播,https://baheyi.pages.dev/douyu/7843479
+涂涂吃饱了 - 甜过初恋哇～,https://baheyi.pages.dev/douyu/10952213
+午夜抹抹茶 - 魔兽无限-联盟PVP-CSTG,https://baheyi.pages.dev/douyu/80432
+是初辞阿 - pvp部落哦快来快来,https://baheyi.pages.dev/douyu/8893763
 sakira丶hao - 祝水友们发大财！！！！！！,https://baheyi.pages.dev/douyu/8445951
-丸子头的文哥哥 - 速看 简单九张三星五费,https://baheyi.pages.dev/douyu/3305122
+小橙子、 - 欢迎总裁回家 6699267,https://baheyi.pages.dev/douyu/6699267
 林以沫o - 等待你的出现~~~,https://baheyi.pages.dev/douyu/11245561
-曾梓灵02 - 湖南唱歌主播~听歌聊天室,https://baheyi.pages.dev/douyu/941266
-阿良林暦 - 快乐每一天~ 1314213,https://baheyi.pages.dev/douyu/1314213
-何二抛zZ - 二抛：驴酱杯 加油！~,https://baheyi.pages.dev/douyu/4452132
+丸子头的文哥哥 - 速看 简单九张三星五费,https://baheyi.pages.dev/douyu/3305122
+流川枫Lcf丶 - 【流川枫】职业一突，单三游龙,https://baheyi.pages.dev/douyu/12300744
 YTG丶落幕 - 万象棋上分 66607,https://baheyi.pages.dev/douyu/9756096
-媛媛0v0 - 媛气满满满！,https://baheyi.pages.dev/douyu/12899578
-蟹蟹妮er - 祝大家天天开心10109918,https://baheyi.pages.dev/douyu/10109918
-罩流痞 - 【集市上新】萌面小侠,https://baheyi.pages.dev/douyu/7920402
+林芊又 - 后天生日嘟噜噜❤,https://baheyi.pages.dev/douyu/5012670
+考拉-24K音乐盒子 - 【极品点唱】第一首免费！,https://baheyi.pages.dev/douyu/10952867
 电棍 - 电棍：人逢喜事精神爽!!,https://baheyi.pages.dev/douyu/12306
+莽哆 - 无限LM集合啦~,https://baheyi.pages.dev/douyu/9347693
 小初CHU - 小初CHU,https://baheyi.pages.dev/kugou/5192416
-冷月j - 冷月j,https://baheyi.pages.dev/kugou/51098425
-青青八方来财 - 青青八方来财,https://baheyi.pages.dev/kugou/4397516
+新人热舞酥酥 - 新人热舞酥酥,https://baheyi.pages.dev/kugou/51072987
+—王默— - —王默—,https://baheyi.pages.dev/kugou/1518052
+新人绿豆沙 - 新人绿豆沙,https://baheyi.pages.dev/kugou/51086232
+九儿红火火 - 九儿红火火,https://baheyi.pages.dev/kugou/50249329
 金老板owo - 金老板owo,https://baheyi.pages.dev/kugou/50547434
-木小妤 - 木小妤,https://baheyi.pages.dev/kugou/3789463
-凝露喝青柠 - 凝露喝青柠,https://baheyi.pages.dev/kugou/51201913
-清禾z - 清禾z,https://baheyi.pages.dev/kugou/51098494
-佳禾am - 佳禾am,https://baheyi.pages.dev/kugou/50310582
-丹妮Y - 丹妮Y,https://baheyi.pages.dev/kugou/1525963
-湖北岗岗 - 湖北岗岗,https://baheyi.pages.dev/kugou/1349072
-小鱼宝a - 小鱼宝a,https://baheyi.pages.dev/kugou/50678562
-新人小金条 - 新人小金条,https://baheyi.pages.dev/kugou/51097602
-DS甜小甜 - DS甜小甜,https://baheyi.pages.dev/kugou/51086039
-暄暄h - 暄暄h,https://baheyi.pages.dev/kugou/51096430
-三三03 - 三三03,https://baheyi.pages.dev/kugou/51084135
-七七伢 - 七七伢,https://baheyi.pages.dev/kugou/5723640
-Hot妙舞清 - Hot妙舞清,https://baheyi.pages.dev/kugou/1528185
-Aa小焱 - Aa小焱,https://baheyi.pages.dev/kugou/51096471
-粱大小姐l - 粱大小姐l,https://baheyi.pages.dev/kugou/51095016
-吴小鱼w - 吴小鱼w,https://baheyi.pages.dev/kugou/2762086
-泠月X - 泠月X,https://baheyi.pages.dev/kugou/51078983
-独守闺房潘花落梦 - 独守闺房潘花落梦,https://baheyi.pages.dev/kugou/51096298
-可颂430 - 可颂430,https://baheyi.pages.dev/kugou/51098428
-御慕纯 - 御慕纯,https://baheyi.pages.dev/kugou/6732079
-11铱铱 - 11铱铱,https://baheyi.pages.dev/kugou/1432827
+九离nine - 九离nine,https://baheyi.pages.dev/kugou/6865756
+新人妍汐z - 新人妍汐z,https://baheyi.pages.dev/kugou/51201925
+歆乐儿 - 歆乐儿,https://baheyi.pages.dev/kugou/6594958
 恩宠 - 恩宠,https://baheyi.pages.dev/kugou/1061434
-XN茉莉新人吖 - XN茉莉新人吖,https://baheyi.pages.dev/kugou/51096398
-喜玥Vic - 喜玥Vic,https://baheyi.pages.dev/kugou/51201902
-小若初OvO - 小若初OvO,https://baheyi.pages.dev/kugou/51079409
-小灰灰 - 小灰灰,https://baheyi.pages.dev/kugou/1528949
-卜星瑶 - 卜星瑶,https://baheyi.pages.dev/kugou/5627485
-星联汇哇塞十安 - 星联汇哇塞十安,https://baheyi.pages.dev/kugou/6929351
-新人小久旺旺 - 新人小久旺旺,https://baheyi.pages.dev/kugou/51094908
+吴小鱼w - 吴小鱼w,https://baheyi.pages.dev/kugou/2762086
 赵君黛 - 赵君黛,https://baheyi.pages.dev/kugou/51095791
-李夜熙 - 李夜熙,https://baheyi.pages.dev/kugou/3060401
-DF桃心 - DF桃心,https://baheyi.pages.dev/kugou/51029657
-7y菟宝 - 7y菟宝,https://baheyi.pages.dev/kugou/1092524
-小金库j - 小金库j,https://baheyi.pages.dev/kugou/51097214
-蓝兰澜 - 蓝兰澜,https://baheyi.pages.dev/kugou/1043505
 井瑶儿hm - 井瑶儿hm,https://baheyi.pages.dev/kugou/5239589
-石玖DS - 石玖DS,https://baheyi.pages.dev/kugou/1238902
-小布丁bb - 小布丁bb,https://baheyi.pages.dev/kugou/51097563
-宋慧乔baby - 宋慧乔baby,https://baheyi.pages.dev/kugou/50651052
-YH款款f - YH款款f,https://baheyi.pages.dev/kugou/51026125
-贵妃s - 贵妃s,https://baheyi.pages.dev/kugou/50917802
-Xc不乖 - Xc不乖,https://baheyi.pages.dev/kugou/50957630
-许笙笙Q - 许笙笙Q,https://baheyi.pages.dev/kugou/50952876
-曦曦xi1 - 曦曦xi1,https://baheyi.pages.dev/kugou/51056947
-安屿888888 - 安屿888888,https://baheyi.pages.dev/kugou/5612943
-有只丫丫 - 有只丫丫,https://baheyi.pages.dev/kugou/1014375
-江豆豆 - 江豆豆,https://baheyi.pages.dev/kugou/1404913
-瑞瑞谢万总8灯 - 瑞瑞谢万总8灯,https://baheyi.pages.dev/laifeng/8178821
-小酒✨微胖 - 小酒✨微胖 - 你知道我在等你么！！！！,https://baheyi.pages.dev/laifeng/8166650
-池鱼呀 - 池鱼呀,https://baheyi.pages.dev/laifeng/9417822
-南晴晴 - 南晴晴 - 来个心软的神吧！,https://baheyi.pages.dev/laifeng/8188260
-某某心♥ - 某某心♥ - 别划了  就留在这里吧,https://baheyi.pages.dev/laifeng/727539
-可爱的小废物吖 - 可爱的小废物吖 - 么么哒,https://baheyi.pages.dev/laifeng/8162225
-夭啊 - 夭啊,https://baheyi.pages.dev/laifeng/76988
+Ss胖瑶 - Ss胖瑶,https://baheyi.pages.dev/kugou/51201494
+李夜熙 - 李夜熙,https://baheyi.pages.dev/kugou/3060401
+粱大小姐l - 粱大小姐l,https://baheyi.pages.dev/kugou/51095016
+纯欲卡卡子o - 纯欲卡卡子o,https://baheyi.pages.dev/kugou/6954752
+佳禾am - 佳禾am,https://baheyi.pages.dev/kugou/50310582
+瑶一瑶 - 瑶一瑶,https://baheyi.pages.dev/kugou/1593658
+卜星瑶 - 卜星瑶,https://baheyi.pages.dev/kugou/5627485
+小灰灰 - 小灰灰,https://baheyi.pages.dev/kugou/1528949
+星联汇哇塞十安 - 星联汇哇塞十安,https://baheyi.pages.dev/kugou/6929351
+苏晚Lynn - 苏晚Lynn,https://baheyi.pages.dev/kugou/51097618
+月儿同学 - 月儿同学,https://baheyi.pages.dev/kugou/1436032
+奶糖可奈斯吖 - 奶糖可奈斯吖,https://baheyi.pages.dev/kugou/51080569
+可颂430 - 可颂430,https://baheyi.pages.dev/kugou/51098428
+兜兜88888 - 兜兜88888,https://baheyi.pages.dev/kugou/51098952
+魅语baby - 魅语baby,https://baheyi.pages.dev/kugou/1243750
+新人小久旺旺 - 新人小久旺旺,https://baheyi.pages.dev/kugou/51094908
+御慕纯 - 御慕纯,https://baheyi.pages.dev/kugou/6732079
+小金库j - 小金库j,https://baheyi.pages.dev/kugou/51097214
+小花6120 - 小花6120,https://baheyi.pages.dev/kugou/51081958
+财神的心尖尖hh - 财神的心尖尖hh,https://baheyi.pages.dev/kugou/51201345
+DF桃心 - DF桃心,https://baheyi.pages.dev/kugou/51029657
+最爱七七七七呐 - 最爱七七七七呐,https://baheyi.pages.dev/kugou/51069025
+依小涵一nikeer - 依小涵一nikeer,https://baheyi.pages.dev/kugou/4134386
+慕安颜 - 慕安颜,https://baheyi.pages.dev/kugou/1560710
+阿妍Nancy - 阿妍Nancy,https://baheyi.pages.dev/kugou/1530348
+W沈晚 - W沈晚,https://baheyi.pages.dev/kugou/3930594
+媚花姐888888 - 媚花姐888888,https://baheyi.pages.dev/kugou/4909328
+苏小沫 - 苏小沫,https://baheyi.pages.dev/kugou/1281710
+莯星辰 - 莯星辰,https://baheyi.pages.dev/kugou/4537423
+肉肉遇见你 - 肉肉遇见你,https://baheyi.pages.dev/kugou/3909792
+豫見小甜 - 豫見小甜,https://baheyi.pages.dev/kugou/50948285
+仙剑6栗子 - 仙剑6栗子,https://baheyi.pages.dev/kugou/4017463
+白鹿R小青 - 白鹿R小青,https://baheyi.pages.dev/kugou/51081918
+O0兔小酒0O - O0兔小酒0O,https://baheyi.pages.dev/kugou/1359583
+书晴Y - 书晴Y,https://baheyi.pages.dev/kugou/5206862
+我勒个大土豆 - 我勒个大土豆,https://baheyi.pages.dev/kugou/51053524
+白薇薇i - 白薇薇i,https://baheyi.pages.dev/kugou/51069463
+天智 - 天智,https://baheyi.pages.dev/kugou/2454875
 梦琦贺蛋总国王 - 梦琦贺蛋总国王,https://baheyi.pages.dev/laifeng/9413815
+林昭清 - 林昭清,https://baheyi.pages.dev/laifeng/9414099
+夭啊 - 夭啊,https://baheyi.pages.dev/laifeng/76988
+来自于性感海洋 - 来自于性感海洋 - 有问题上麦,https://baheyi.pages.dev/laifeng/71318
+赵子钰 - 赵子钰 - 子钰回来了，等待投喂。播播播,https://baheyi.pages.dev/laifeng/8154788
+吞金兽sss - 吞金兽sss,https://baheyi.pages.dev/laifeng/9418800
+某某心♥ - 某某心♥ - 别划了  就留在这里吧,https://baheyi.pages.dev/laifeng/727539
 原来是塔塔 - 原来是塔塔 - 小塔塔在线脱口秀哈哈,https://baheyi.pages.dev/laifeng/726907
+南晴晴 - 南晴晴 - 来个心软的神吧！,https://baheyi.pages.dev/laifeng/8188260
+没错枝枝 - 没错枝枝 - 全网最拉的主播一看一个不吱声,https://baheyi.pages.dev/laifeng/8187713
 蛋贺哥主宰天地 - 蛋贺哥主宰天地 - 修电脑,https://baheyi.pages.dev/laifeng/62860
-暖☆暖 - 暖☆暖,https://baheyi.pages.dev/laifeng/8164713
-小洋_ - 小洋_,https://baheyi.pages.dev/laifeng/8188250
-ᵀᴼᴾ知恩 - ᵀᴼᴾ知恩,https://baheyi.pages.dev/laifeng/9414436
+大羽今天休息 - 大羽今天休息 - 谢谢你来看我~祝你开心,https://baheyi.pages.dev/laifeng/65711
+狮狮 •ᴗ• - 狮狮 •ᴗ•,https://baheyi.pages.dev/laifeng/9413837
+纯谢闹心22灯 - 纯谢闹心22灯,https://baheyi.pages.dev/laifeng/8138715
 笑笑⁵²⁰ - 笑笑⁵²⁰,https://baheyi.pages.dev/laifeng/9415629
-薯条贺普洱升级 - 薯条贺普洱升级,https://baheyi.pages.dev/laifeng/9414435
-甜心的36度C - 甜心的36度C,https://baheyi.pages.dev/laifeng/9415407
 七贺仔仔升天尊 - 七贺仔仔升天尊,https://baheyi.pages.dev/laifeng/9414697
-auronplay - !drop !voces ❤️‍🩹 EL SANATORIO con IMANTADO ❤️‍🩹 Día 1 de 3 (con invitada especial),https://baheyi.pages.dev/twitch/auronplay
-KaiCenat - 🎮 PLAYING EVERY GTA UNTIL I BEAT IT: Grand Theft Auto 5 🎮,https://baheyi.pages.dev/twitch/kaicenat
-Caedrel - 🔴OW MY GOD I HAVE A TWITTER VERIFIED ACCOUNT SO IM A JOURNALIST NOW HERES SOME NEWS I MADE UP TO FARM LIKES LOOK HOW RELEVANT I AM MOOOOM🔴,https://baheyi.pages.dev/twitch/caedrel
-rostikfacekid - Rostikfacekid Team vs iLTW Team [0:0] | FONBET MEDIA ELEAGUE DOTA 2 | Lan Stage | @sasavot @shadowkekw @narek_cr [Донаты ОФФ],https://baheyi.pages.dev/twitch/rostikfacekid
-anarabdullaev - Мы выиграли! перекус и едем в баню /w @ravshann Огр,https://baheyi.pages.dev/twitch/anarabdullaev
-buster - Мой первый турнир IRL 🏓 Оператор Дариночка ❤️,https://baheyi.pages.dev/twitch/buster
-xRohat - 30 TAGE CHARITY STREAM + FITNACRAFT TAG X | !spenden !spendenziele,https://baheyi.pages.dev/twitch/xrohat
-T2x2 - ༼ ºل͟º༼ ºل͟º( ͡° ͜ʖ ͡°)ºل͟º ༽ºل͟º ༽ | Тг: t.me/t2xtwitch,https://baheyi.pages.dev/twitch/t2x2
-Xaryu - !DROPS  FOREVER DAY 6 | GIVEAWAYS | PVP ALLIANCE !addons !guild !talents,https://baheyi.pages.dev/twitch/xaryu
-HutchMF - TACO TUESDAY | PABLO SNACKBAR AND GRILL OF THE CARTEL! DOMINATING THE SERVER,https://baheyi.pages.dev/twitch/hutchmf
-Peereira7 - 🟥EL MEJOR STREAMER🟥GANGATHON I🟥DIA 7🟥FIN🟥SAN ANDREAS🟥GTA IV🟥ROCKET LEAGUE🟥MARTES CHEF🟥COOKING🟥MEGA SHOW🟥15K SUBS🟥CLIP FARMING🟥,https://baheyi.pages.dev/twitch/peereira7
-TheRealKnossi - Fitnä Enderdrache wird gepudert ab 20 Uhr! Reactions auf neues Haus und WSMDS FULL,https://baheyi.pages.dev/twitch/therealknossi
-elxokas - 🌍DÍA 7🌍DAGAS ÉPICAS🌍LVL 40+ PVP🌍BUSCO DAGA ÉPICA🌍La guía de wow !JOURNEY 10% descuento / !GUILD NUEVA  LA 3RA🌍,https://baheyi.pages.dev/twitch/elxokas
-FONBET_MEDIA_ELEAGUE - Rostikfacekid Team vs iLTW Team | FONBET MEDIA ELEAGUE DOTA 2 | Lan Stage | Кастят @gexsuntv & @shachlos,https://baheyi.pages.dev/twitch/fonbet_media_eleague
-JokerdTV - [DROPS] ♾️  WF 60 IN FOREVER WOW DUNGEONS TODAY ♾️ !Guide !badge,https://baheyi.pages.dev/twitch/jokerdtv
+甜心的36度C - 甜心的36度C,https://baheyi.pages.dev/laifeng/9415407
+ᵀᴼᴾ知恩 - ᵀᴼᴾ知恩,https://baheyi.pages.dev/laifeng/9414436
+紫烟 - 紫烟,https://baheyi.pages.dev/laifeng/9414492
+苏州施施 - 燃舞蹈大蜜,http://nas.jqcykj.com:88/yy?id=22490906
+婉婷 - 舞蹈小老师,http://nas.jqcykj.com:88/yy?id=1383543178
+燃舞蹈/小兮 - 需要你的陪伴,http://nas.jqcykj.com:88/yy?id=1383543789
+睿廷兰梦莎 - 睿廷兰梦莎,http://nas.jqcykj.com:88/yy?id=90144176
+Yx小嫣然 - 燃舞蹈小嫣然,http://nas.jqcykj.com:88/yy?id=57497997
+Hz小辣椒 - Hz小辣椒,http://nas.jqcykj.com:88/yy?id=35208225
+婉伊依 - 需要你的陪伴,http://nas.jqcykj.com:88/yy?id=1383543281
+昝希悅 - 进来提醒我喝水,http://nas.jqcykj.com:88/yy?id=1383543500
+天晓嫚嫚 - 气质佳人嫚児~,http://nas.jqcykj.com:88/yy?id=1354871831
+951丁丁 - 火辣热舞丁丁,http://nas.jqcykj.com:88/yy?id=21714822
+如意520 - 我回来咯,http://nas.jqcykj.com:88/yy?id=1383545198
+晨一落落 - 气质御姐极致女人味,http://nas.jqcykj.com:88/yy?id=79500821
+舞喵 - 魅惑迷人舞喵小妍,http://nas.jqcykj.com:88/yy?id=75326027
+1860小胖碗 - 会点高难度动作~,http://nas.jqcykj.com:88/yy?id=1382700801
+亿风文化传媒✨3️⃣组 - 来了,http://nas.jqcykj.com:88/yy?id=1414770110
+李萝莉 - 李萝莉,http://nas.jqcykj.com:88/yy?id=21249677
+创艺宝宝 - 吉林热舞宝宝,http://nas.jqcykj.com:88/yy?id=1356348973
+星璨图图 - 辽宁第一深情,http://nas.jqcykj.com:88/yy?id=1454638443
+睿廷小娅 - 热辣女神小娅,http://nas.jqcykj.com:88/yy?id=1348859864
+忆星沐小妖 - 这女滴身材真好,http://nas.jqcykj.com:88/yy?id=68269527
+小老虎 - 小老虎,http://nas.jqcykj.com:88/yy?id=23172058
+auronplay - !drop !voces ❤️‍🩹 EL SANATORIO con IMANTADO ❤️‍🩹 Día 2 de 3 (con invitada especial),https://baheyi.pages.dev/twitch/auronplay
+eliasn97 - 5k WIN RACE CHALLENGE 🔥 |  !iconleague !doku !eligella !gaming,https://baheyi.pages.dev/twitch/eliasn97
+zxcursed - аккуратно превосходим других,https://baheyi.pages.dev/twitch/zxcursed
+zubarefff - Он ждёт тебя ⏳ Смотрим «Знакомьтесь  Джо Блэк» 🖤,https://baheyi.pages.dev/twitch/zubarefff
+sasavot - ДВА/ЧАСА,https://baheyi.pages.dev/twitch/sasavot
+deepins02 - [мама в 16 новая] | !winline !tg,https://baheyi.pages.dev/twitch/deepins02
+HutchMF - WET WILLY WEDNESDAY | GORDO ESCOBAR RUNS THESE STREETS,https://baheyi.pages.dev/twitch/hutchmf
+Trymacs - Den gesamten Mond vom Staub befreien! Morgen UPC Special Opening! | !Nobomi !Prepmymeal !ESN,https://baheyi.pages.dev/twitch/trymacs
+Xaryu - !DROPS  FOREVER DAY 7 | GIVEAWAYS | PVP ALLIANCE !addons !guild !talents,https://baheyi.pages.dev/twitch/xaryu
+Peereira7 - 🔥EL MEJOR STREAMER🔥GANGATHON I🔥DIA 8🔥GTA IV🔥SAN ANDREAS🔥ITS OVER🔥ROCKET LEAGUE🔥MEGA SHOW DAY🔥17500 SUBS🔥AURA🔥HISTORIA🔥CLIP FARM,https://baheyi.pages.dev/twitch/peereira7
 metashi12 - [DROPS] [♾️24/7] 30.000€ GIVEAWAYS 24/7 LANPARTY | !DKMS | !Holy | !rested | !LiberNovo | !Grover |  !More | !prepmymeal | !TB | #Werbung,https://baheyi.pages.dev/twitch/metashi12
-zarbex - 🤏 MR. GEIL STREAMT 🤏 GEILE REACTIONS 🤏 TIKTOKS 🤏 GTA VICE CITY BEENDEN 🤏 GTA 5 MANHUNT mit PAPAPLATTE 🤏 !socials !merch !esn !pmm,https://baheyi.pages.dev/twitch/zarbex
-HandOfBlood - 🥔 ENDLICH BROTATO DLC 🥔,https://baheyi.pages.dev/twitch/handofblood
-fps_shaka - 明日はいゲストアイク ねたばれ禁,https://baheyi.pages.dev/twitch/fps_shaka
-ilrossopiubelloditwitch - 🏝️☀️30 DAYS 2.0☀️🏝️16:00 BODYPAINTING🎨19:15 CENA A TEMA🇲🇦22:00 REACT CONFESSIONALI🔥23:00 OSPITE SPECIALE💫📆GIORNO 2📆 !prime !sub,https://baheyi.pages.dev/twitch/ilrossopiubelloditwitch
-Recrent - [1440p] НОВЫЙ WARZONE // !pari !ggsel !tg !мерч,https://baheyi.pages.dev/twitch/recrent
-skywhywalker - LONG DARK KILLS MENTAL HEALTH 💀🪓🩸,https://baheyi.pages.dev/twitch/skywhywalker
-Elajjaz - DREADMOOR (Horror fishing) -> Shrek 2 Remaster,https://baheyi.pages.dev/twitch/elajjaz
-LetsHugoTV - FITNACRAFT TAG 10/10 // END EVENT //,https://baheyi.pages.dev/twitch/letshugotv
+elxokas - 🌍DÍA 8🌍43+ TANARIS PVP con ÉPICAS DAGAS  HUELGA!🌍La guía de wow !JOURNEY 10% descuento / !GUILD LLENA  !DISCORD PARA LOS DE LAS GUILD🌍,https://baheyi.pages.dev/twitch/elxokas
 ZeratoR - NOUVEAUX DÉFIS : forever.zerator.com ! De 10h à 00h tous les jours. C'est vous qui décidez ! On s'arrête niveau 60,https://baheyi.pages.dev/twitch/zerator
-バトラ - ドンカツとって寝る,https://baheyi.pages.dev/twitch/batora324
-clean_killl - 💀 ПОЛУЧАЕМ ЗВЕЗДУ МИШЛЕН С СЕКРЕТНЫМ ГОСТЕМ 💀 !tg,https://baheyi.pages.dev/twitch/clean_killl
-5opka - РАССКАЗЫВАЮ ИСТОРИИ И ЧЁ-ТА ДЕЛАЮ // !донат !приватка !правила !funpay !тг,https://baheyi.pages.dev/twitch/5opka
-Domingo - J'essaie de sauver mon PC gaming,https://baheyi.pages.dev/twitch/domingo
-Payo - [DROPS] WORST !BUG FOREVER ROGUE LEVELING PVP | I KILLED KELLYSUCKS IN A !MAKGORA | FAST LEVELING !GUIDE | MY FIRST !IRL STREAM OUT,https://baheyi.pages.dev/twitch/payo
-🎀gucxibaby🎀 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567214100021317_hd.flv?expire=1795538628&sign=98fb8679281b6de8b24f3f3d1dcc6d9d
-Salahedeen1000000000 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706580128836291335_hd.flv?expire=1795538628&sign=004dfa2da179aebcb3bf96fcdd32b866
-Tanya Moar18 - Sup yo,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706579473987455751_hd.flv?expire=1795538628&sign=cd9c33064e418f2795e28cf8062da803
-𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔞♛ - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567207729922117_hd.flv?expire=1795538628&sign=d7e1cf1a663b51ae7f5ad13159b25a7d
-Salafiyah - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-2138027673060900933_hd.flv?expire=1795538628&sign=6a02541b38e928f6730405590a9263b3
-ONLY VIKTORY - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567131763474501_hd.flv?expire=1795538628&sign=65c9ce697ab3170ea4b3f06387afc89b
-Melissa Gets Around 🇨🇦 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567060483375173_hd.flv?expire=1795538628&sign=11589032d10048ff36d91cdb15376427
-1bgz - Lado Leste +18,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/game/stream-1561566976793378900_hd.flv?expire=1795538628&sign=91b795eb1d9a613fbd46aaba56350f15
-GODFATHER - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1849797282066333765_hd.flv?expire=1795538628&sign=7304baa9f90bfe9afd7e9539a9fb4537
-👜desire.balboa🥊 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706564980708608775_hd.flv?expire=1795538628&sign=195c8a2db3442164d2ab42f85d4de9a7
-🇺🇦HARDWAY88🇨🇦 - Несемся в топы 🇨🇦,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1849797494162063429_hd.flv?expire=1795538628&sign=9f40b2b1f5005774bd21930ab1acd862
-TheRealPatKing - WTF,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567196335833157_hd.flv?expire=1795538628&sign=2ba79765bce59c0f23be4f0e8463b9e3
-ኢየሱስ ጌታ ነው - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706580440304012050_hd.flv?expire=1795538628&sign=9f67b37d44d0c80f9440a97ab5a392ad
-uku6666 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706581718106409734_hd.flv?expire=1795538628&sign=586a504bb7a05ef47c6e3d136f411275
-CHEF REE🇨🇲 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1849797047925342277_hd.flv?expire=1795538628&sign=9f6c3ef3b96fef850cb856a8d292ba84
-Aaron Womens Fatloss Coach🇨🇦 - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1849797469712154693_hd.flv?expire=1795538628&sign=d41c22bb7fa10acef30621137546e54a
-Coyote Grill Snack Shack - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561567080284160069_hd.flv?expire=1795538628&sign=d9ba71b009d3da526934e00ea4d5c87e
-AleX - TikTok直播,https://pull-f5-tt04.tiktokcdn-eu.com/stage/stream-1273336696201282881_hd.flv?expire=1795538628&sign=9890bbd027052503023f876210438e7d
-Hydra Cat - Hydra cat-vember!,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/game/stream-1561566458542817364_hd.flv?expire=1795538628&sign=cc1d590afc52de9184b2f31ec0849b5a
-OROPHPHLI - TikTok直播,https://pull-f5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-7706575638950005556_hd.flv?expire=1795538628&sign=fecb2242839cd6131c43a9295b48e992
-VTB MBA莫斯科 vs 萨拉托夫汽车 - 直播8,https://hello.ooo0ooo.top/live/3936426.m3u8
-VTB MBA莫斯科 vs 萨拉托夫汽车 - 原声3,https://pul-tenm.gkykp.com/live/sd-2-3936426.m3u8?txSecret=523c742d25d9ba5ab9463b29cffdaa72&txTime=6AF49AD8
-埃及杯 阿拉伯建筑 vs 埃及电信 - 直播1,https://hello.ooo0ooo.top/live/4664091.m3u8
-埃及杯 阿拉伯建筑 vs 埃及电信 - 原声1,https://pul-tenm.gkykp.com/live/sd-1-4664091.m3u8?txSecret=922315f9c68e9c18764aa3cbb485368a&txTime=6AF49AD8
-篮冠联 巴库萨巴赫 vs 特拉布宗体育 - 直播9,https://hello.ooo0ooo.top/live/3939866.m3u8
-篮冠联 巴库萨巴赫 vs 特拉布宗体育 - 原声4,https://pul-tenm.gkykp.com/live/sd-2-3939866.m3u8?txSecret=133ff9c819aecb17aec62c093670d688&txTime=6AF49AD8
+xRohat - 30 TAGE CHARITY STREAM - TAG 11 - 5000€ 4vs4vs4 WINRACE CHALLENGE | !spenden !spendenziele,https://baheyi.pages.dev/twitch/xrohat
+fps_shaka - LTK,https://baheyi.pages.dev/twitch/fps_shaka
+dkincc - Стримлю с нового Vertu,https://baheyi.pages.dev/twitch/dkincc
+JokerdTV - [DROPS] ♾️  WF 60 IN FOREVER WOW DUNGEONS TODAY ♾️ !Guide !badge,https://baheyi.pages.dev/twitch/jokerdtv
+ごっちゃんマイキー - ストグラSeason2 140日目,https://baheyi.pages.dev/twitch/gocchanmikey
+NoWay4u_Sir - Top 50 NA - DER LETZTE STREAM AUS NA,https://baheyi.pages.dev/twitch/noway4u_sir
+ilrossopiubelloditwitch - 🏝️☀️30 DAYS 2.0☀️🏝️16:30 GIOCO VERITÀ +SCOSSA⚡️17:30 CONFRONTO CON NOCTA🗣️21:00 SORPRESA PER IL PRES🎁23:00 GIOCO DEL VALE🔥📆GIORNO 3📆,https://baheyi.pages.dev/twitch/ilrossopiubelloditwitch
+stylishnoob4 - aionサーバーマッチング変わったな,https://baheyi.pages.dev/twitch/stylishnoob4
+SCHRADIN - Talk  Reaction  GTA V STORY,https://baheyi.pages.dev/twitch/schradin
+lolesportstw - [中文] GZ v FAK | LCP 2026 Promotion Series Day 2 | Regional Merit Match,https://baheyi.pages.dev/twitch/lolesportstw
+Recrent - [1440p] Шедевр от Valve // !pari !ggsel !tg !мерч,https://baheyi.pages.dev/twitch/recrent
+Elajjaz - Silver Pining - First playthrough | Other horrors or LADS later?,https://baheyi.pages.dev/twitch/elajjaz
+Payo - [DROPS] WORST !BUG FOREVER ROGUE PVP LEVELING | I KILLED KELLYSUCKS IN A !MAKGORA | FAST LEVELING !GUIDE | MY FIRST !IRL STREAM OUT,https://baheyi.pages.dev/twitch/payo
+Quin69 - EXILECON DEEP DIVE🚨I HAVE RETURNED🚨PATCH NOTES OUT🚨2 DAYS UNTIL UMBRA🚨STILL RECOVERING LMAO🚨LOGINNNNN,https://baheyi.pages.dev/twitch/quin69
+羅傑 - 叉滴娛樂 11/11 星期三 晚上好 麻吉們 雙十一有什麼好料 恩亨,https://baheyi.pages.dev/twitch/roger9527
+s0mcs - W STREAMER s0m | susssssy | Follow my instagram now @ s0m_oh,https://baheyi.pages.dev/twitch/s0mcs
+itsgirlnextdoorx0 - Fanz Next Door,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185640249492400_hd.flv?expire=1795625407&sign=71cde7e4d10d51e142c8ca92d5a752cf
+Naomi hinojosa - Aki con un Tesoro,https://pull-flv-l77-tt01.tiktokcdn-eu.com/stage/stream-3579185629582328847_hd.flv?expire=1795625407&sign=50563d5e534b1736437c53615edf66a3
+DON PAPI 🥖😎🔥 - Helloooo GM,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867415746889384898_hd.flv?expire=1795625407&sign=082a084b987005054f515e7516a6bcf0
+Tacos Amadita - TikTok直播,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867416046330184642_hd.flv?expire=1795625407&sign=fec29d18c9769e11d67a4abe630407f4
+🇻🇪Yudeisi🇻🇪 - Hablemos un rato❤️,https://pull-q5-sg01.fcdn.eu.tiktokcdn.com/stage/stream-1561573017522536491_hd.flv?expire=1795625407&sign=3f994ca3b432ec77009405f11ac7540b
+DevKev🥂 - TikTok直播,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867414947419915202_hd.flv?expire=1795625407&sign=81676791464203944487854701ab4c91
+Dj Alex Mix🎚 - l❤️80s90s ✌️ ❤️only,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867415740714845122_hd.flv?expire=1795625407&sign=ea3abe06f29a6794900748c8c601f4ca
+sapphire.onlyy - Breakfast,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185642193552304_hd.flv?expire=1795625407&sign=40dba589be80fe0015bd1871ada3215c
+Los Temerarios Legendarios 🎶 - TikTok直播,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185320272593840_hd.flv?expire=1795625407&sign=d614750b62d75188fc95df922e4d6f12
+Xen Bushszn - Finding the Pirate Token,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/game/stream-3867415904665994190_hd.flv?expire=1795625407&sign=ecab173facb7460f1ac356b201c00d2f
+🏋🏽‍♀️Yesicardio☪️🦁✝️🧘🏾‍♀️ - TikTok直播,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185227257873328_hd.flv?expire=1795625407&sign=ee93b8ff56c4caf18a156af5764363ce
+🫧V🫧 - TikTok直播,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185506434155440_hd.flv?expire=1795625407&sign=2b2dcf350dfbe28986c0f2face23b1eb
+🧶🔔ANITA🪡🦚 - TikTok直播,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867415587639002050_hd.flv?expire=1795625407&sign=8933c9cf456908981111f11a2dbe5fad
+𝒜𝒮𝐻𝒯𝒳𝒩 - Chudding,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185278597465008_hd.flv?expire=1795625407&sign=eb9e1e8014d08c1bfe65ceb36e63b863
+Max Promo - bandit padwe dòmi,https://pull-f5-tt02.fcdn.eu.tiktokcdn.com/stage/stream-3867415328534037442_hd.flv?expire=1795625407&sign=e3d3d78e3ae6c71435b9fa533f41cad4
+Santana - MAGA LET'S TALK!!!,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579185569114096572_hd.flv?expire=1795625407&sign=13257e1856ea840ec7e0e5932733dab2
+CSTDesigns - Let’s decorate some cups!,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185037140034480_hd.flv?expire=1795625407&sign=1d5fe42babd35924c753bfffa6964a88
+Mia Bia 🫧🌼 - TikTok直播,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185603268838320_hd.flv?expire=1795625407&sign=0cc26500711a953210ac145cc5b6c47a
+1993Twin🕺🏾♓️ - TikTok直播,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/stage/stream-3579185251080995760_hd.flv?expire=1795625407&sign=1e8e4b1064d9a0f37fb2603a8b2798e5
+Noticias Telemundo - Líderes demócratas: inmigración,https://pull-f5-tt01.fcdn.eu.tiktokcdn.com/game/stream-3579185538446394300_hd.flv?expire=1795625407&sign=cc5288f5f68b8ccf434f46fda8d68437
+NCAA 菲尔莱狄更斯大学 vs 东德克萨斯农工大学 - 直播45,https://hello.ooo0ooo.top/live/3949198.m3u8
+NCAA 菲尔莱狄更斯大学 vs 东德克萨斯农工大学 - 原声26,https://pul-tenm.gkykp.com/live/sd-2-3949198.m3u8?txSecret=7d9c1a63046b188928e28f4fb35b39b8&txTime=6AF5EDC0
+VTB 圣彼得堡泽尼特 vs BC萨马拉 - 直播12,https://hello.ooo0ooo.top/live/3936402.m3u8
+VTB 圣彼得堡泽尼特 vs BC萨马拉 - 原声16,https://pul-tenm.gkykp.com/live/sd-2-3936402.m3u8?txSecret=227c140de2e71e1909cf82a34b7132b6&txTime=6AF5EDC0
+VTB 彼尔姆帕尔马 vs 喀山尤尼克斯 - 直播5,https://hello.ooo0ooo.top/live/3936419.m3u8
+VTB 彼尔姆帕尔马 vs 喀山尤尼克斯 - 原声11,https://pul-tenm.gkykp.com/live/hd-en-2-3936419.m3u8?txSecret=ce06a63ed4059f27d473a5978f7488a2&txTime=6AF5E641
+VTB 莫斯科中央陆军 vs 海参崴迪纳摩 - 直播8,https://hello.ooo0ooo.top/live/3936411.m3u8
+VTB 莫斯科中央陆军 vs 海参崴迪纳摩 - 原声12,https://pul-tenm.gkykp.com/live/sd-2-3936411.m3u8?txSecret=b964d3bf5116f4f36d99c5f2b95fd961&txTime=6AF5EDC0
+欧俱杯 巴库石油工人 vs 米科诺斯 - 直播11,https://hello.ooo0ooo.top/live/3944907.m3u8
+欧俱杯 巴库石油工人 vs 米科诺斯 - 原声9,https://pul-tenm.gkykp.com/live/sd-2-3944907.m3u8?txSecret=b56603a60b7e94643319eb12668b2b3e&txTime=6AF5EDC0
+欧俱杯 巴统RSU vs 特里尔 - 直播7,https://hello.ooo0ooo.top/live/3944901.m3u8
+欧俱杯 巴统RSU vs 特里尔 - 原声13,https://pul-tenm.gkykp.com/live/sd-2-3944901.m3u8?txSecret=93cc270d7f8fbb6618dc0785cdd3ac4e&txTime=6AF5EDC0
+欧俱杯 科尔菲兹 vs 卡勒夫 - 直播13,https://hello.ooo0ooo.top/live/3944902.m3u8
+欧俱杯 科尔菲兹 vs 卡勒夫 - 原声15,https://pul-tenm.gkykp.com/live/sd-2-3944902.m3u8?txSecret=84e49b8ef22bf4d5245c40efb9431409&txTime=6AF5EDC0
+欧协杯 巴赫斯塞希尔科勒吉 vs 特彻哈萨斯 - 直播10,https://hello.ooo0ooo.top/live/3929098.m3u8
+欧协杯 巴赫斯塞希尔科勒吉 vs 特彻哈萨斯 - 原声10,https://pul-tenm.gkykp.com/live/sd-2-3929098.m3u8?txSecret=ea954e81954191f1be0a4e5f18f61bf9&txTime=6AF5EDC0
+欧协杯 希奥利艾 vs 特内里费 - 直播14,https://hello.ooo0ooo.top/live/3927731.m3u8
+欧协杯 希奥利艾 vs 特内里费 - 原声14,https://pul-tenm.gkykp.com/live/sd-2-3927731.m3u8?txSecret=aaf73bb53c58e1ccf82cf160a94df7fc&txTime=6AF5EDC0
+欧青U19 波黑U19 vs 圣马力诺U19 - 直播38,https://hello.ooo0ooo.top/live/4665759.m3u8
+欧青U19 波黑U19 vs 圣马力诺U19 - 原声6,https://pul-tenm.gkykp.com/live/sd-1-4665759.m3u8?txSecret=6a34687373f60b228a7c33b4c489269f&txTime=6AF5EDC0
+法女甲 弗勒里91女足 vs 图卢兹女足 - 直播1,https://hello.ooo0ooo.top/live/4580088.m3u8
+法女甲 弗勒里91女足 vs 图卢兹女足 - 原声7,https://pul-tenm.gkykp.com/live/sd-1-4580088.m3u8?txSecret=11477d07ab21b391a60bfe0a6cebbfc9&txTime=6AF5EDC0
 CCTV1综合,http://8.137.121.66:20241/608807420
 CCTV2财经,http://8.137.121.66:20241/631780532
 CCTV3综艺,http://8.137.121.66:20241/624878271
