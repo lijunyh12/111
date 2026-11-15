@@ -2,12 +2,12 @@ name: Update IPTV Source
 
 on:
   schedule:
-    # 北京时间 17:00 = UTC 时间 09:00
+    # 北京时间 17:00 = UTC 09:00
     - cron: '0 9 * * *'
-  workflow_dispatch: # 允许手动触发，方便调试
+  workflow_dispatch:
 
 permissions:
-  contents: write # 允许 Action 写回仓库
+  contents: write
 
 jobs:
   update:
@@ -27,7 +27,7 @@ jobs:
           pip install requests
 
       - name: Run script
-        run: python "import requests.py" # 注意：你的文件名包含空格，请确保仓库中文件名与此完全一致，或重命名为更简单的名称（如 update.py）
+        run: python update.py
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
