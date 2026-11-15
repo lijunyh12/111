@@ -1,42 +1,36 @@
-name: 每日更新直播源
+name: Update IPTV Source
 
 on:
   schedule:
-    # UTC 时间 09:00 (即北京时间 17:00) 运行
+    # 北京时间 17:00 = UTC 时间 09:00
     - cron: '0 9 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch: # 允许手动触发，方便调试
 
 permissions:
-  contents: write
+  contents: write # 允许 Action 写回仓库
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 检出仓库
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 设置 Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: 安装依赖
-        run: pip install requests
-
-      - name: 运行合并脚本
-        run: python merge_sources.py
-
-      - name: 提交并推送变更
+      - name: Install dependencies
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add zb.txt
-          # 仅当 zb.txt 有实际变更时才提交，避免 "nothing to commit" 报错
-          if git diff --cached --quiet; then
-            echo "无变化，跳过提交"
-          else
-            git commit -m "自动更新直播源 $(date -u +%Y-%m-%d)"
-            git push
-          fi
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run script
+        run: python "import requests.py" # 注意：你的文件名包含空格，请确保仓库中文件名与此完全一致，或重命名为更简单的名称（如 update.py）
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto update zb.txt [skip ci]"
+          file_pattern: zb.txt
