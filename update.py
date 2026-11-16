@@ -3,8 +3,8 @@ import sys
 import re
 import os
 import time
-import random
 
+# 尝试导入 playwright
 try:
     from playwright.sync_api import sync_playwright
     HAS_PLAYWRIGHT = True
@@ -14,6 +14,7 @@ except ImportError:
 TOKEN_FILE = "token.txt"
 
 def get_token_from_env():
+    """优先从环境变量 (GitHub Secrets) 获取 Token"""
     return os.environ.get("IPTV_TOKEN", "").strip()
 
 def save_token_to_file(token):
@@ -22,134 +23,63 @@ def save_token_to_file(token):
     print(f"💾 Token 已保存到 {TOKEN_FILE}。")
 
 def get_latest_token_auto():
+    """自动化获取 Token（GitHub Actions 使用无头模式）"""
     if not HAS_PLAYWRIGHT:
         print("\n❌ 未检测到 playwright 库")
         return None
 
-    print("🚀 正在启动终极伪装无头浏览器...")
+    print("🚀 正在启动浏览器提取 Token...")
+    
     with sync_playwright() as p:
         try:
             browser = p.chromium.launch(
-                headless=True, # GitHub Actions 必须是无头
-                args=[
-                    "--no-sandbox", 
-                    "--disable-setuid-sandbox",
-                    "--disable-blink-features=AutomationControlled",
-                    "--window-size=1920,1080"
-                ]
+                headless=True,
+                args=["--disable-blink-features=AutomationControlled"]
             )
-            
-            # 创建上下文，设置真实的 User-Agent 和权限
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                viewport={"width": 1920, "height": 1080},
-                permissions=["clipboard-read", "clipboard-write"],
-                locale="zh-CN",
-                timezone_id="Asia/Shanghai"
+                viewport={"width": 1920, "height": 1080}
             )
-            
-            # 注入高级反检测脚本（覆盖 webdriver、伪造插件、掩盖无头特征）
-            context.add_init_script("""
-                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-                Object.defineProperty(navigator, 'languages', { get: () => ['zh-CN', 'zh'] });
-                Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
-                window.chrome = { runtime: {} };
-                
-                // 伪造 WebGL 特征
-                const getParameter = WebGLRenderingContext.prototype.getParameter;
-                WebGLRenderingContext.prototype.getParameter = function(parameter) {
-                    if (parameter === 37445) return 'Intel Inc.';
-                    if (parameter === 37446) return 'Intel Iris OpenGL Engine';
-                    return getParameter.apply(this, arguments);
-                };
-            """)
-
             page = context.new_page()
-            dialog_text = []
-            page.on("dialog", lambda dialog: (dialog_text.append(dialog.message), dialog.accept()))
+            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
             print("🌐 正在打开网页...")
             page.goto("https://taoiptv.com/87468408/", wait_until="domcontentloaded", timeout=30000)
             
-            print("⏳ 等待验证和页面渲染 (15秒)...")
-            page.wait_for_timeout(15000)
-            
             token = None
-            start_time = time.time()
-            cloudflare_clicked = False
             
-            # 最长等 60 秒（Actions 的极限，再长容易超时）
-            while time.time() - start_time < 60:
-                # 1. 模拟真实鼠标点击 Cloudflare 验证框
-                if not cloudflare_clicked:
-                    try:
-                        cf_iframe = page.frame_locator('iframe[src*="challenges.cloudflare.com"]')
-                        checkbox = cf_iframe.locator('input[type="checkbox"], .ctp-checkbox-label').first
-                        if checkbox.is_visible(timeout=1000):
-                            # 获取坐标，模拟真实鼠标移动
-                            box = checkbox.bounding_box()
-                            if box:
-                                # 随机偏移量，模拟真人
-                                x = box["x"] + box["width"] / 2 + random.uniform(-5, 5)
-                                y = box["y"] + box["height"] / 2 + random.uniform(-5, 5)
-                                page.mouse.move(x, y, steps=10)
-                                page.wait_for_timeout(random.randint(100, 300))
-                                page.mouse.click(x, y)
-                                print("🖱️ 发现 Cloudflare 验证，已模拟真实鼠标点击！")
-                                cloudflare_clicked = True
-                                page.wait_for_timeout(3000)
-                    except Exception:
-                        pass 
-
-                # 2. 模拟鼠标点击“获取Token”
+            # 等待最多 30 秒让页面加载或过盾
+            for i in range(30):
                 try:
-                    # 找到按钮位置
-                    btn = page.locator("text=获取Token").or_(page.locator("text=获取")).first
-                    if btn.is_visible(timeout=1000):
-                        box = btn.bounding_box()
-                        if box:
-                            # 模拟鼠标滑过去并点击
-                            x = box["x"] + box["width"] / 2 + random.uniform(-2, 2)
-                            y = box["y"] + box["height"] / 2 + random.uniform(-2, 2)
-                            page.mouse.move(x, y, steps=5)
-                            page.wait_for_timeout(200)
-                            page.mouse.click(x, y)
-                            page.wait_for_timeout(1000)
-                except Exception:
-                    pass
-
-                # 3. 检测剪贴板
-                try:
-                    clip = page.evaluate("navigator.clipboard.readText()")
-                    if clip:
-                        match = re.search(r'\b([a-zA-Z0-9]{16})\b', clip)
-                        if match and "0x4AAAA" not in clip:
-                            token = match.group(1)
-                            print(f"✅ 成功从剪贴板抓取到 Token: {token}")
-                            break
-                except Exception:
-                    pass
-                
-                # 4. 检测网页源码
-                try:
-                    page_text = page.locator("body").inner_text()
-                    matches = re.findall(r'\b[a-zA-Z0-9]{16}\b', page_text)
-                    for m in matches:
-                        if not m.startswith("0x4AAAA") and "PHPSESSID" not in m:
-                            token = m
-                            print(f"✅ 成功从网页源码抓取到 Token: {token}")
-                            break
-                    if token:
+                    html_content = page.content()
+                    if "copyToken" in html_content or "获取Token" in html_content:
+                        print("✅ 页面加载成功，正在提取 Token...")
                         break
                 except Exception:
-                    pass
-                
+                    pass 
                 time.sleep(1)
+
+            # 尝试提取 DOM 属性
+            try:
+                page.wait_for_selector("#copyToken", state="attached", timeout=5000)
+                token = page.locator("#copyToken").get_attribute("data-clipboard-text")
+                if token:
+                    print(f"✅ 成功从网页 DOM 节点提取到 Token: {token}")
+            except Exception:
+                # 备选正则
+                try:
+                    html_content = page.content()
+                    match = re.search(r'id=["\']copyToken["\'][^>]*data-clipboard-text=["\']([a-zA-Z0-9]{16})["\']', html_content)
+                    if match:
+                        token = match.group(1)
+                        print(f"✅ 成功从 HTML 源码正则提取到 Token: {token}")
+                except:
+                    pass
 
             browser.close()
             return token
         except Exception as e:
-            print(f"❌ 获取发生错误: {e}")
+            print(f"❌ 浏览器操作发生错误: {e}")
             return None
 
 # ---------------- 分类规则 ----------------
@@ -177,7 +107,9 @@ CATEGORY_RULES = [
 CATEGORY_ORDER = ["直播平台", "央视", "卫视", "地方", "体育", "影视", "少儿", "纪录", "音乐", "其他"]
 
 def classify(name: str, url: str = "") -> str:
+    """根据频道名和链接进行分类"""
     name_upper = name.upper().strip()
+    # 强制规则：CCTV 和 CHC 开头归为央视
     if name_upper.startswith("CCTV") or name_upper.startswith("CHC"):
         return "央视"
 
@@ -188,21 +120,8 @@ def classify(name: str, url: str = "") -> str:
                 return cat
     return "其他"
 
-def format_txt_line(line: str) -> str:
-    line = line.strip()
-    if not line or line.startswith("#"):
-        return line
-    if "," not in line:
-        return line
-    name, url = line.split(",", 1)
-    name = name.strip()
-    url = url.strip()
-    if not url:
-        return line
-    cat = classify(name, url)
-    return f"{cat},{name},{url}"
-
 def parse_m3u(text):
+    """解析 M3U 格式"""
     channels = []
     lines = text.splitlines()
     current_name = None
@@ -217,33 +136,34 @@ def parse_m3u(text):
                 match = re.search(r'tvg-name="([^"]+)"', line)
                 current_name = match.group(1).strip() if match else "未知频道"
         elif not line.startswith("#") and current_name:
-            channels.append(f"{current_name},{line}")
+            channels.append((current_name, line))
             current_name = None
     return channels
 
 def main():
     print("="*50)
-    print("淘IPTV 直播源自动更新程序 (GitHub Actions)")
+    print("淘IPTV 直播源自动更新程序")
     print("="*50)
 
-    # 优先读取 Secrets
+    # 1. 获取 Token
     token = get_token_from_env()
     
     if token:
         print(f"✅ 成功从 GitHub Secrets 读取到 Token: {token}")
     else:
-        print("⚠️ 未找到 Secrets 配置的 Token，启动无头浏览器强行获取...")
+        print("⚠️ 未配置 Secrets，启动无头浏览器尝试提取...")
         token = get_latest_token_auto()
 
     if not token:
-        print("\n🚨 自动提取 Token 失败。")
-        print("👉 原因：GitHub 服务器 IP 被 Cloudflare 极高概率拦截。")
-        print("👉 终极解决方案：请务必在 GitHub 仓库 Secrets 中配置 IPTV_TOKEN。")
+        print("\n🚨 无法自动提取到 Token（GitHub 云服务器 IP 被 Cloudflare 拦截）。")
+        print("👉 请前往 GitHub 仓库的 Settings -> Secrets and variables -> Actions 中，")
+        print("👉 添加名为 IPTV_TOKEN 的 Secret，值为你在本地浏览器获取的有效 Token。")
         sys.exit(1)
 
     save_token_to_file(token)
     print(f"\n🔗 当前使用的 Token 为: {token}")
 
+    # 2. 生成 URL 列表
     urls = [
         f"https://taoiptv.com/lives/51023.txt?token={token}",
         f"https://taoiptv.com/lives/50023.txt?token={token}",
@@ -257,12 +177,13 @@ def main():
         "https://iptv.445569.xyz/live.m3u",
     ]
 
-    grouped = {}
+    raw_channels = [] # 存储 (cat, name, url)
     seen = set()
-    print("\n开始获取并合并直播源...")
+    print("\n开始获取并解析直播源...")
 
     has_valid_data = False
 
+    # 3. 抓取与解析
     for url in urls:
         try:
             headers = {
@@ -278,9 +199,6 @@ def main():
 
             if "Authentication Failed" in text or "认证token参数不正确" in text or "<html" in text.lower():
                 print(f"⚠️ 跳过失效链接 (Token无效): {url}")
-                if os.path.exists(TOKEN_FILE):
-                    os.remove(TOKEN_FILE)
-                    print("🗑️ 已清除失效的本地 Token 缓存。")
                 continue
 
             has_valid_data = True
@@ -288,36 +206,29 @@ def main():
             if text.startswith("#EXTM3U") or "#EXTINF" in text:
                 print(f"🔍 检测到 M3U 格式，正在解析: {url}")
                 parsed_lines = parse_m3u(text)
-                for line in parsed_lines:
-                    if "," not in line:
-                        continue
-                    name, link = line.split(",", 1)
-                    name = name.strip()
-                    link = link.strip()
+                for name, link in parsed_lines:
                     cat = classify(name, link)
                     key = (cat, name, link)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    grouped.setdefault(cat, []).append(f"{name},{link}")
+                    if key not in seen:
+                        seen.add(key)
+                        raw_channels.append((cat, name, link))
                 print(f"✅ 成功解析 M3U: {url} (提取到 {len(parsed_lines)} 个频道)")
             else:
                 for line in text.splitlines():
                     line = line.strip()
                     if not line or line.startswith("#"):
                         continue
-                    formatted = format_txt_line(line)
-                    if "," not in formatted:
+                    if "," not in line:
                         continue
-                    parts = formatted.split(",", 2)
-                    if len(parts) < 3:
-                        continue
-                    cat, name, link = parts
-                    key = (cat, name, link)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    grouped.setdefault(cat, []).append(f"{name},{link}")
+                    parts = line.split(",", 1)
+                    if len(parts) == 2:
+                        name, link = parts[0].strip(), parts[1].strip()
+                        if not link: continue
+                        cat = classify(name, link)
+                        key = (cat, name, link)
+                        if key not in seen:
+                            seen.add(key)
+                            raw_channels.append((cat, name, link))
                 print(f"✅ 成功获取 TXT: {url}")
 
         except requests.exceptions.RequestException as e:
@@ -325,15 +236,22 @@ def main():
         except Exception as e:
             print(f"❌ 发生未知错误 {url}: {e}")
 
-    total = sum(len(v) for v in grouped.values())
+    # 4. 安全校验与写入
+    total_channels = len(raw_channels)
     
-    if not has_valid_data or total == 0:
-        print("\n🚨 警告：所有链接均未返回有效数据！")
+    if not has_valid_data or total_channels == 0:
+        print("\n🚨 警告：所有链接均未返回有效数据！为防止覆盖原文件，本次不写入。")
+        print("👉 原因：Token 不正确或已过期。")
         sys.exit(0)
 
-    if total < 10:
-        print("\n🚨 警告：抓取到的有效数据过少（少于10行），本次不写入。")
+    if total_channels < 10:
+        print("\n🚨 警告：抓取到的有效数据过少（少于10行），为防止覆盖原文件，本次不写入。")
         sys.exit(0)
+
+    # 5. 重新按分类分组
+    grouped = {}
+    for cat, name, link in raw_channels:
+        grouped.setdefault(cat, []).append(f"{name},{link}")
 
     out_lines = []
     for cat in CATEGORY_ORDER:
@@ -351,6 +269,9 @@ def main():
         with open("zb.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(out_lines))
         print(f"\n🎉 合并完成！共写入 {len(out_lines)} 行到 zb.txt")
+        for cat in CATEGORY_ORDER:
+            if cat in grouped:
+                print(f"   - {cat}: {len(grouped[cat])} 个频道")
     except Exception as e:
         print(f"❌ 写入文件失败: {e}")
         sys.exit(1)
