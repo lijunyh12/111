@@ -1,24 +1,148 @@
 import requests
 import sys
 import re
+import os
+import time
 
-urls = [
-    "https://taoiptv.com/lives/51023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/50023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/31023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/21023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/11023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/61023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/53023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/52023.txt?token=62c3858b7ba5763a",
-    "https://taoiptv.com/lives/64023.txt?token=62c3858b7ba5763a",
-    "https://iptv.445569.xyz/live.m3u",
-]
+# 尝试导入 playwright
+try:
+    from playwright.sync_api import sync_playwright
+    HAS_PLAYWRIGHT = True
+except ImportError:
+    HAS_PLAYWRIGHT = False
+
+TOKEN_FILE = "token.txt"
+
+def get_token_from_env():
+    """优先从环境变量 (GitHub Secrets) 获取 Token"""
+    return os.environ.get("IPTV_TOKEN", "").strip()
+
+def get_token_from_file():
+    if os.path.exists(TOKEN_FILE):
+        with open(TOKEN_FILE, "r", encoding="utf-8") as f:
+            token = f.read().strip()
+            if token:
+                return token
+    return None
+
+def save_token_to_file(token):
+    with open(TOKEN_FILE, "w", encoding="utf-8") as f:
+        f.write(token)
+    print(f"💾 Token 已保存到 {TOKEN_FILE}。")
+
+def get_latest_token_auto():
+    if not HAS_PLAYWRIGHT:
+        print("\n❌ 未检测到 playwright 库")
+        return None
+
+    print("🚀 正在调用无头浏览器 (Linux环境)...")
+    with sync_playwright() as p:
+        try:
+            # GitHub Actions 必须使用 headless=True
+            browser = p.chromium.launch(
+                headless=True,
+                args=["--disable-blink-features=AutomationControlled"]
+            )
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+                permissions=["clipboard-read", "clipboard-write"]
+            )
+            page = context.new_page()
+            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+            dialog_text = []
+            page.on("dialog", lambda dialog: (dialog_text.append(dialog.message), dialog.accept()))
+
+            print("🌐 正在打开网页...")
+            page.goto("https://taoiptv.com/87468408/", wait_until="domcontentloaded", timeout=30000)
+            
+            print("⏳ 等待页面渲染...")
+            page.wait_for_timeout(5000)
+            
+            token = None
+            start_time = time.time()
+            cloudflare_clicked = False
+            
+            # 由于服务器没界面，只能全自动点，最多等 30 秒
+            while time.time() - start_time < 30:
+                # 1. 尝试自动点击 Cloudflare 验证
+                if not cloudflare_clicked:
+                    try:
+                        cf_iframe = page.frame_locator('iframe[src*="challenges.cloudflare.com"]')
+                        checkbox = cf_iframe.locator('input[type="checkbox"], .ctp-checkbox-label, body').first
+                        if checkbox.is_visible(timeout=1000):
+                            checkbox.click(force=True, timeout=2000)
+                            print("🖱️ 发现 Cloudflare 验证，已自动点击！")
+                            cloudflare_clicked = True
+                            page.wait_for_timeout(3000)
+                    except Exception:
+                        pass 
+
+                # 2. 尝试点击“获取Token”
+                try:
+                    is_clicked = page.evaluate("""
+                        () => {
+                            let elements = document.querySelectorAll('a, button, span, div, p');
+                            for (let el of elements) {
+                                let text = (el.innerText || el.textContent || "").replace(/\\s+/g, '');
+                                if (text === '获取Token' || text === '获取') {
+                                    el.click();
+                                    return true;
+                                }
+                            }
+                            return false;
+                        }
+                    """)
+                    if is_clicked:
+                        page.wait_for_timeout(1000)
+                except Exception:
+                    pass
+
+                # 3. 检测剪贴板 / 源码 / 弹窗
+                try:
+                    clip = page.evaluate("navigator.clipboard.readText()")
+                    if clip:
+                        match = re.search(r'\b([a-zA-Z0-9]{16})\b', clip)
+                        if match and "0x4AAAA" not in clip:
+                            token = match.group(1)
+                            print(f"✅ 成功从剪贴板抓取到 Token: {token}")
+                            break
+                except Exception:
+                    pass
+                
+                try:
+                    page_text = page.locator("body").inner_text()
+                    matches = re.findall(r'\b[a-zA-Z0-9]{16}\b', page_text)
+                    for m in matches:
+                        if not m.startswith("0x4AAAA") and "PHPSESSID" not in m:
+                            token = m
+                            print(f"✅ 成功从网页源码抓取到 Token: {token}")
+                            break
+                    if token:
+                        break
+                except Exception:
+                    pass
+                
+                if dialog_text:
+                    for text in dialog_text:
+                        match = re.search(r'\b([a-zA-Z0-9]{16})\b', text)
+                        if match and "0x4AAAA" not in text:
+                            token = match.group(1)
+                            print(f"✅ 成功从弹窗抓取到 Token: {token}")
+                            break
+                    if token:
+                        break
+                        
+                time.sleep(1)
+
+            browser.close()
+            return token
+        except Exception as e:
+            print(f"❌ 获取发生错误: {e}")
+            return None
 
 # ---------------- 分类规则 ----------------
-# 按顺序匹配，命中第一个就归入该类
 CATEGORY_RULES = [
-    # 直播平台放在最前面，优先级最高
     ("直播平台", [r"虎牙", r"斗鱼", r"快手", r"TikTok", r"Twitch", r"YY",
                   r"B站", r"哔哩哔哩", r"抖音", r"yximgs", r"douyincdn",
                   r"tiktokcdn", r"baheyi\.pages\.dev/(huya|douyu|kugou|laifeng|twitch)"]),
@@ -30,7 +154,7 @@ CATEGORY_RULES = [
               r"兵团卫视", r"大湾区卫视", r"农林卫视"]),
     ("体育", [r"体育", r"赛事", r"篮球", r"足球", r"NBA", r"CBA", r"WCBA",
               r"羽毛球", r"斯诺克", r"台球", r"钓鱼", r"武术", r"电竞"]),
-    ("影视", [r"电影", r"影院", r"影视", r"CHC", r"剧场", r"港片", r"新片"]),
+    ("影视", [r"电影", r"影院", r"影视", r"剧场", r"港片", r"新片"]), 
     ("少儿", [r"少儿", r"卡通", r"动画", r"中学生", r"教育", r"CETV"]),
     ("纪录", [r"纪录", r"发现", r"老故事", r"熊猫", r"旅游", r"环球"]),
     ("地方", [r"南京", r"江苏", r"上海", r"上视", r"海南", r"吉林", r"陕西",
@@ -39,12 +163,13 @@ CATEGORY_RULES = [
     ("音乐", [r"音乐", r"综艺", r"梨园", r"戏曲", r"秦腔", r"书画"]),
 ]
 
-# 输出顺序（直播平台放最前面）
 CATEGORY_ORDER = ["直播平台", "央视", "卫视", "地方", "体育", "影视", "少儿", "纪录", "音乐", "其他"]
 
-
 def classify(name: str, url: str = "") -> str:
-    """根据频道名（和链接）返回分类名，默认 '其他'"""
+    name_upper = name.upper().strip()
+    if name_upper.startswith("CCTV") or name_upper.startswith("CHC"):
+        return "央视"
+
     text = f"{name} {url}"
     for cat, patterns in CATEGORY_RULES:
         for p in patterns:
@@ -52,9 +177,7 @@ def classify(name: str, url: str = "") -> str:
                 return cat
     return "其他"
 
-
 def format_txt_line(line: str) -> str:
-    """把 '频道名,链接' 拆开，返回 '分类,频道名,链接'；无法拆分则归到其他"""
     line = line.strip()
     if not line or line.startswith("#"):
         return line
@@ -68,9 +191,7 @@ def format_txt_line(line: str) -> str:
     cat = classify(name, url)
     return f"{cat},{name},{url}"
 
-
 def parse_m3u(text):
-    """解析 M3U 格式，返回 (频道名, 链接) 的列表"""
     channels = []
     lines = text.splitlines()
     current_name = None
@@ -89,12 +210,57 @@ def parse_m3u(text):
             current_name = None
     return channels
 
-
 def main():
+    print("="*50)
+    print("淘IPTV 直播源自动更新程序")
+    print("="*50)
+
+    # 1. 获取 Token 逻辑 (环境变量 -> 本地文件 -> 无头浏览器)
+    token = get_token_from_env()
+    
+    if token:
+        print(f"✅ 成功从 GitHub Secrets 读取到 Token: {token}")
+    else:
+        token = get_token_from_file()
+        if token:
+            print(f"✅ 成功从本地文件读取到 Token: {token}")
+    
+    if not token:
+        print("⚠️ 未找到缓存的 Token，启动无头浏览器获取...")
+        token = get_latest_token_auto()
+
+    if not token:
+        print("\n🚨 脚本无法自动提取到 Token。由于是在服务器环境，无法手动输入。")
+        print("👉 建议：将你本地成功获取的 Token 填入 GitHub 仓库的 Secrets (名称设为 IPTV_TOKEN) 中。")
+        sys.exit(1)
+
+    if len(token) != 16:
+        print(f"⚠️ 注意：获取的 Token 长度为 {len(token)}，正常情况下应该是 16 位。")
+
+    save_token_to_file(token)
+    print(f"\n🔗 当前使用的 Token 为: {token}")
+
+    # 2. 生成带最新 Token 的 URL 列表
+    urls = [
+        f"https://taoiptv.com/lives/51023.txt?token={token}",
+        f"https://taoiptv.com/lives/50023.txt?token={token}",
+        f"https://taoiptv.com/lives/31023.txt?token={token}",
+        f"https://taoiptv.com/lives/21023.txt?token={token}",
+        f"https://taoiptv.com/lives/11023.txt?token={token}",
+        f"https://taoiptv.com/lives/61023.txt?token={token}",
+        f"https://taoiptv.com/lives/53023.txt?token={token}",
+        f"https://taoiptv.com/lives/52023.txt?token={token}",
+        f"https://taoiptv.com/lives/64023.txt?token={token}",
+        "https://iptv.445569.xyz/live.m3u",
+    ]
+
     grouped = {}
     seen = set()
-    print("开始获取并合并直播源...")
+    print("\n开始获取并合并直播源...")
 
+    has_valid_data = False
+
+    # 3. 抓取与解析数据
     for url in urls:
         try:
             headers = {
@@ -109,8 +275,13 @@ def main():
                 continue
 
             if "Authentication Failed" in text or "认证token参数不正确" in text or "<html" in text.lower():
-                print(f"⚠️ 跳过失效链接 (Token过期或HTML报错): {url}")
+                print(f"⚠️ 跳过失效链接 (Token无效): {url}")
+                if os.path.exists(TOKEN_FILE):
+                    os.remove(TOKEN_FILE)
+                    print("🗑️ 已清除失效的本地 Token 缓存，请重新运行程序获取新 Token。")
                 continue
+
+            has_valid_data = True
 
             if text.startswith("#EXTM3U") or "#EXTINF" in text:
                 print(f"🔍 检测到 M3U 格式，正在解析: {url}")
@@ -152,13 +323,17 @@ def main():
         except Exception as e:
             print(f"❌ 发生未知错误 {url}: {e}")
 
+    # 4. 安全校验与写入
     total = sum(len(v) for v in grouped.values())
-    if total == 0:
-        print("🚨 警告：所有链接均未返回有效数据，为防止覆盖原文件，本次不写入 zb.txt。")
+    
+    if not has_valid_data or total == 0:
+        print("\n🚨 警告：所有链接均未返回有效数据！")
+        print("👉 原因：Token 不正确或已过期。")
+        print("👉 建议：前往 GitHub Secrets 更新你的 IPTV_TOKEN。")
         sys.exit(0)
 
     if total < 10:
-        print("🚨 警告：抓取到的有效数据过少（少于10行），为防止覆盖原文件，本次不写入。")
+        print("\n🚨 警告：抓取到的有效数据过少（少于10行），为防止覆盖原文件，本次不写入。")
         sys.exit(0)
 
     out_lines = []
@@ -176,14 +351,13 @@ def main():
     try:
         with open("zb.txt", "w", encoding="utf-8") as f:
             f.write("\n".join(out_lines))
-        print(f"🎉 合并完成！共写入 {len(out_lines)} 行到 zb.txt")
+        print(f"\n🎉 合并完成！共写入 {len(out_lines)} 行到 zb.txt")
         for cat in CATEGORY_ORDER:
             if cat in grouped:
                 print(f"   - {cat}: {len(grouped[cat])} 个频道")
     except Exception as e:
         print(f"❌ 写入文件失败: {e}")
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()
