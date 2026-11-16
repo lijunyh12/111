@@ -4,13 +4,13 @@ on:
   schedule:
     # 每天 UTC 09:00 (北京时间 17:00) 运行
     - cron: '0 9 * * *'
-  workflow_dispatch: # 允许在网页上手动点击按钮触发
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 允许 Action 将生成的 zb.txt 提交回仓库
+      contents: write
 
     steps:
       - name: 检出代码
@@ -21,15 +21,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 安装依赖及 Playwright 浏览器
+      - name: 安装依赖及 Playwright
         run: |
           python -m pip install --upgrade pip
           pip install requests playwright
+          # 安装带完整系统依赖的 Chromium
           playwright install --with-deps chromium
 
       - name: 运行更新脚本
         env:
-          # 从仓库的 Secrets 中读取 TOKEN，避免被 Cloudflare 拦截
+          # 依然保留 Secrets 兜底
           IPTV_TOKEN: ${{ secrets.IPTV_TOKEN }}
         run: python update.py
 
@@ -38,5 +39,4 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add zb.txt
-          # 如果文件有变化则提交，没变化则忽略
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto Update IPTV Source: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
