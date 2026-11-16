@@ -3,6 +3,7 @@ import sys
 import re
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 尝试导入 playwright
 try:
@@ -177,20 +178,6 @@ def classify(name: str, url: str = "") -> str:
                 return cat
     return "其他"
 
-def format_txt_line(line: str) -> str:
-    line = line.strip()
-    if not line or line.startswith("#"):
-        return line
-    if "," not in line:
-        return line
-    name, url = line.split(",", 1)
-    name = name.strip()
-    url = url.strip()
-    if not url:
-        return line
-    cat = classify(name, url)
-    return f"{cat},{name},{url}"
-
 def parse_m3u(text):
     channels = []
     lines = text.splitlines()
@@ -206,13 +193,49 @@ def parse_m3u(text):
                 match = re.search(r'tvg-name="([^"]+)"', line)
                 current_name = match.group(1).strip() if match else "未知频道"
         elif not line.startswith("#") and current_name:
-            channels.append(f"{current_name},{line}")
+            channels.append((current_name, line))
             current_name = None
     return channels
 
+def check_stream(channel_info, timeout=5, max_cost=3.0):
+    """测速函数：请求流地址，检查是否有效且速度达标"""
+    cat, name, url = channel_info
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    start_time = time.time()
+    try:
+        # stream=True 表示不直接下载视频文件，只建立连接
+        with requests.get(url, headers=headers, timeout=timeout, stream=True) as resp:
+            if resp.status_code != 200:
+                return None
+            
+            # 读取一小块数据，防止某些防反盗链返回假 200（如 HTML 网页）
+            chunk = next(resp.iter_content(1024), None)
+            if not chunk:
+                return None
+            
+            # 如果读取到的是 HTML 代码，说明失效了
+            if b"<html" in chunk.lower() or b"<head" in chunk.lower():
+                return None
+
+        cost_time = time.time() - start_time
+        
+        # 超过规定的最长时间直接判定为慢，丢弃
+        if cost_time > max_cost:
+            return None
+            
+        # 保留带有测速耗时的打印，方便查看
+        return (cat, name, url, cost_time)
+    except Exception:
+        # 连接超时、请求失败等情况
+        return None
+
 def main():
     print("="*50)
-    print("淘IPTV 直播源自动更新程序")
+    print("淘IPTV 直播源自动更新程序 (带测速)")
     print("="*50)
 
     # 1. 获取 Token 逻辑 (环境变量 -> 本地文件 -> 无头浏览器)
@@ -234,9 +257,6 @@ def main():
         print("👉 建议：将你本地成功获取的 Token 填入 GitHub 仓库的 Secrets (名称设为 IPTV_TOKEN) 中。")
         sys.exit(1)
 
-    if len(token) != 16:
-        print(f"⚠️ 注意：获取的 Token 长度为 {len(token)}，正常情况下应该是 16 位。")
-
     save_token_to_file(token)
     print(f"\n🔗 当前使用的 Token 为: {token}")
 
@@ -254,13 +274,13 @@ def main():
         "https://iptv.445569.xyz/live.m3u",
     ]
 
-    grouped = {}
+    raw_channels = [] # 存储 (cat, name, url)
     seen = set()
-    print("\n开始获取并合并直播源...")
+    print("\n开始获取并解析直播源...")
 
     has_valid_data = False
 
-    # 3. 抓取与解析数据
+    # 3. 抓取与初步解析数据
     for url in urls:
         try:
             headers = {
@@ -278,7 +298,6 @@ def main():
                 print(f"⚠️ 跳过失效链接 (Token无效): {url}")
                 if os.path.exists(TOKEN_FILE):
                     os.remove(TOKEN_FILE)
-                    print("🗑️ 已清除失效的本地 Token 缓存，请重新运行程序获取新 Token。")
                 continue
 
             has_valid_data = True
@@ -286,36 +305,29 @@ def main():
             if text.startswith("#EXTM3U") or "#EXTINF" in text:
                 print(f"🔍 检测到 M3U 格式，正在解析: {url}")
                 parsed_lines = parse_m3u(text)
-                for line in parsed_lines:
-                    if "," not in line:
-                        continue
-                    name, link = line.split(",", 1)
-                    name = name.strip()
-                    link = link.strip()
+                for name, link in parsed_lines:
                     cat = classify(name, link)
                     key = (cat, name, link)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    grouped.setdefault(cat, []).append(f"{name},{link}")
+                    if key not in seen:
+                        seen.add(key)
+                        raw_channels.append((cat, name, link))
                 print(f"✅ 成功解析 M3U: {url} (提取到 {len(parsed_lines)} 个频道)")
             else:
                 for line in text.splitlines():
                     line = line.strip()
                     if not line or line.startswith("#"):
                         continue
-                    formatted = format_txt_line(line)
-                    if "," not in formatted:
+                    if "," not in line:
                         continue
-                    parts = formatted.split(",", 2)
-                    if len(parts) < 3:
-                        continue
-                    cat, name, link = parts
-                    key = (cat, name, link)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    grouped.setdefault(cat, []).append(f"{name},{link}")
+                    parts = line.split(",", 1)
+                    if len(parts) == 2:
+                        name, link = parts[0].strip(), parts[1].strip()
+                        if not link: continue
+                        cat = classify(name, link)
+                        key = (cat, name, link)
+                        if key not in seen:
+                            seen.add(key)
+                            raw_channels.append((cat, name, link))
                 print(f"✅ 成功获取 TXT: {url}")
 
         except requests.exceptions.RequestException as e:
@@ -323,18 +335,43 @@ def main():
         except Exception as e:
             print(f"❌ 发生未知错误 {url}: {e}")
 
-    # 4. 安全校验与写入
-    total = sum(len(v) for v in grouped.values())
+    # 4. 并发测速与过滤
+    valid_channels = []
+    total_channels = len(raw_channels)
     
-    if not has_valid_data or total == 0:
-        print("\n🚨 警告：所有链接均未返回有效数据！")
-        print("👉 原因：Token 不正确或已过期。")
-        print("👉 建议：前往 GitHub Secrets 更新你的 IPTV_TOKEN。")
+    if total_channels > 0:
+        print(f"\n🔍 开始测速：共收集到 {total_channels} 个频道，正在并发测速剔除失效/慢速源...")
+        # 控制并发数为 20，超时 5 秒，允许耗时 3 秒内
+        with ThreadPoolExecutor(max_workers=20) as executor:
+            futures = {executor.submit(check_stream, ch, 5, 3.0): ch for ch in raw_channels}
+            
+            completed = 0
+            for future in as_completed(futures):
+                completed += 1
+                if completed % 50 == 0:
+                    print(f"   ... 已测速 {completed}/{total_channels} ...")
+                
+                result = future.result()
+                if result:
+                    valid_channels.append(result)
+        
+        print(f"✅ 测速完毕！存活频道: {len(valid_channels)} 个（剔除 {total_channels - len(valid_channels)} 个）")
+    else:
+        print("\n🚨 警告：没有收集到任何频道！")
         sys.exit(0)
 
-    if total < 10:
-        print("\n🚨 警告：抓取到的有效数据过少（少于10行），为防止覆盖原文件，本次不写入。")
+    if len(valid_channels) == 0:
+        print("\n🚨 警告：所有链接均失效或速度过慢，为防止覆盖原文件，本次不写入。")
         sys.exit(0)
+
+    if len(valid_channels) < 10:
+        print("\n🚨 警告：测速后存活的数据过少（少于10个），为防止覆盖原文件，本次不写入。")
+        sys.exit(0)
+
+    # 5. 重新按分类分组并写入
+    grouped = {}
+    for cat, name, link, _ in valid_channels:
+        grouped.setdefault(cat, []).append(f"{name},{link}")
 
     out_lines = []
     for cat in CATEGORY_ORDER:
