@@ -13,50 +13,84 @@ except ImportError:
 
 TOKEN_FILE = "token.txt"
 
-def get_token_from_env():
-    """优先从环境变量 (GitHub Secrets) 获取 Token"""
-    return os.environ.get("IPTV_TOKEN", "").strip()
-
 def save_token_to_file(token):
     with open(TOKEN_FILE, "w", encoding="utf-8") as f:
         f.write(token)
     print(f"💾 Token 已保存到 {TOKEN_FILE}。")
 
 def get_latest_token_auto():
-    """自动化获取 Token（GitHub Actions 使用无头模式）"""
+    """纯自动模式：使用无头浏览器并开启深度伪装提取 Token"""
     if not HAS_PLAYWRIGHT:
-        print("\n❌ 未检测到 playwright 库")
+        print("\n❌ 未检测到 playwright 库，请检查依赖是否安装正确。")
         return None
 
-    print("🚀 正在启动浏览器提取 Token...")
+    print("🚀 正在启动云端无头浏览器 (深度伪装模式)...")
     
     with sync_playwright() as p:
         try:
+            # 启动无头 Chromium，并加入防自动化检测参数
             browser = p.chromium.launch(
                 headless=True,
-                args=["--disable-blink-features=AutomationControlled"]
+                args=[
+                    "--disable-blink-features=AutomationControlled",
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox"
+                ]
             )
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                viewport={"width": 1920, "height": 1080}
+                viewport={"width": 1920, "height": 1080},
+                locale="zh-CN",
+                timezone_id="Asia/Shanghai"
             )
+            
+            # 注入深度反侦测脚本（覆盖 webdriver、伪造插件、掩盖无头特征）
+            context.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+                Object.defineProperty(navigator, 'languages', { get: () => ['zh-CN', 'zh'] });
+                Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
+                window.chrome = { runtime: {} };
+                
+                const getParameter = WebGLRenderingContext.prototype.getParameter;
+                WebGLRenderingContext.prototype.getParameter = function(parameter) {
+                    if (parameter === 37445) return 'Intel Inc.';
+                    if (parameter === 37446) return 'Intel Iris OpenGL Engine';
+                    return getParameter.apply(this, arguments);
+                };
+            """)
+
             page = context.new_page()
-            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
             print("🌐 正在打开网页...")
             page.goto("https://taoiptv.com/87468408/", wait_until="domcontentloaded", timeout=30000)
             
             token = None
+            cloudflare_clicked = False
             
-            # 等待最多 30 秒让页面加载或过盾
+            print("⏳ 检测页面状态并尝试绕过 Cloudflare...")
+            # 等待最多 30 秒，尝试过盾或加载页面
             for i in range(30):
                 try:
+                    # 尝试自动点击 Cloudflare 验证框
+                    if not cloudflare_clicked:
+                        try:
+                            cf_iframe = page.frame_locator('iframe[src*="challenges.cloudflare.com"]')
+                            checkbox = cf_iframe.locator('input[type="checkbox"], .ctp-checkbox-label, body').first
+                            if checkbox.is_visible(timeout=500):
+                                checkbox.click(force=True, timeout=1000)
+                                print("🖱️ 发现 Cloudflare 验证框，已尝试自动点击！")
+                                cloudflare_clicked = True
+                                page.wait_for_timeout(2000)
+                        except Exception:
+                            pass
+
                     html_content = page.content()
                     if "copyToken" in html_content or "获取Token" in html_content:
                         print("✅ 页面加载成功，正在提取 Token...")
                         break
                 except Exception:
                     pass 
+                
                 time.sleep(1)
 
             # 尝试提取 DOM 属性
@@ -142,23 +176,17 @@ def parse_m3u(text):
 
 def main():
     print("="*50)
-    print("淘IPTV 直播源自动更新程序")
+    print("淘IPTV 直播源自动更新程序 (纯自动提取版)")
     print("="*50)
 
-    # 1. 获取 Token
-    token = get_token_from_env()
-    
-    if token:
-        print(f"✅ 成功从 GitHub Secrets 读取到 Token: {token}")
-    else:
-        print("⚠️ 未配置 Secrets，启动无头浏览器尝试提取...")
-        token = get_latest_token_auto()
+    # 1. 纯自动获取 Token
+    token = get_latest_token_auto()
 
     if not token:
-        print("\n🚨 无法自动提取到 Token（GitHub 云服务器 IP 被 Cloudflare 拦截）。")
-        print("👉 请前往 GitHub 仓库的 Settings -> Secrets and variables -> Actions 中，")
-        print("👉 添加名为 IPTV_TOKEN 的 Secret，值为你在本地浏览器获取的有效 Token。")
-        sys.exit(1)
+        print("\n🚨 严重警告：无法自动提取到 Token！")
+        print("👉 原因：GitHub 云服务器 IP 被 Cloudflare 拦截，且未能在无头模式下破解。")
+        print("👉 建议：如果你的运行环境能打开网页，请尝试多运行几次，或者优化你的网络代理。")
+        sys.exit(1) # 直接退出，避免无意义的下载请求
 
     save_token_to_file(token)
     print(f"\n🔗 当前使用的 Token 为: {token}")
@@ -241,7 +269,6 @@ def main():
     
     if not has_valid_data or total_channels == 0:
         print("\n🚨 警告：所有链接均未返回有效数据！为防止覆盖原文件，本次不写入。")
-        print("👉 原因：Token 不正确或已过期。")
         sys.exit(0)
 
     if total_channels < 10:
