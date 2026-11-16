@@ -3,7 +3,6 @@ import sys
 import re
 import os
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # 尝试导入 playwright
 try:
@@ -13,10 +12,6 @@ except ImportError:
     HAS_PLAYWRIGHT = False
 
 TOKEN_FILE = "token.txt"
-
-def get_token_from_env():
-    """优先从环境变量 (GitHub Secrets) 获取 Token"""
-    return os.environ.get("IPTV_TOKEN", "").strip()
 
 def get_token_from_file():
     if os.path.exists(TOKEN_FILE):
@@ -33,22 +28,21 @@ def save_token_to_file(token):
 
 def get_latest_token_auto():
     if not HAS_PLAYWRIGHT:
-        print("\n❌ 未检测到 playwright 库")
+        print("\n❌ 未检测到 playwright 库，请先运行: pip install playwright")
         return None
 
-    print("🚀 正在调用无头浏览器 (Linux环境)...")
+    print("🚀 正在调用 Chrome 浏览器...")
     with sync_playwright() as p:
         try:
-            # GitHub Actions 必须使用 headless=True
-            browser = p.chromium.launch(
-                headless=True,
-                args=["--disable-blink-features=AutomationControlled"]
+            context = p.chromium.launch_persistent_context(
+                user_data_dir="./browser_data",
+                headless=False, 
+                channel="chrome", 
+                ignore_default_args=["--enable-automation"]
             )
-            context = browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-                permissions=["clipboard-read", "clipboard-write"]
-            )
-            page = context.new_page()
+            page = context.pages[0] if context.pages else context.new_page()
+            
+            # 隐藏自动化特征
             page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
             dialog_text = []
@@ -57,15 +51,16 @@ def get_latest_token_auto():
             print("🌐 正在打开网页...")
             page.goto("https://taoiptv.com/87468408/", wait_until="domcontentloaded", timeout=30000)
             
-            print("⏳ 等待页面渲染...")
-            page.wait_for_timeout(5000)
+            print("\n================== ⚠️ 自动处理中 ==================")
+            print("👉 脚本正在通过底层 JS 强行点击“获取Token”按钮。")
+            print("👉 如果脚本没点中，你手动去浏览器里点一下也可以，脚本会自动拦截结果。")
+            print("====================================================\n")
             
             token = None
             start_time = time.time()
             cloudflare_clicked = False
             
-            # 由于服务器没界面，只能全自动点，最多等 30 秒
-            while time.time() - start_time < 30:
+            while time.time() - start_time < 120:
                 # 1. 尝试自动点击 Cloudflare 验证
                 if not cloudflare_clicked:
                     try:
@@ -79,14 +74,16 @@ def get_latest_token_auto():
                     except Exception:
                         pass 
 
-                # 2. 尝试点击“获取Token”
+                # 2. 尝试自动点击“获取Token”按钮 (注入 JavaScript 暴力点击)
                 try:
+                    # 注入 JS，寻找文字包含“获取Token”的元素
                     is_clicked = page.evaluate("""
                         () => {
                             let elements = document.querySelectorAll('a, button, span, div, p');
                             for (let el of elements) {
+                                // 获取内部文字，并去除所有空白字符，兼容换行
                                 let text = (el.innerText || el.textContent || "").replace(/\\s+/g, '');
-                                if (text === '获取Token' || text === '获取') {
+                                if (text === '获取Token' || text === '获取' || text === 'Token') {
                                     el.click();
                                     return true;
                                 }
@@ -95,15 +92,17 @@ def get_latest_token_auto():
                         }
                     """)
                     if is_clicked:
+                        # 如果点中了，稍微等一小下，防止频繁触发
                         page.wait_for_timeout(1000)
                 except Exception:
                     pass
 
-                # 3. 检测剪贴板 / 源码 / 弹窗
+                # 3. 检测剪贴板 (如果你手动点了，或者 JS 点成功了，这里马上就能抓到)
                 try:
                     clip = page.evaluate("navigator.clipboard.readText()")
                     if clip:
                         match = re.search(r'\b([a-zA-Z0-9]{16})\b', clip)
+                        # 排除掉 0x4AAAA 这种无用的 ID
                         if match and "0x4AAAA" not in clip:
                             token = match.group(1)
                             print(f"✅ 成功从剪贴板抓取到 Token: {token}")
@@ -111,10 +110,13 @@ def get_latest_token_auto():
                 except Exception:
                     pass
                 
+                # 4. 检测网页源码文本 (如果剪贴板读不到，就暴力提取页面上的 16 位字符)
                 try:
                     page_text = page.locator("body").inner_text()
+                    # 找出所有 16 位字母数字
                     matches = re.findall(r'\b[a-zA-Z0-9]{16}\b', page_text)
                     for m in matches:
+                        # 排除已知的错误特征
                         if not m.startswith("0x4AAAA") and "PHPSESSID" not in m:
                             token = m
                             print(f"✅ 成功从网页源码抓取到 Token: {token}")
@@ -124,6 +126,7 @@ def get_latest_token_auto():
                 except Exception:
                     pass
                 
+                # 5. 检测弹窗
                 if dialog_text:
                     for text in dialog_text:
                         match = re.search(r'\b([a-zA-Z0-9]{16})\b', text)
@@ -136,7 +139,11 @@ def get_latest_token_auto():
                         
                 time.sleep(1)
 
-            browser.close()
+            if not token:
+                print("\n⌛ 自动提取超时。")
+                token = input("👉 请在弹出的浏览器里手动操作，然后将 16 位 Token 粘贴到这里并回车：").strip()
+
+            context.close()
             return token
         except Exception as e:
             print(f"❌ 获取发生错误: {e}")
@@ -178,6 +185,20 @@ def classify(name: str, url: str = "") -> str:
                 return cat
     return "其他"
 
+def format_txt_line(line: str) -> str:
+    line = line.strip()
+    if not line or line.startswith("#"):
+        return line
+    if "," not in line:
+        return line
+    name, url = line.split(",", 1)
+    name = name.strip()
+    url = url.strip()
+    if not url:
+        return line
+    cat = classify(name, url)
+    return f"{cat},{name},{url}"
+
 def parse_m3u(text):
     channels = []
     lines = text.splitlines()
@@ -193,74 +214,34 @@ def parse_m3u(text):
                 match = re.search(r'tvg-name="([^"]+)"', line)
                 current_name = match.group(1).strip() if match else "未知频道"
         elif not line.startswith("#") and current_name:
-            channels.append((current_name, line))
+            channels.append(f"{current_name},{line}")
             current_name = None
     return channels
 
-def check_stream(channel_info, timeout=5, max_cost=3.0):
-    """测速函数：请求流地址，检查是否有效且速度达标"""
-    cat, name, url = channel_info
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    
-    start_time = time.time()
-    try:
-        # stream=True 表示不直接下载视频文件，只建立连接
-        with requests.get(url, headers=headers, timeout=timeout, stream=True) as resp:
-            if resp.status_code != 200:
-                return None
-            
-            # 读取一小块数据，防止某些防反盗链返回假 200（如 HTML 网页）
-            chunk = next(resp.iter_content(1024), None)
-            if not chunk:
-                return None
-            
-            # 如果读取到的是 HTML 代码，说明失效了
-            if b"<html" in chunk.lower() or b"<head" in chunk.lower():
-                return None
-
-        cost_time = time.time() - start_time
-        
-        # 超过规定的最长时间直接判定为慢，丢弃
-        if cost_time > max_cost:
-            return None
-            
-        # 保留带有测速耗时的打印，方便查看
-        return (cat, name, url, cost_time)
-    except Exception:
-        # 连接超时、请求失败等情况
-        return None
-
 def main():
     print("="*50)
-    print("淘IPTV 直播源自动更新程序 (带测速)")
+    print("淘IPTV 直播源自动更新程序")
     print("="*50)
 
-    # 1. 获取 Token 逻辑 (环境变量 -> 本地文件 -> 无头浏览器)
-    token = get_token_from_env()
-    
-    if token:
-        print(f"✅ 成功从 GitHub Secrets 读取到 Token: {token}")
-    else:
-        token = get_token_from_file()
-        if token:
-            print(f"✅ 成功从本地文件读取到 Token: {token}")
-    
+    token = get_token_from_file()
+
     if not token:
-        print("⚠️ 未找到缓存的 Token，启动无头浏览器获取...")
+        print("⚠️ 本地未找到缓存的 Token，启动浏览器获取...")
         token = get_latest_token_auto()
 
     if not token:
-        print("\n🚨 脚本无法自动提取到 Token。由于是在服务器环境，无法手动输入。")
-        print("👉 建议：将你本地成功获取的 Token 填入 GitHub 仓库的 Secrets (名称设为 IPTV_TOKEN) 中。")
-        sys.exit(1)
+        print("\n🚨 脚本无法自动提取到 Token。")
+        token = input("👉 请直接手动将 16 位 Token 粘贴到这里并回车：").strip()
+        if not token:
+            print("❌ 输入为空，程序终止。")
+            sys.exit(1)
+
+    if len(token) != 16:
+        print(f"⚠️ 注意：你输入的 Token 长度为 {len(token)}，正常情况下应该是 16 位。")
 
     save_token_to_file(token)
     print(f"\n🔗 当前使用的 Token 为: {token}")
 
-    # 2. 生成带最新 Token 的 URL 列表
     urls = [
         f"https://taoiptv.com/lives/51023.txt?token={token}",
         f"https://taoiptv.com/lives/50023.txt?token={token}",
@@ -274,13 +255,12 @@ def main():
         "https://iptv.445569.xyz/live.m3u",
     ]
 
-    raw_channels = [] # 存储 (cat, name, url)
+    grouped = {}
     seen = set()
-    print("\n开始获取并解析直播源...")
+    print("\n开始获取并合并直播源...")
 
     has_valid_data = False
 
-    # 3. 抓取与初步解析数据
     for url in urls:
         try:
             headers = {
@@ -298,6 +278,7 @@ def main():
                 print(f"⚠️ 跳过失效链接 (Token无效): {url}")
                 if os.path.exists(TOKEN_FILE):
                     os.remove(TOKEN_FILE)
+                    print("🗑️ 已清除失效的本地 Token 缓存，请重新运行程序获取新 Token。")
                 continue
 
             has_valid_data = True
@@ -305,29 +286,36 @@ def main():
             if text.startswith("#EXTM3U") or "#EXTINF" in text:
                 print(f"🔍 检测到 M3U 格式，正在解析: {url}")
                 parsed_lines = parse_m3u(text)
-                for name, link in parsed_lines:
+                for line in parsed_lines:
+                    if "," not in line:
+                        continue
+                    name, link = line.split(",", 1)
+                    name = name.strip()
+                    link = link.strip()
                     cat = classify(name, link)
                     key = (cat, name, link)
-                    if key not in seen:
-                        seen.add(key)
-                        raw_channels.append((cat, name, link))
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    grouped.setdefault(cat, []).append(f"{name},{link}")
                 print(f"✅ 成功解析 M3U: {url} (提取到 {len(parsed_lines)} 个频道)")
             else:
                 for line in text.splitlines():
                     line = line.strip()
                     if not line or line.startswith("#"):
                         continue
-                    if "," not in line:
+                    formatted = format_txt_line(line)
+                    if "," not in formatted:
                         continue
-                    parts = line.split(",", 1)
-                    if len(parts) == 2:
-                        name, link = parts[0].strip(), parts[1].strip()
-                        if not link: continue
-                        cat = classify(name, link)
-                        key = (cat, name, link)
-                        if key not in seen:
-                            seen.add(key)
-                            raw_channels.append((cat, name, link))
+                    parts = formatted.split(",", 2)
+                    if len(parts) < 3:
+                        continue
+                    cat, name, link = parts
+                    key = (cat, name, link)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    grouped.setdefault(cat, []).append(f"{name},{link}")
                 print(f"✅ 成功获取 TXT: {url}")
 
         except requests.exceptions.RequestException as e:
@@ -335,43 +323,17 @@ def main():
         except Exception as e:
             print(f"❌ 发生未知错误 {url}: {e}")
 
-    # 4. 并发测速与过滤
-    valid_channels = []
-    total_channels = len(raw_channels)
+    total = sum(len(v) for v in grouped.values())
     
-    if total_channels > 0:
-        print(f"\n🔍 开始测速：共收集到 {total_channels} 个频道，正在并发测速剔除失效/慢速源...")
-        # 控制并发数为 20，超时 5 秒，允许耗时 3 秒内
-        with ThreadPoolExecutor(max_workers=20) as executor:
-            futures = {executor.submit(check_stream, ch, 5, 3.0): ch for ch in raw_channels}
-            
-            completed = 0
-            for future in as_completed(futures):
-                completed += 1
-                if completed % 50 == 0:
-                    print(f"   ... 已测速 {completed}/{total_channels} ...")
-                
-                result = future.result()
-                if result:
-                    valid_channels.append(result)
-        
-        print(f"✅ 测速完毕！存活频道: {len(valid_channels)} 个（剔除 {total_channels - len(valid_channels)} 个）")
-    else:
-        print("\n🚨 警告：没有收集到任何频道！")
+    if not has_valid_data or total == 0:
+        print("\n🚨 警告：所有链接均未返回有效数据！")
+        print("👉 原因：Token 不正确或已过期。")
+        print("👉 建议：删除 token.txt 文件，重新运行程序。")
         sys.exit(0)
 
-    if len(valid_channels) == 0:
-        print("\n🚨 警告：所有链接均失效或速度过慢，为防止覆盖原文件，本次不写入。")
+    if total < 10:
+        print("\n🚨 警告：抓取到的有效数据过少（少于10行），为防止覆盖原文件，本次不写入。")
         sys.exit(0)
-
-    if len(valid_channels) < 10:
-        print("\n🚨 警告：测速后存活的数据过少（少于10个），为防止覆盖原文件，本次不写入。")
-        sys.exit(0)
-
-    # 5. 重新按分类分组并写入
-    grouped = {}
-    for cat, name, link, _ in valid_channels:
-        grouped.setdefault(cat, []).append(f"{name},{link}")
 
     out_lines = []
     for cat in CATEGORY_ORDER:
