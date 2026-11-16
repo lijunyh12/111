@@ -28,9 +28,6 @@ jobs:
           playwright install --with-deps chromium
 
       - name: 运行更新脚本
-        env:
-          # 优先从仓库的 Secrets 读取 Token
-          IPTV_TOKEN: ${{ secrets.IPTV_TOKEN }}
         run: python update.py
 
       - name: 提交并推送修改后的 zb.txt
