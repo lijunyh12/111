@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror to Gitee
-      uses: Yikun/hub-mirror-action@master
-      with:
+        uses: Yikun/hub-mirror-action@master
+        with:
           src: github/lijunyh12
-          dst: gitee/lijun1212     # 比如如果你的Gitee主页是 gitee.com/lijun，这里就填 lijun
+          dst: gitee/lijun1212
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           static_list: '111'
