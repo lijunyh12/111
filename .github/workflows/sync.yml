@@ -1,0 +1,21 @@
+name: Sync to Gitee
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 UTC 2:00（北京时间 10:00）自动运行
+  workflow_dispatch:       # 支持在 Actions 页面手动点击运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror to Gitee
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/李俊
+          dst: gitee/李俊
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: '仓库名'      # 只同步指定仓库，避免同步该账号下所有仓库
+          force_update: true        # 强制覆盖 Gitee 端，保证与 GitHub 一致
+          debug: true               # 首次配置建议开启，便于排查问题
